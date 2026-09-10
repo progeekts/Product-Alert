@@ -3,215 +3,525 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rastreador de Alertas de Consumo</title>
+  <title>Rastreador de Alertas de Consumo y Retirada de Productos</title>
   <style>
     :root {
       --bg: #f8fafc;
-      --card: #ffffff;
-      --text: #0f172a;
-      --muted: #64748b;
-      --border: #e2e8f0;
+      --card-bg: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --border-color: #e2e8f0;
       --primary: #0284c7;
+      --primary-hover: #0369a1;
+      --danger-bg: #fef2f2;
+      --danger-text: #b91c1c;
+      --tag-bg: #f1f5f9;
+      --tag-text: #334155;
     }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
     body {
-      font-family: system-ui, -apple-system, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      max-width: 900px;
-      margin: 0 auto;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.5;
       padding: 2rem 1rem;
     }
-    h1 { margin-bottom: 0.5rem; }
-    p.sub { color: var(--muted); margin-bottom: 2rem; }
-    .controls {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      margin-bottom: 1.5rem;
+
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
     }
-    input, select, button {
-      padding: 0.6rem 0.8rem;
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      font-size: 0.95rem;
-    }
-    input { flex: 1; min-width: 200px; }
-    .export-buttons {
-      display: flex;
-      gap: 0.5rem;
+
+    header {
       margin-bottom: 2rem;
     }
+
+    header h1 {
+      font-size: 1.85rem;
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      color: var(--text-main);
+      margin-bottom: 0.4rem;
+    }
+
+    header p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    /* Panel de Búsqueda y Filtros */
+    .filter-panel {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 1.25rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    }
+
+    .search-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    @media (max-width: 640px) {
+      .search-row { grid-template-columns: 1fr; }
+    }
+
+    .search-input-wrap {
+      position: relative;
+    }
+
+    input[type="text"], select {
+      width: 100%;
+      padding: 0.65rem 0.9rem;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      font-size: 0.95rem;
+      outline: none;
+      background-color: #fff;
+    }
+
+    input[type="text"]:focus, select:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+    }
+
+    .secondary-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .select-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .export-group {
+      display: flex;
+      gap: 0.5rem;
+    }
+
     .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.55rem 0.85rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      border-radius: 6px;
+      border: 1px solid var(--border-color);
+      background: white;
+      color: var(--text-main);
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background-color: var(--tag-bg);
+    }
+
+    .btn-primary {
       background: var(--primary);
       color: white;
-      border: none;
-      cursor: pointer;
+      border-color: var(--primary);
     }
-    .timeline {
+
+    .btn-primary:hover {
+      background: var(--primary-hover);
+    }
+
+    /* Resumen de resultados */
+    .results-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+
+    /* Feed de Alertas */
+    .feed-list {
       display: flex;
       flex-direction: column;
       gap: 1rem;
     }
-    .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 1rem 1.25rem;
+
+    .alert-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 1.25rem;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
     }
-    .card-header {
+
+    .alert-card:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .alert-meta-top {
       display: flex;
       justify-content: space-between;
-      font-size: 0.85rem;
-      color: var(--muted);
+      align-items: center;
+      font-size: 0.8rem;
+      color: var(--text-muted);
       margin-bottom: 0.5rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
     }
-    .badge {
-      background: var(--border);
+
+    .badge-agency {
+      font-weight: 700;
+      color: var(--primary);
+      background: #e0f2fe;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+    }
+
+    .badge-category {
+      background: var(--tag-bg);
+      color: var(--tag-text);
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+
+    .alert-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      line-height: 1.4;
+    }
+
+    .alert-title a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .alert-title a:hover {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+
+    .alert-desc {
+      font-size: 0.9rem;
+      color: #334155;
+      margin-bottom: 0.85rem;
+    }
+
+    .alert-identifiers {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      padding-top: 0.75rem;
+      border-top: 1px dashed var(--border-color);
+      font-size: 0.82rem;
+    }
+
+    .identifier-pill {
+      background: var(--tag-bg);
+      border: 1px solid var(--border-color);
       padding: 0.2rem 0.5rem;
       border-radius: 4px;
-      text-transform: uppercase;
-      font-weight: bold;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
     }
-    .meta-tag {
-      font-size: 0.8rem;
-      background: #e0f2fe;
-      color: #0369a1;
-      padding: 2px 6px;
-      border-radius: 4px;
-      margin-right: 4px;
-      display: inline-block;
+
+    .identifier-pill strong {
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: var(--text-muted);
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
     }
   </style>
 </head>
 <body>
 
-  <h1>Alertas de Seguridad y Retirada de Productos</h1>
-  <p class="sub">Datos auditados y consolidados diariamente desde organismos oficiales.</p>
+<div class="container">
+  <header>
+    <h1>Centro de Alertas de Consumo y Retirada</h1>
+    <p>Monitor de seguridad en productos alimentarios, medicamentos y bienes de consumo.</p>
+  </header>
 
-  <div class="controls">
-    <input type="text" id="searchInput" placeholder="Buscar por código de barras, lote o nombre comercial...">
-    <select id="categorySelect">
-      <option value="todas">Todas las categorías</option>
-      <option value="alimentacion">Alimentación</option>
-      <option value="infantil">Infantil / Juguetes</option>
-      <option value="cosmeticos">Cosméticos</option>
-      <option value="vehiculos">Vehículos</option>
-    </select>
+  <section class="filter-panel">
+    <div class="search-row">
+      <div class="search-input-wrap">
+        <input 
+          type="text" 
+          id="queryInput" 
+          placeholder="Buscar por código de barras, marca, producto, lote o alérgeno..."
+          autocomplete="off"
+        >
+      </div>
+      <div>
+        <select id="sortSelect">
+          <option value="recent">Más recientes primero</option>
+          <option value="oldest">Más antiguos primero</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="secondary-filters">
+      <div class="select-group">
+        <select id="categorySelect">
+          <option value="all">Todas las categorías</option>
+          <option value="alimentacion">Alimentación</option>
+          <option value="medicamentos">Medicamentos / Farmacia</option>
+          <option value="cosmeticos">Cosméticos</option>
+          <option value="infantil">Infantil y Juguetes</option>
+          <option value="vehiculos">Vehículos</option>
+        </select>
+
+        <select id="agencySelect">
+          <option value="all">Todos los organismos</option>
+          <option value="AESAN">AESAN</option>
+          <option value="AEMPS">AEMPS</option>
+          <option value="RASFF">RASFF (UE)</option>
+          <option value="CPSC">CPSC</option>
+        </select>
+      </div>
+
+      <div class="export-group">
+        <button class="btn" onclick="exportFilteredRSS()" title="Generar RSS">
+          <span>RSS</span>
+        </button>
+        <button class="btn" onclick="exportFilteredICal()" title="Descargar como Calendario">
+          <span>iCal (.ics)</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <div class="results-info">
+    <span id="resultsCount">Cargando alertas...</span>
+    <span id="lastUpdated"></span>
   </div>
 
-  <div class="export-buttons">
-    <button class="btn" onclick="exportRSS()">Descargar Feed RSS Filtrado</button>
-    <button class="btn" onclick="exportICal()">Descargar Calendario iCal (.ics)</button>
-  </div>
+  <main id="feedContainer" class="feed-list"></main>
+</div>
 
-  <div id="timeline" class="timeline">Cargando alertas...</div>
+<script>
+  let rawAlerts = [];
 
-  <script>
-    let alertas = [];
-
-    async function loadAlerts() {
-      try {
-        const res = await fetch('data/alertas.json');
-        alertas = await res.json();
-        renderAlerts();
-      } catch (err) {
-        document.getElementById('timeline').innerHTML = '<p>Error al cargar alertas.json.</p>';
-      }
-    }
-
-    function getFilteredAlerts() {
-      const q = document.getElementById('searchInput').value.toLowerCase();
-      const cat = document.getElementById('categorySelect').value;
-
-      return alertas.filter(item => {
-        const matchesCategory = cat === 'todas' || item.category === cat;
-        const matchesQuery = 
-          item.title.toLowerCase().includes(q) ||
-          item.description.toLowerCase().includes(q) ||
-          (item.barcodes && item.barcodes.some(b => b.includes(q))) ||
-          (item.lotes && item.lotes.some(l => l.toLowerCase().includes(q)));
-
-        return matchesCategory && matchesQuery;
-      });
-    }
-
-    function renderAlerts() {
-      const container = document.getElementById('timeline');
-      const filtered = getFilteredAlerts();
-
-      if (filtered.length === 0) {
-        container.innerHTML = '<p>No se encontraron avisos que coincidan con la búsqueda.</p>';
-        return;
-      }
-
-      container.innerHTML = filtered.map(item => `
-        <div class="card">
-          <div class="card-header">
-            <span><strong>${item.agency}</strong> &bull; ${item.date}</span>
-            <span class="badge">${item.category}</span>
-          </div>
-          <h3 style="margin: 0.2rem 0 0.5rem 0;">
-            <a href="${item.link}" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
-              ${item.title}
-            </a>
-          </h3>
-          <p style="font-size: 0.9rem; color: #334155; margin-bottom: 0.75rem;">${item.description}</p>
-          <div>
-            ${item.lotes && item.lotes.length ? `<div><strong>Lotes:</strong> ${item.lotes.map(l => `<span class="meta-tag">${l}</span>`).join('')}</div>` : ''}
-            ${item.barcodes && item.barcodes.length ? `<div style="margin-top:4px;"><strong>Códigos:</strong> ${item.barcodes.map(b => `<span class="meta-tag">${b}</span>`).join('')}</div>` : ''}
-          </div>
+  // Inicialización y carga de datos
+  async function init() {
+    try {
+      const response = await fetch('data/alertas.json', { cache: 'no-cache' });
+      if (!response.ok) throw new Error('No se pudo cargar el archivo data/alertas.json');
+      
+      rawAlerts = await response.json();
+      applyFiltersAndRender();
+    } catch (error) {
+      document.getElementById('feedContainer').innerHTML = `
+        <div class="empty-state">
+          <h3>No se pudo cargar el feed de alertas</h3>
+          <p style="margin-top: 0.5rem; font-size: 0.9rem;">Verifica que el archivo <code>data/alertas.json</code> existe y contiene datos estructurados.</p>
         </div>
-      `).join('');
+      `;
+      document.getElementById('resultsCount').innerText = '0 alertas encontradas';
+    }
+  }
+
+  function getFilteredAlerts() {
+    const query = document.getElementById('queryInput').value.trim().toLowerCase();
+    const selectedCategory = document.getElementById('categorySelect').value;
+    const selectedAgency = document.getElementById('agencySelect').value;
+    const sortOrder = document.getElementById('sortSelect').value;
+
+    let results = rawAlerts.filter(item => {
+      // 1. Filtro de Categoría
+      if (selectedCategory !== 'all' && (item.category || '').toLowerCase() !== selectedCategory) {
+        return false;
+      }
+
+      // 2. Filtro de Organismo
+      if (selectedAgency !== 'all' && (item.agency || '').toUpperCase() !== selectedAgency.toUpperCase()) {
+        return false;
+      }
+
+      // 3. Búsqueda por texto (marca, título, descripción, código de barras, lote)
+      if (query) {
+        const textToSearch = [
+          item.title || '',
+          item.description || '',
+          item.brand || '',
+          item.product_type || '',
+          ...(item.barcodes || []),
+          ...(item.lotes || [])
+        ].join(' ').toLowerCase();
+
+        if (!textToSearch.includes(query)) {
+          return false;
+        }
+      }
+
+      return true;
+    });
+
+    // Ordenamiento por fecha
+    results.sort((a, b) => {
+      const dateA = new Date(a.date || 0).getTime();
+      const dateB = new Date(b.date || 0).getTime();
+      return sortOrder === 'recent' ? (dateB - dateA) : (dateA - dateB);
+    });
+
+    return results;
+  }
+
+  function applyFiltersAndRender() {
+    const alerts = getFilteredAlerts();
+    const countLabel = document.getElementById('resultsCount');
+    const container = document.getElementById('feedContainer');
+
+    countLabel.innerText = `${alerts.length} ${alerts.length === 1 ? 'alerta encontrada' : 'alertas encontradas'}`;
+
+    if (alerts.length === 0) {
+      container.innerHTML = `
+        <div class="empty-state">
+          <h3>Sin alertas coincidentes</h3>
+          <p style="margin-top: 0.5rem; font-size: 0.9rem;">Prueba modificando los términos de búsqueda o limpiando los filtros seleccionados.</p>
+        </div>
+      `;
+      return;
     }
 
-    function exportRSS() {
-      const items = getFilteredAlerts();
-      let xml = '<?xml version="1.0" encoding="UTF-8" ?>\n<rss version="2.0">\n<channel>\n';
-      xml += '<title>Alertas Personalizadas</title>\n<description>Feed generado según filtros seleccionados</description>\n';
-      xml += `<link>${window.location.href}</link>\n`;
+    container.innerHTML = alerts.map(alert => {
+      const barcodes = alert.barcodes || [];
+      const lotes = alert.lotes || [];
+      const brand = alert.brand ? `<span class="identifier-pill"><strong>Marca</strong> ${escapeHtml(alert.brand)}</span>` : '';
+      const productType = alert.product_type ? `<span class="identifier-pill"><strong>Tipo</strong> ${escapeHtml(alert.product_type)}</span>` : '';
 
-      items.forEach(i => {
-        xml += `<item>\n<title><![CDATA[${i.title}]]></title>\n`;
-        xml += `<link>${i.link}</link>\n`;
-        xml += `<description><![CDATA[${i.description}]]></description>\n`;
-        xml += `<guid>${i.id}</guid>\n</item>\n`;
-      });
+      const lotesMarkup = lotes.map(lote => 
+        `<span class="identifier-pill"><strong>Lote</strong> ${escapeHtml(lote)}</span>`
+      ).join('');
 
-      xml += '</channel>\n</rss>';
-      downloadBlob(xml, 'alertas-filtradas.xml', 'application/rss+xml');
-    }
+      const barcodesMarkup = barcodes.map(code => 
+        `<span class="identifier-pill"><strong>EAN</strong> ${escapeHtml(code)}</span>`
+      ).join('');
 
-    function exportICal() {
-      const items = getFilteredAlerts();
-      let ics = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//AlertasConsumo//ES\n";
+      const hasIdentifiers = brand || productType || lotes.length > 0 || barcodes.length > 0;
 
-      items.forEach(i => {
-        ics += "BEGIN:VEVENT\n";
-        ics += `UID:${i.id}@alertasconsumo\n`;
-        ics += `SUMMARY:${i.title.replace(/\n/g, ' ')}\n`;
-        ics += `DESCRIPTION:${i.description.replace(/\n/g, ' ')}\n`;
-        ics += `URL:${i.link}\n`;
-        ics += "END:VEVENT\n";
-      });
+      return `
+        <article class="alert-card">
+          <div class="alert-meta-top">
+            <div>
+              <span class="badge-agency">${escapeHtml(alert.agency || 'OFICIAL')}</span>
+              <span class="badge-category">${escapeHtml(alert.category || 'General')}</span>
+            </div>
+            <time>${escapeHtml(alert.date || 'Reciente')}</time>
+          </div>
 
-      ics += "END:VCALENDAR";
-      downloadBlob(ics, 'alertas.ics', 'text/calendar');
-    }
+          <h2 class="alert-title">
+            <a href="${escapeHtml(alert.link || '#')}" target="_blank" rel="noopener noreferrer">
+              ${escapeHtml(alert.title || 'Alerta sin título')}
+            </a>
+          </h2>
 
-    function downloadBlob(content, filename, type) {
-      const blob = new Blob([content], { type: `${type};charset=utf-8;` });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = filename;
-      a.click();
-      URL.revokeObjectURL(url);
-    }
+          <p class="alert-desc">${escapeHtml(alert.description || '')}</p>
 
-    document.getElementById('searchInput').addEventListener('input', renderAlerts);
-    document.getElementById('categorySelect').addEventListener('change', renderAlerts);
+          ${hasIdentifiers ? `
+            <div class="alert-identifiers">
+              ${brand}
+              ${productType}
+              ${barcodesMarkup}
+              ${lotesMarkup}
+            </div>
+          ` : ''}
+        </article>
+      `;
+    }).join('');
+  }
 
-    loadAlerts();
-  </script>
+  // Generación y descarga de RSS dinámico
+  function exportFilteredRSS() {
+    const alerts = getFilteredAlerts();
+    let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n<channel>\n`;
+    xml += `<title>Alertas de Seguridad de Consumo - Feed Filtrado</title>\n`;
+    xml += `<description>Feed generado según los filtros activos de búsqueda</description>\n`;
+    xml += `<link>${window.location.href}</link>\n`;
+
+    alerts.forEach(item => {
+      xml += `  <item>\n`;
+      xml += `    <title><![CDATA[${item.title || ''}]]></title>\n`;
+      xml += `    <link>${item.link || ''}</link>\n`;
+      xml += `    <description><![CDATA[${item.description || ''}]]></description>\n`;
+      xml += `    <guid>${item.id || item.link}</guid>\n`;
+      if (item.date) xml += `    <pubDate>${new Date(item.date).toUTCString()}</pubDate>\n`;
+      xml += `  </item>\n`;
+    });
+
+    xml += `</channel>\n</rss>`;
+    downloadFile(xml, 'alertas-feed.xml', 'application/rss+xml');
+  }
+
+  // Generación y descarga de Calendario iCal dinámico
+  function exportFilteredICal() {
+    const alerts = getFilteredAlerts();
+    let ics = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//AlertasConsumo//Feed//ES\n";
+
+    alerts.forEach(item => {
+      const cleanSummary = (item.title || 'Alerta').replace(/[\r\n]+/g, " ");
+      const cleanDesc = (item.description || '').replace(/[\r\n]+/g, " ");
+      ics += "BEGIN:VEVENT\n";
+      ics += `UID:${item.id || Math.random().toString(36).substring(2)}@alertasconsumo\n`;
+      ics += `SUMMARY:${cleanSummary}\n`;
+      ics += `DESCRIPTION:${cleanDesc}\n`;
+      ics += `URL:${item.link || ''}\n`;
+      ics += "END:VEVENT\n";
+    });
+
+    ics += "END:VCALENDAR";
+    downloadFile(ics, 'alertas-calendario.ics', 'text/calendar');
+  }
+
+  function downloadFile(content, filename, mimeType) {
+    const blob = new Blob([content], { type: `${mimeType};charset=utf-8;` });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  }
+
+  function escapeHtml(str) {
+    return String(str)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  }
+
+  // Event Listeners
+  document.getElementById('queryInput').addEventListener('input', applyFiltersAndRender);
+  document.getElementById('categorySelect').addEventListener('change', applyFiltersAndRender);
+  document.getElementById('agencySelect').addEventListener('change', applyFiltersAndRender);
+  document.getElementById('sortSelect').addEventListener('change', applyFiltersAndRender);
+
+  window.addEventListener('DOMContentLoaded', init);
+</script>
+
 </body>
 </html>
