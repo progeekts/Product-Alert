@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rastreador de Alertas de Consumo</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --primary: #0284c7;
+    }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+    h1 { margin-bottom: 0.5rem; }
+    p.sub { color: var(--muted); margin-bottom: 2rem; }
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    input, select, button {
+      padding: 0.6rem 0.8rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 0.95rem;
+    }
+    input { flex: 1; min-width: 200px; }
+    .export-buttons {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      background: var(--primary);
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+    }
+    .badge {
+      background: var(--border);
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    .meta-tag {
+      font-size: 0.8rem;
+      background: #e0f2fe;
+      color: #0369a1;
+      padding: 2px 6px;
+      border-radius: 4px;
+      margin-right: 4px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Alertas de Seguridad y Retirada de Productos</h1>
+  <p class="sub">Datos auditados y consolidados diariamente desde organismos oficiales.</p>
+
+  <div class="controls">
+    <input type="text" id="searchInput" placeholder="Buscar por código de barras, lote o nombre comercial...">
+    <select id="categorySelect">
+      <option value="todas">Todas las categorías</option>
+      <option value="alimentacion">Alimentación</option>
+      <option value="infantil">Infantil / Juguetes</option>
+      <option value="cosmeticos">Cosméticos</option>
+      <option value="vehiculos">Vehículos</option>
+    </select>
+  </div>
+
+  <div class="export-buttons">
+    <button class="btn" onclick="exportRSS()">Descargar Feed RSS Filtrado</button>
+    <button class="btn" onclick="exportICal()">Descargar Calendario iCal (.ics)</button>
+  </div>
+
+  <div id="timeline" class="timeline">Cargando alertas...</div>
+
+  <script>
+    let alertas = [];
+
+    async function loadAlerts() {
+      try {
+        const res = await fetch('data/alertas.json');
+        alertas = await res.json();
+        renderAlerts();
+      } catch (err) {
+        document.getElementById('timeline').innerHTML = '<p>Error al cargar alertas.json.</p>';
+      }
+    }
+
+    function getFilteredAlerts() {
+      const q = document.getElementById('searchInput').value.toLowerCase();
+      const cat = document.getElementById('categorySelect').value;
+
+      return alertas.filter(item => {
+        const matchesCategory = cat === 'todas' || item.category === cat;
+        const matchesQuery = 
+          item.title.toLowerCase().includes(q) ||
+          item.description.toLowerCase().includes(q) ||
+          (item.barcodes && item.barcodes.some(b => b.includes(q))) ||
+          (item.lotes && item.lotes.some(l => l.toLowerCase().includes(q)));
+
+        return matchesCategory && matchesQuery;
+      });
+    }
+
+    function renderAlerts() {
+      const container = document.getElementById('timeline');
+      const filtered = getFilteredAlerts();
+
+      if (filtered.length === 0) {
+        container.innerHTML = '<p>No se encontraron avisos que coincidan con la búsqueda.</p>';
+        return;
+      }
+
+      container.innerHTML = filtered.map(item => `
+        <div class="card">
+          <div class="card-header">
+            <span><strong>${item.agency}</strong> &bull; ${item.date}</span>
+            <span class="badge">${item.category}</span>
+          </div>
+          <h3 style="margin: 0.2rem 0 0.5rem 0;">
+            <a href="${item.link}" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+              ${item.title}
+            </a>
+          </h3>
+          <p style="font-size: 0.9rem; color: #334155; margin-bottom: 0.75rem;">${item.description}</p>
+          <div>
+            ${item.lotes && item.lotes.length ? `<div><strong>Lotes:</strong> ${item.lotes.map(l => `<span class="meta-tag">${l}</span>`).join('')}</div>` : ''}
+            ${item.barcodes && item.barcodes.length ? `<div style="margin-top:4px;"><strong>Códigos:</strong> ${item.barcodes.map(b => `<span class="meta-tag">${b}</span>`).join('')}</div>` : ''}
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function exportRSS() {
+      const items = getFilteredAlerts();
+      let xml = '<?xml version="1.0" encoding="UTF-8" ?>\n<rss version="2.0">\n<channel>\n';
+      xml += '<title>Alertas Personalizadas</title>\n<description>Feed generado según filtros seleccionados</description>\n';
+      xml += `<link>${window.location.href}</link>\n`;
+
+      items.forEach(i => {
+        xml += `<item>\n<title><![CDATA[${i.title}]]></title>\n`;
+        xml += `<link>${i.link}</link>\n`;
+        xml += `<description><![CDATA[${i.description}]]></description>\n`;
+        xml += `<guid>${i.id}</guid>\n</item>\n`;
+      });
+
+      xml += '</channel>\n</rss>';
+      downloadBlob(xml, 'alertas-filtradas.xml', 'application/rss+xml');
+    }
+
+    function exportICal() {
+      const items = getFilteredAlerts();
+      let ics = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//AlertasConsumo//ES\n";
+
+      items.forEach(i => {
+        ics += "BEGIN:VEVENT\n";
+        ics += `UID:${i.id}@alertasconsumo\n`;
+        ics += `SUMMARY:${i.title.replace(/\n/g, ' ')}\n`;
+        ics += `DESCRIPTION:${i.description.replace(/\n/g, ' ')}\n`;
+        ics += `URL:${i.link}\n`;
+        ics += "END:VEVENT\n";
+      });
+
+      ics += "END:VCALENDAR";
+      downloadBlob(ics, 'alertas.ics', 'text/calendar');
+    }
+
+    function downloadBlob(content, filename, type) {
+      const blob = new Blob([content], { type: `${type};charset=utf-8;` });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    document.getElementById('searchInput').addEventListener('input', renderAlerts);
+    document.getElementById('categorySelect').addEventListener('change', renderAlerts);
+
+    loadAlerts();
+  </script>
+</body>
+</html>
