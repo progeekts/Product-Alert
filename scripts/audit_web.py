@@ -7,9 +7,12 @@ required = {
     "alerta.html": [
         "data/alertas.json",
         "Abrir publicación oficial",
-        "¿Qué medidas oficiales constan?",
-        "¿Qué debe hacer el consumidor?",
-        "¿Qué relación tiene con España?",
+        "Qué problema presenta",
+        "Qué hacer",
+        "Medidas oficiales",
+        "Relación geográfica",
+        "notified_by_spain",
+        "spain_follow_up",
     ],
 }
 
