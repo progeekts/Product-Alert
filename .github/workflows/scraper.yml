@@ -32,6 +32,9 @@ jobs:
       - name: Consultar Safety Gate UE
         run: python scripts/safety_gate.py
 
+      - name: Normalizar semántica geográfica
+        run: python scripts/semantic_cleanup.py
+
       - name: Guardar registro actualizado
         run: |
           git config user.name "github-actions[bot]"
