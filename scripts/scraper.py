@@ -10,19 +10,22 @@ from bs4 import BeautifulSoup
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 DATA_FILE = os.path.join(ROOT, "data", "alertas.json")
-HEADERS = {"User-Agent": "ProductAlertSpain/1.1 (+https://github.com/progeekts/Product-Alert)", "Accept-Language": "es-ES,es;q=0.9,en;q=0.5"}
+HEADERS = {"User-Agent": "ProductAlertSpain/1.2 (+https://github.com/progeekts/Product-Alert)", "Accept-Language": "es-ES,es;q=0.9,en;q=0.5"}
 
 SOURCES = [
- {"agency":"AESAN","category":"Alimentación","url":"https://www.aesan.gob.es/alertas/alertas-alimentarias","parser":"generic","keywords":["alerta","advertencia","ampliación"]},
- {"agency":"AEMPS","category":"Medicamentos","url":"https://www.aemps.gob.es/comunicacion/alertas/alertas-farmaceuticas-y-retiradas-de-lotes-de-medicamentos-de-uso-humano-por-defectos-de-calidad/","parser":"generic","keywords":["alerta","retirada","defecto de calidad"]},
- {"agency":"AEMPS","category":"Productos sanitarios","url":"https://www.aemps.gob.es/productos-sanitarios/acciones-informativas-productos-sanitarios/","parser":"generic","keywords":["aemps informa","retirada","riesgo","fallo","defecto","cese de comercialización"]},
- {"agency":"AEMPS","category":"Cosméticos","url":"https://www.aemps.gob.es/comunicacion/notas-de-seguridad/acciones-informativas-notas-de-seguridad-cosmeticos-y-cuidado-personal/","parser":"generic","keywords":["aemps informa","retirada","recuperación","cese de comercialización","riesgo"]},
+ {"agency":"AESAN","category":"Alimentación","url":"https://www.aesan.gob.es/alertas/alertas-alimentarias","keywords":["alerta","advertencia","ampliación"]},
+ {"agency":"AEMPS","category":"Medicamentos","url":"https://www.aemps.gob.es/comunicacion/alertas/alertas-farmaceuticas-y-retiradas-de-lotes-de-medicamentos-de-uso-humano-por-defectos-de-calidad/","keywords":["alerta","retirada","defecto de calidad"]},
+ {"agency":"AEMPS","category":"Productos sanitarios","url":"https://www.aemps.gob.es/productos-sanitarios/acciones-informativas-productos-sanitarios/","keywords":["aemps informa","retirada","riesgo","fallo","defecto","cese de comercialización"]},
+ {"agency":"AEMPS","category":"Cosméticos","url":"https://www.aemps.gob.es/comunicacion/notas-de-seguridad/acciones-informativas-notas-de-seguridad-cosmeticos-y-cuidado-personal/","keywords":["aemps informa","retirada","recuperación","cese de comercialización","riesgo"]},
 ]
 
 MONTHS_ES={"enero":"01","febrero":"02","marzo":"03","abril":"04","mayo":"05","junio":"06","julio":"07","agosto":"08","septiembre":"09","setiembre":"09","octubre":"10","noviembre":"11","diciembre":"12"}
 
 def stable_id(agency,title,link): return hashlib.sha256(f"{agency}|{title}|{link}".encode()).hexdigest()[:20]
 def clean_text(node): return " ".join(node.get_text(" ",strip=True).split()) if node else ""
+def clean_title(text):
+ text=re.sub(r"^(?:cookie|pill|error_outline|notifications)\s+","",text.strip(),flags=re.I)
+ return re.sub(r"\s+Ver más\s*$","",text,flags=re.I).strip()
 def normalize_date(text):
  t=" ".join((text or "").split())
  m=re.search(r"(\d{1,2})\s+([A-Za-zÁÉÍÓÚáéíóúñÑ]+)\s+(20\d{2})",t)
@@ -51,12 +54,15 @@ def get_soup(url):
 def parse_generic(source):
  soup=get_soup(source["url"]); alerts=[]; seen=set()
  for a in soup.find_all("a",href=True):
-  title=clean_text(a); low=title.lower()
-  if len(title)<20 or not any(k in low for k in source["keywords"]):continue
+  raw_title=clean_text(a); low=raw_title.lower()
+  if len(raw_title)<20 or not any(k in low for k in source["keywords"]):continue
   href=urljoin(source["url"],a["href"])
   if href in seen or href.startswith("javascript:"):continue
-  seen.add(href); context=clean_text(a.parent) if a.parent else title
-  alerts.append({"id":stable_id(source["agency"],title,href),"title":title,"agency":source["agency"],"category":source["category"],"date":normalize_date(context),"link":href,"description":title,"reference":extract_reference(context),"risk":infer_risk(title),"severity":infer_severity(title,title),"status":"Publicada","lotes":extract_lots(context),"barcodes":[]})
+  seen.add(href); title=clean_title(raw_title); context=clean_text(a.parent) if a.parent else title
+  # Prefer metadata that belongs to the alert itself. Parent containers may contain several alerts.
+  date=normalize_date(raw_title) or normalize_date(context)
+  reference=extract_reference(raw_title) or extract_reference(context)
+  alerts.append({"id":stable_id(source["agency"],title,href),"title":title,"agency":source["agency"],"category":source["category"],"date":date,"link":href,"description":title,"reference":reference,"risk":infer_risk(title),"severity":infer_severity(title,title),"status":"Publicada","lotes":extract_lots(raw_title),"barcodes":[]})
  return alerts
 def load_existing():
  if not os.path.exists(DATA_FILE):return {}
@@ -66,7 +72,8 @@ def load_existing():
   return {x["id"]:x for x in items if isinstance(x,dict) and x.get("id")}
  except Exception:return {}
 def main():
- os.makedirs(os.path.dirname(DATA_FILE),exist_ok=True); merged=load_existing(); source_status=[]
+ os.makedirs(os.path.dirname(DATA_FILE),exist_ok=True); merged={}; source_status=[]
+ # Rebuild from official sources on every run so corrected parsing does not preserve stale/bad records.
  for source in SOURCES:
   try:
    items=parse_generic(source)
