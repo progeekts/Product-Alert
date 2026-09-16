@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_checked": "2026-09-16T09:42:38.484761+00:00",
+    "last_checked": "2026-09-16T09:51:23.009629+00:00",
     "sources": [
       {
         "agency": "AESAN",
@@ -29,11 +29,19 @@
         "url": "https://www.aemps.gob.es/comunicacion/notas-de-seguridad/acciones-informativas-notas-de-seguridad-cosmeticos-y-cuidado-personal/",
         "ok": true,
         "items": 55
+      },
+      {
+        "agency": "AEMPS",
+        "category": "Cosméticos",
+        "url": "https://www.aemps.gob.es/comunicacion/notas-de-seguridad/notas-informativas-de-seguridad-de-cosmeticos/",
+        "ok": true,
+        "items": 14
       }
     ],
     "count": 306,
     "scope": "España",
-    "note": "Información agregada desde fuentes oficiales; verificar siempre la publicación original."
+    "version": 2,
+    "note": "Información agregada desde fuentes oficiales. La publicación original prevalece siempre."
   },
   "alerts": [
     {
@@ -77,21 +85,6 @@
       "reference": "ES2026/535",
       "risk": "",
       "severity": "informativa",
-      "status": "Publicada",
-      "lotes": [],
-      "barcodes": []
-    },
-    {
-      "id": "d0335d41cfcd1d78abfa",
-      "title": "26 Agosto 2026 Advertencia por presencia de gluten: gluten no declarado en salsas etiquetadas \"sin gluten\" procedentes de España. (Ref. ES2026/517 )",
-      "agency": "AESAN",
-      "category": "Alimentación",
-      "date": "2026-08-26",
-      "link": "https://www.aesan.gob.es/alertas/2026_65",
-      "description": "26 Agosto 2026 Advertencia por presencia de gluten: gluten no declarado en salsas etiquetadas \"sin gluten\" procedentes de España. (Ref. ES2026/517 )",
-      "reference": "ES2026/517",
-      "risk": "Alérgeno / gluten",
-      "severity": "media",
       "status": "Publicada",
       "lotes": [],
       "barcodes": []
@@ -195,21 +188,6 @@
       "link": "https://www.aesan.gob.es/alertas/2026_56",
       "description": "31 Julio 2026 Alerta por presencia de Salmonella spp. en chips de fruta procedentes de Alemania. (Ref. ES2026/473)",
       "reference": "ES2026/473",
-      "risk": "Salmonella",
-      "severity": "alta",
-      "status": "Publicada",
-      "lotes": [],
-      "barcodes": []
-    },
-    {
-      "id": "22538feb36bb25ba9565",
-      "title": "29 Julio 2026 Alerta por presencia de Salmonella spp. en salchichón procedente de España (Ref. ES2026/469)",
-      "agency": "AESAN",
-      "category": "Alimentación",
-      "date": "2026-07-29",
-      "link": "https://www.aesan.gob.es/alertas/2026_55",
-      "description": "29 Julio 2026 Alerta por presencia de Salmonella spp. en salchichón procedente de España (Ref. ES2026/469)",
-      "reference": "ES2026/469",
       "risk": "Salmonella",
       "severity": "alta",
       "status": "Publicada",
@@ -450,7 +428,7 @@
       "link": "https://www.aemps.gob.es/informa/retirada-del-mercado-y-recuperacion-de-varios-lotes-del-maquillaje-corrector-essence-camouflage-matt-concealer-50-warm-toast-por-contaminacion-microbiologica/",
       "description": "Retirada del mercado y recuperación de varios lotes del maquillaje corrector Essence Camouflage+ Matt concealer 50 warm toast por contaminación microbiológica",
       "reference": "COS, 07/2023",
-      "risk": "Contaminación",
+      "risk": "Contaminación microbiológica",
       "severity": "alta",
       "status": "Publicada",
       "lotes": [
@@ -1290,6 +1268,21 @@
       "reference": "PS, 18/2018",
       "risk": "Fallo de producto",
       "severity": "media",
+      "status": "Publicada",
+      "lotes": [],
+      "barcodes": []
+    },
+    {
+      "id": "f2a59d8f74ab8d9b563a",
+      "title": "Notas infomativas de seguridad",
+      "agency": "AEMPS",
+      "category": "Cosméticos",
+      "date": "",
+      "link": "https://www.aemps.gob.es/comunicacion/notas-de-seguridad/",
+      "description": "Notas infomativas de seguridad",
+      "reference": "",
+      "risk": "",
+      "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
       "barcodes": []
@@ -2248,7 +2241,7 @@
       "description": "La AEMPS informa del cese de comercialización, retirada y recuperación del producto cosmético Noa Nox Gel Remover",
       "reference": "COS, 10/2025",
       "risk": "Retirada",
-      "severity": "informativa",
+      "severity": "media",
       "status": "Publicada",
       "lotes": [],
       "barcodes": []
@@ -2263,7 +2256,7 @@
       "description": "La AEMPS informa del cese de comercialización, retirada y recuperación de varios lotes del cosmético Erborian – Centella Crème envases de 50ml y 20ml",
       "reference": "COS, 11/2025",
       "risk": "Retirada",
-      "severity": "informativa",
+      "severity": "media",
       "status": "Publicada",
       "lotes": [
         "del"
@@ -2280,7 +2273,7 @@
       "description": "La AEMPS informa del cese de comercialización, retirada y recuperación de un lote del producto cosmético OXD leche neutra para masaje",
       "reference": "COS, 06/2025",
       "risk": "Retirada",
-      "severity": "informativa",
+      "severity": "media",
       "status": "Publicada",
       "lotes": [
         "del"
@@ -2297,7 +2290,7 @@
       "description": "La AEMPS informa del cese de comercialización, retirada y recuperación de un lote del producto cosmético Alma Secret Waterproof and Soothing Eye Make-Up Remover",
       "reference": "COS, 01/2025",
       "risk": "Retirada",
-      "severity": "informativa",
+      "severity": "media",
       "status": "Publicada",
       "lotes": [
         "del"
@@ -2314,7 +2307,7 @@
       "description": "La AEMPS informa del cese de comercialización, retirada y recuperación de los productos cosméticos Noa Nox Mousse Limpiadora y Lashes & More Total Serum",
       "reference": "COS, 03/2025",
       "risk": "Retirada",
-      "severity": "informativa",
+      "severity": "media",
       "status": "Publicada",
       "lotes": [],
       "barcodes": []
@@ -2329,7 +2322,7 @@
       "description": "La AEMPS informa del cese de comercialización, retirada y recuperación de los cosméticos Inoar G.Hair 2 Anti-Volume Treatment e Inoar Moroccan Step 2 Capilary Treatment",
       "reference": "COS, 13/2026",
       "risk": "Retirada",
-      "severity": "informativa",
+      "severity": "media",
       "status": "Publicada",
       "lotes": [],
       "barcodes": []
@@ -2390,7 +2383,7 @@
       "link": "https://www.aemps.gob.es/informa/la-aemps-informa-del-cese-de-comercializacion-retirada-del-mercado-y-recuperacion-de-varios-lotes-de-fluorkin-infantil-fresa-enjuague-bucal-por-contaminacion-microbiologica/",
       "description": "La AEMPS informa del cese de comercialización, retirada del mercado y recuperación de varios lotes de FluorKin infantil fresa enjuague bucal por contaminación microbiológica",
       "reference": "COS, 19/2026",
-      "risk": "Contaminación",
+      "risk": "Contaminación microbiológica",
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
@@ -3548,7 +3541,7 @@
       "link": "https://www.aemps.gob.es/informa/la-aemps-informa-de-la-retirada-del-mercado-y-de-la-recuperacion-de-varios-productos-cosmeticos-de-msl-solution-providers-limited-por-contaminacion-microbiologica/",
       "description": "La AEMPS informa de la retirada del mercado y de la recuperación de varios productos cosméticos de MSL SOLUTION PROVIDERS LIMITED por contaminación microbiológica",
       "reference": "COS, 2/2022",
-      "risk": "Contaminación",
+      "risk": "Contaminación microbiológica",
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
@@ -4373,6 +4366,21 @@
       "barcodes": []
     },
     {
+      "id": "8fd490bd0c3f11ef6c08",
+      "title": "Dispositivos de seguridad de medicamentos de uso humano",
+      "agency": "AEMPS",
+      "category": "Cosméticos",
+      "date": "",
+      "link": "https://www.aemps.gob.es/industria-farmaceutica/dispositivos-de-seguridad-de-medicamentos-de-uso-humano/",
+      "description": "Dispositivos de seguridad de medicamentos de uso humano",
+      "reference": "",
+      "risk": "",
+      "severity": "informativa",
+      "status": "Publicada",
+      "lotes": [],
+      "barcodes": []
+    },
+    {
       "id": "38d574654a7058c27535",
       "title": "Control oficial y Red de Alertas alimentarias",
       "agency": "AESAN",
@@ -4459,7 +4467,7 @@
       "description": "Cese de comercialización, retirada y recuperación del cosmético Mya Beauty Tin",
       "reference": "COS, 01/2026",
       "risk": "Retirada",
-      "severity": "informativa",
+      "severity": "media",
       "status": "Publicada",
       "lotes": [],
       "barcodes": []
@@ -4474,7 +4482,7 @@
       "description": "Cese de comercialización, retirada y recuperación del cosmético Hello Sunday The One For Your eyes SPF 50",
       "reference": "COS, 02/2026",
       "risk": "Retirada",
-      "severity": "informativa",
+      "severity": "media",
       "status": "Publicada",
       "lotes": [],
       "barcodes": []
@@ -4489,7 +4497,7 @@
       "description": "Cese de comercialización, retirada y recuperación de Kneipp Gel de Ducha Litsea Cubeba Limón",
       "reference": "COS, 12/2025",
       "risk": "Retirada",
-      "severity": "informativa",
+      "severity": "media",
       "status": "Publicada",
       "lotes": [],
       "barcodes": []
@@ -4503,7 +4511,7 @@
       "link": "https://www.aemps.gob.es/informa/cese-de-comercializacion-retirada-del-mercado-y-recuperacion-de-un-lote-del-producto-cosmetico-ma-brume-fraicheur-por-contaminacion-microbiologica/",
       "description": "Cese de comercialización, retirada del mercado y recuperación de un lote del producto cosmético Ma Brume Fraîcheur por contaminación microbiológica",
       "reference": "COS, 09/2023",
-      "risk": "Contaminación",
+      "risk": "Contaminación microbiológica",
       "severity": "alta",
       "status": "Publicada",
       "lotes": [
