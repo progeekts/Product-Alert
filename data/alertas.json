@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_checked": "2026-09-16T10:08:10.820482+00:00",
+    "last_checked": "2026-09-16T10:11:31.738911+00:00",
     "sources": [
       {
         "id": "aesan_food",
@@ -10,8 +10,8 @@
         "ok": true,
         "stale": false,
         "items": 22,
-        "checked_at": "2026-09-16T10:08:05.293678+00:00",
-        "last_success": "2026-09-16T10:08:05.293678+00:00"
+        "checked_at": "2026-09-16T10:11:12.150334+00:00",
+        "last_success": "2026-09-16T10:11:12.150334+00:00"
       },
       {
         "id": "aemps_medicines",
@@ -21,8 +21,8 @@
         "ok": true,
         "stale": false,
         "items": 10,
-        "checked_at": "2026-09-16T10:08:05.939490+00:00",
-        "last_success": "2026-09-16T10:08:05.939490+00:00"
+        "checked_at": "2026-09-16T10:11:13.036270+00:00",
+        "last_success": "2026-09-16T10:11:13.036270+00:00"
       },
       {
         "id": "aemps_devices",
@@ -32,8 +32,8 @@
         "ok": true,
         "stale": false,
         "items": 231,
-        "checked_at": "2026-09-16T10:08:07.216083+00:00",
-        "last_success": "2026-09-16T10:08:07.216083+00:00"
+        "checked_at": "2026-09-16T10:11:27.230463+00:00",
+        "last_success": "2026-09-16T10:11:27.230463+00:00"
       },
       {
         "id": "aemps_cosmetics_actions",
@@ -43,8 +43,8 @@
         "ok": true,
         "stale": false,
         "items": 55,
-        "checked_at": "2026-09-16T10:08:08.572366+00:00",
-        "last_success": "2026-09-16T10:08:08.572366+00:00"
+        "checked_at": "2026-09-16T10:11:28.979336+00:00",
+        "last_success": "2026-09-16T10:11:28.979336+00:00"
       },
       {
         "id": "aemps_cosmetics_notes",
@@ -54,14 +54,14 @@
         "ok": true,
         "stale": false,
         "items": 14,
-        "checked_at": "2026-09-16T10:08:09.770790+00:00",
-        "last_success": "2026-09-16T10:08:09.770790+00:00"
+        "checked_at": "2026-09-16T10:11:30.464742+00:00",
+        "last_success": "2026-09-16T10:11:30.464742+00:00"
       }
     ],
     "count": 316,
     "scope": "España",
-    "version": 5,
-    "note": "Información agregada desde fuentes oficiales. Cada fuente se controla de forma independiente; ante un fallo se conserva su último conjunto conocido cuando está disponible y se marca como desactualizado. La publicación original prevalece siempre."
+    "version": 6,
+    "note": "Información agregada desde fuentes oficiales. Los campos de medidas y actuación del consumidor solo se muestran cuando proceden de la fuente oficial; en ausencia de instrucciones se remite a la publicación original."
   },
   "alerts": [
     {
@@ -78,7 +78,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "501e398e08e6f507ffbd",
@@ -94,7 +95,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "14c848a39fd8b107e08c",
@@ -110,7 +112,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "858066de2288228730b5",
@@ -126,7 +129,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "56c3136e27a00733ddbb",
@@ -142,7 +146,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "7008221845e4a33978a9",
@@ -158,7 +163,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "0fd301f3236b7e40cd3f",
@@ -174,7 +180,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "d95a54aae6813d89fc7d",
@@ -190,7 +197,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "3dbe683d8ae67115341a",
@@ -206,7 +214,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "afdf216f862767b73218",
@@ -222,7 +231,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "e4a92e0a20c7718ddb61",
@@ -238,7 +248,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "18256e907ea36ff6e712",
@@ -254,7 +265,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "ec67f628ac654eb34ad2",
@@ -270,7 +282,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "63828e3c96763a55ed51",
@@ -280,15 +293,21 @@
       "category": "Medicamentos",
       "date": "2026-06-04",
       "link": "https://www.aemps.gob.es/informa/oculotect-50-mg-ml-colirio-en-solucion-1-frasco-de-10-ml-nr-61982-cn-755215/",
-      "description": "OCULOTECT 50 mg/ml COLIRIO EN SOLUCION , 1 frasco de 10 ml (NR: 61982, CN: 755215)",
+      "description": "Defecto de calidad: Posibles deficiencias relacionadas con la fabricación del medicamento Información sobre la distribución: Cadena de distribución y dispensación Clasificación de los defectos: Clase 3 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
       "reference": "R_21/2026",
-      "risk": "Defecto de calidad",
+      "risk": "Posibles deficiencias relacionadas con la fabricación del medicamento Información sobre la distribución: Cadena de distribución y dispensación Clasificación de los defectos: Clase 3 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [
-        "3V27"
+        "3V27",
+        "afectados"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "product": "Medicamento Marca comercial y presentación: OCULOTECT 50 mg/ml COLIRIO EN SOLUCION , 1 frasco de 10 ml (NR: 61982, CN: 755215) DCI o DOE: POVIDONA",
+      "official_classification": "de los defectos: Clase 3 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "measures": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "enriched_from_detail": true
     },
     {
       "id": "d5500aca92803fd85823",
@@ -298,13 +317,39 @@
       "category": "Medicamentos",
       "date": "2026-06-01",
       "link": "https://www.aemps.gob.es/informa/solucion-cardioplejica-varias-presentaciones/",
-      "description": "Solución cardiopléjica, varias presentaciones",
+      "description": "Defecto de calidad: Se ha detectado la falta de incorporación del cloruro cálcico indicado en la composición de la solución Información sobre la distribución: Hospitales Clasificación de los defectos: Clase 1 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada",
       "reference": "R_19/2026",
-      "risk": "Defecto de calidad",
+      "risk": "Se ha detectado la falta de incorporación del cloruro cálcico indicado en la composición de la solución Información sobre la distribución: Hospitales Clasificación de los defectos: Clase 1 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada",
       "severity": "informativa",
       "status": "Publicada",
-      "lotes": [],
-      "barcodes": []
+      "lotes": [
+        "2621340258",
+        "2621340259",
+        "2621340260",
+        "2621340261",
+        "2621340250",
+        "2621340251",
+        "2621340252",
+        "2621340253",
+        "2621340255",
+        "2621340256",
+        "2621340257",
+        "2621340414",
+        "2621440229",
+        "2621440230",
+        "2621440231",
+        "2621440232",
+        "2621440233",
+        "2621440234",
+        "2621440235",
+        "2621440236"
+      ],
+      "barcodes": [],
+      "consumer_action": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada",
+      "product": "Fórmula magistral Marca comercial y presentación: Solución cardiopléjica hemática (HM) con potasio Solución cardiopléjica hemática (HM) sin potasio Solución cardiopléjica IB DCI o DOE: ACETATO SODIO, BICARBONATO SÓDICO, CALCIO CLORURO, GLUCONATO SODIO, MAGNESIO CLORURO HEXAHIDRATO, POTASIO CLORURO ANHIDRO, SODIO CLORURO, CLORURO DE POTASIO, MAGNESIO SULFATO Lotes y fechas de caducidad: Solución cardiopléjica hemática (HM) con potasio",
+      "official_classification": "de los defectos: Clase 1 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada",
+      "measures": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada",
+      "enriched_from_detail": true
     },
     {
       "id": "8ae00136ef2f43522a76",
@@ -314,15 +359,21 @@
       "category": "Medicamentos",
       "date": "2026-06-01",
       "link": "https://www.aemps.gob.es/informa/oramorph-2-mg-ml-solucion-oral-1-frasco-de-100-ml-nr-62039-cn-821934/",
-      "description": "ORAMORPH 2 MG/ML SOLUCION ORAL , 1 frasco de 100 ml (NR: 62039, CN: 821934)",
+      "description": "Defecto de calidad: Resultado fuera de especificaciones en impurezas totales detectado en estudios de estabilidad Información sobre la distribución: Cadena de distribución y dispensación Clasificación de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas del lote afectado y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
       "reference": "R_20/2026",
-      "risk": "Defecto de calidad",
+      "risk": "Resultado fuera de especificaciones en impurezas totales detectado en estudios de estabilidad Información sobre la distribución: Cadena de distribución y dispensación Clasificación de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas del lote afectado y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [
-        "24008101"
+        "24008101",
+        "afectado"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "adoptadas: Retirada del mercado de todas las unidades distribuidas del lote afectado y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "product": "Medicamento Marca comercial y presentación: ORAMORPH 2 MG/ML SOLUCION ORAL , 1 frasco de 100 ml (NR: 62039, CN: 821934) DCI o DOE: MORFINA SULFATO",
+      "official_classification": "de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas del lote afectado y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "measures": "adoptadas: Retirada del mercado de todas las unidades distribuidas del lote afectado y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "enriched_from_detail": true
     },
     {
       "id": "5df23fa295f4a57a559a",
@@ -338,7 +389,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "7ae0128a4b29779163ba",
@@ -354,7 +406,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "db9ea8241651184c21e4",
@@ -364,13 +417,39 @@
       "category": "Medicamentos",
       "date": "2026-05-06",
       "link": "https://www.aemps.gob.es/informa/emuliquen-laxante-varias-presentaciones/",
-      "description": "EMULIQUEN LAXANTE, varias presentaciones",
+      "description": "Defecto de calidad: Resultado fuera de especificaciones del contenido en una impureza, detectado en estudios de estabilidad Información sobre la distribución: Cadena de distribución y dispensación Clasificación de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
       "reference": "R_18/2026",
-      "risk": "Defecto de calidad",
+      "risk": "Resultado fuera de especificaciones del contenido en una impureza, detectado en estudios de estabilidad Información sobre la distribución: Cadena de distribución y dispensación Clasificación de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
       "severity": "informativa",
       "status": "Publicada",
-      "lotes": [],
-      "barcodes": []
+      "lotes": [
+        "1129",
+        "1130",
+        "1131",
+        "1132",
+        "1133",
+        "1134",
+        "1138",
+        "1139",
+        "1140",
+        "1141",
+        "1142",
+        "1143",
+        "1144",
+        "1145",
+        "1146",
+        "1147",
+        "1148",
+        "1149",
+        "1135",
+        "1136"
+      ],
+      "barcodes": [],
+      "consumer_action": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "product": "Medicamento Marca comercial, presentación, número de registro y código nacional: EMULIQUEN LAXANTE 478,26 mg/ml + 0,3 mg/ml EMULSION ORAL, 1 frasco de 230 ml (NR: 16678, CN: 744011) EMULIQUEN LAXANTE 7.173,9 mg/4,5 mg EMULSION ORAL EN SOBRES, 10 sobres (NR: 64258, CN: 821249) EMULIQUEN LAXANTE 7.173,9 mg/4,5 mg EMULSION ORAL EN SOBRES, 200 sobres (NR: 64258, CN: 603035) DCI o DOE: PARAFINA LIQUIDA, PICOSULFATO SODIO Lotes y fechas de caducidad: EMULIQUEN LAXANTE 478,26 mg/ml + 0,3 mg/ml EMULSION ORAL , 1 frasco de 230 ml (NR: 16678, CN: 744011)",
+      "official_classification": "de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "measures": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "enriched_from_detail": true
     },
     {
       "id": "e53cc1e2df6cfbbf8cee",
@@ -380,15 +459,21 @@
       "category": "Medicamentos",
       "date": "2026-04-17",
       "link": "https://www.aemps.gob.es/informa/allergovit-123-parietaria-100-suspension-inyectable-en-su-formato-de-mantenimiento-de-2-viales-concentracion-b-10-000-ut-ml/",
-      "description": "Allergovit 123 Parietaria 100% suspensión inyectable, en su formato de Mantenimiento de 2 viales, concentración B (10.000 UT/ml)",
+      "description": "Defecto de calidad: Resultado fuera de especificaciones en el parámetro de actividad residual alergénica detectado en estudios de estabilidad. Es una ampliación de la alerta farmacéutica R_22/2025 Información sobre la distribución: MIBE PHARMA ESPAÑA, SLU contactará con los profesionales sanitarios afectados para la recuperación de unidades Clasificación de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
       "reference": "R_17/2026",
-      "risk": "Defecto de calidad",
+      "risk": "Resultado fuera de especificaciones en el parámetro de actividad residual alergénica detectado en estudios de estabilidad. Es una ampliación de la alerta farmacéutica R_22/2025 Información sobre la distribución: MIBE PHARMA ESPAÑA, SLU contactará con los profesionales sanitarios afectados para la recuperación de unidades Clasificación de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [
-        "G2311031-03"
+        "G2311031-03",
+        "afectados"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "product": "Medicamento Marca comercial y presentación: Allergovit 123 Parietaria 100% suspensión inyectable, en su formato de Mantenimiento de 2 viales, concentración B (10.000 UT/ml) DCI o DOE: Parietaria officinalis Lote G2311031-03 Fecha de caducidad: 30/09/2026 Fabricante: Allergopharma GmbH&Co. KG Responsable: MIBE PHARMA ESPAÑA, SLU – C/Amaltea 9, 4ª planta, puerta B Descripción del",
+      "official_classification": "de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "measures": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "enriched_from_detail": true
     },
     {
       "id": "e1c86e51bca651aaa456",
@@ -404,7 +489,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "962043450edc0379d651",
@@ -414,13 +500,27 @@
       "category": "Medicamentos",
       "date": "2026-03-26",
       "link": "https://www.aemps.gob.es/informa/omnipaque-300-mg-omnipaque-350-mg-iodo-ml-solucion-inyectable-y-visipaque-320-mg-ml-solucion-inyectable/",
-      "description": "OMNIPAQUE 300 mg, OMNIPAQUE 350 mg Iodo /ml SOLUCION INYECTABLE y VISIPAQUE 320 mg /ml SOLUCION INYECTABLE",
+      "description": "Defecto de calidad: Posible presencia de partículas de origen metálico Información sobre la distribución: Cadena de distribución y dispensación/hospitales Clasificación de los defectos: Clase 1 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada",
       "reference": "R_16/2026",
-      "risk": "Defecto de calidad",
+      "risk": "Posible presencia de partículas de origen metálico Información sobre la distribución: Cadena de distribución y dispensación/hospitales Clasificación de los defectos: Clase 1 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada",
       "severity": "informativa",
       "status": "Publicada",
-      "lotes": [],
-      "barcodes": []
+      "lotes": [
+        "17353261",
+        "17277208",
+        "17327354",
+        "17340558",
+        "17244652",
+        "17303308",
+        "17312888",
+        "afectados"
+      ],
+      "barcodes": [],
+      "consumer_action": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada",
+      "product": "Medicamento de uso hospitalario Marca comercial, presentación, número de registro y código nacional: OMNIPAQUE 300 mg Iodo /ml SOLUCION INYECTABLE, 10 frascos de 100 ml (NR: 62018, CN: 607582) OMNIPAQUE 350 mg Iodo /ml SOLUCION INYECTABLE, 10 frascos de 100 ml (NR: 62019, CN: 607586) VISIPAQUE 320 mg /ml SOLUCION INYECTABLE, 10 frascos de 100 ml (NR: 60637, CN: 607595) DCI o DOE: IOHEXOL, IODIXANOL Lotes y fechas de caducidad: OMNIPAQUE 300 mg Iodo /ml SOLUCION INYECTABLE, 10 frascos de 100 ml (NR: 62018, CN: 607582)",
+      "official_classification": "de los defectos: Clase 1 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada",
+      "measures": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada",
+      "enriched_from_detail": true
     },
     {
       "id": "a0a63a02a0bc0c42b28a",
@@ -430,13 +530,31 @@
       "category": "Medicamentos",
       "date": "2026-03-23",
       "link": "https://www.aemps.gob.es/informa/urografin-370-mg-iodo-ml-solucion-inyectable-y-para-perfusion-varias-presentaciones/",
-      "description": "UROGRAFIN 370 MG IODO/ML SOLUCION INYECTABLE Y PARA PERFUSION, varias presentaciones",
+      "description": "Defecto de calidad: Detección de una impureza por encima de su límite establecido Información sobre la distribución: Cadena de distribución y dispensación/hospitales Clasificación de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
       "reference": "R_15/2026",
-      "risk": "Defecto de calidad",
+      "risk": "Detección de una impureza por encima de su límite establecido Información sobre la distribución: Cadena de distribución y dispensación/hospitales Clasificación de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
       "severity": "informativa",
       "status": "Publicada",
-      "lotes": [],
-      "barcodes": []
+      "lotes": [
+        "MA04K8T",
+        "MA04PP9",
+        "MA04TK8",
+        "MA04270",
+        "MA04H8R",
+        "MA04TM2",
+        "MA047J3",
+        "MA04EEN",
+        "MA04MPU",
+        "MA04S9T",
+        "MA04XL6",
+        "afectados"
+      ],
+      "barcodes": [],
+      "consumer_action": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "product": "Medicamento de uso hospitalario Marca comercial, presentación, número de registro y código nacional: UROGRAFIN 370 MG IODO/ML SOLUCION INYECTABLE Y PARA PERFUSION, 1 frasco de 50 ml (NR: 23817, CN: 914614) UROGRAFIN 370 MG IODO/ML SOLUCION INYECTABLE Y PARA PERFUSION, 1 ampolla de 20 ml (NR: 23817, CN: 910067) UROGRAFIN 370 MG IODO/ML SOLUCION INYECTABLE Y PARA PERFUSION, 1 frasco de 100 ml (NR: 23817, CN: 909846) DCI o DOE: AMIDOTRIZOATO MEGLUMINA, AMIDOTRIZOATO SODIO Lotes y fechas de caducidad: UROGRAFIN 370 MG IODO/ML SOLUCION INYECTABLE Y PARA PERFUSION, 1 frasco de 50 ml (NR: 23817, CN: 914614)",
+      "official_classification": "de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "measures": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "enriched_from_detail": true
     },
     {
       "id": "10974d8ea5bcc5c51bc5",
@@ -446,13 +564,30 @@
       "category": "Medicamentos",
       "date": "2026-03-23",
       "link": "https://www.aemps.gob.es/informa/gastrografin-370-mg-iodo-ml-solucion-oral-y-rectal-1-frasco-de-100-mi-nr-36270-cn-909622/",
-      "description": "GASTROGRAFIN 370 MG IODO/ML SOLUCIÓN ORAL Y RECTAL , 1 frasco de 100 mi (NR: 36270, CN: 909622)",
+      "description": "Defecto de calidad: Detección de una impureza por encima de su límite establecido Información sobre la distribución: Cadena de distribución y dispensación/hospitales Clasificación de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
       "reference": "R_14/2026",
-      "risk": "Defecto de calidad",
+      "risk": "Detección de una impureza por encima de su límite establecido Información sobre la distribución: Cadena de distribución y dispensación/hospitales Clasificación de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
       "severity": "informativa",
       "status": "Publicada",
-      "lotes": [],
-      "barcodes": []
+      "lotes": [
+        "MA04JJB",
+        "MA04K7U",
+        "MA04M6U",
+        "MA04NDN",
+        "MA04NK3",
+        "MA04P3N",
+        "MA04REH",
+        "MA04SVF",
+        "MA04TDB",
+        "MA04TDC",
+        "afectados"
+      ],
+      "barcodes": [],
+      "consumer_action": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "product": "Medicamento de uso hospitalario Marca comercial, presentación, número de registro y código nacional: GASTROGRAFIN 370 MG IODO/ML SOLUCIÓN ORAL Y RECTAL , 1 frasco de 100 mi (NR: 36270, CN: 909622) DCI o DOE: AMIDOTRIZOATO MEGLUMINA, AMIDOTRIZOATO SODIO Lotes y fechas de caducidad",
+      "official_classification": "de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "measures": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "enriched_from_detail": true
     },
     {
       "id": "33771839f1b4249e7901",
@@ -462,15 +597,21 @@
       "category": "Medicamentos",
       "date": "2026-03-19",
       "link": "https://www.aemps.gob.es/informa/curosurf-240-1-vial-de-3-ml-nr-59600-cn-778191/",
-      "description": "CUROSURF 240, 1 vial de 3 ml (NR: 59600, CN: 778191)",
+      "description": "Defecto de calidad: Riesgo de contaminación microbiológica Información sobre la distribución: Cadena de distribución y dispensación/hospitales Clasificación de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de Calidad que no supone un riesgo vital para el paciente",
       "reference": "R_13/2026",
-      "risk": "Defecto de calidad",
+      "risk": "Riesgo de contaminación microbiológica Información sobre la distribución: Cadena de distribución y dispensación/hospitales Clasificación de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de Calidad que no supone un riesgo vital para el paciente",
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [
-        "1211842"
+        "1211842",
+        "afectados"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de Calidad que no supone un riesgo vital para el paciente",
+      "product": "Medicamento de uso hospitalario Marca comercial, presentación, número de registro y código nacional: CUROSURF 240, 1 vial de 3 ml (NR: 59600, CN: 778191) DCI o DOE: TENSIOACTIVO PULMONAR PORCINO",
+      "official_classification": "de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de Calidad que no supone un riesgo vital para el paciente",
+      "measures": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de Calidad que no supone un riesgo vital para el paciente",
+      "enriched_from_detail": true
     },
     {
       "id": "e362dfa426ec4600a36a",
@@ -480,15 +621,21 @@
       "category": "Medicamentos",
       "date": "2026-03-06",
       "link": "https://www.aemps.gob.es/informa/ikervis-1-mg-ml-colirio-en-emulsion-30-envases-unidosis-de-03-ml-nr-115990001-cn-707966/",
-      "description": "IKERVIS 1 mg/ml colirio en emulsion 30 envases unidosis de 0,3 ml (NR: 115990001, CN: 707966)",
+      "description": "Defecto de calidad: Resultado fuera de especificaciones en el ensayo de contenido de principio activo Información sobre la distribución: Cadena de distribución y dispensación Clasificación de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas del lote afectado y devolución al laboratorio por los cauces habituale Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
       "reference": "R_12/2026",
-      "risk": "Defecto de calidad",
+      "risk": "Resultado fuera de especificaciones en el ensayo de contenido de principio activo Información sobre la distribución: Cadena de distribución y dispensación Clasificación de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas del lote afectado y devolución al laboratorio por los cauces habituale Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [
-        "4T92E"
+        "4T92E",
+        "afectado"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "adoptadas: Retirada del mercado de todas las unidades distribuidas del lote afectado y devolución al laboratorio por los cauces habituale Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "product": "Medicamento Marca comercial, presentación, número de registro y código nacional: IKERVIS 1 mg/ml colirio en emulsion 30 envases unidosis de 0,3 ml (NR: 115990001, CN: 707966) DCI o DOE: CICLOSPORINA",
+      "official_classification": "de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas del lote afectado y devolución al laboratorio por los cauces habituale Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "measures": "adoptadas: Retirada del mercado de todas las unidades distribuidas del lote afectado y devolución al laboratorio por los cauces habituale Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "enriched_from_detail": true
     },
     {
       "id": "71d41a985b2527f38913",
@@ -504,7 +651,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "fd60d5925ba19d83d9fd",
@@ -520,7 +668,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "57dff5a6c0283a054557",
@@ -536,7 +685,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "894c0fbf1495ec65ba0d",
@@ -552,7 +702,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "dbb1e1bda6b07b1be598",
@@ -568,7 +719,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "aec69f51179c9146c4c0",
@@ -584,7 +736,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "321a5166533fead3af49",
@@ -600,7 +753,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "0ca4c52787adbed76bde",
@@ -616,7 +770,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "2ee72e8f06ea11e3b90f",
@@ -632,7 +787,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "1f238649d89d6fd3400b",
@@ -650,7 +806,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "e2eed0033bb7fa8a9f87",
@@ -668,7 +825,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "9ff3c4fda9b13941623b",
@@ -684,7 +842,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "11b3e4ee2979d47bf32c",
@@ -700,7 +859,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "5efb199bb721ccf74ae2",
@@ -718,7 +878,8 @@
       "lotes": [
         "MP17288"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "5a12dd4e24fb10e4bf0f",
@@ -736,7 +897,8 @@
       "lotes": [
         "B00WWWL"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "4387e2e6712fb72b6148",
@@ -754,7 +916,8 @@
       "lotes": [
         "51431"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "70ea413303a1980f856c",
@@ -772,7 +935,8 @@
       "lotes": [
         "2840420107"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "aa160d3337b478572361",
@@ -790,7 +954,8 @@
       "lotes": [
         "20290605400"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "16d1ada739d02c14b8e0",
@@ -808,7 +973,8 @@
       "lotes": [
         "12018"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "8195feb651ffe1240235",
@@ -826,7 +992,8 @@
       "lotes": [
         "109077"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "b7082e0f43410be41edc",
@@ -844,7 +1011,8 @@
       "lotes": [
         "04-2018"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "4f2d7a7524e1d5aa5089",
@@ -860,7 +1028,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "76b687094dc8ecefda17",
@@ -876,7 +1045,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "d3aaa15e3cb3889647cd",
@@ -894,7 +1064,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "1943758d1c879392426b",
@@ -910,7 +1081,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "0a97f8ad285be29b0395",
@@ -926,7 +1098,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "f8e0276d9aa5788495c7",
@@ -942,7 +1115,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "d2db5a7024d067de1f47",
@@ -960,7 +1134,8 @@
       "lotes": [
         "fabricados"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "a9d43eacc3ca1d87c4a8",
@@ -976,7 +1151,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "e41853bebd40a524d7dd",
@@ -992,7 +1168,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "aab4c2298dd4e139940a",
@@ -1008,7 +1185,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "58f4df8ff378601f52eb",
@@ -1024,7 +1202,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "a69665f1a66de3134c0e",
@@ -1040,7 +1219,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "be1ac9f3e041cd4b30a7",
@@ -1056,7 +1236,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "ff11f7741f110f844f4a",
@@ -1072,7 +1253,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "417b529552511d66f186",
@@ -1088,7 +1270,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "680649089fcb3213e997",
@@ -1106,7 +1289,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "fe3b194505375fbedceb",
@@ -1124,7 +1308,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "fe7246cb4ee36589820d",
@@ -1140,7 +1325,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "9b01ab8e1de40338755b",
@@ -1156,7 +1342,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "5783e02210b19e57d90e",
@@ -1172,7 +1359,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "505ca7c47ad768bdb23e",
@@ -1188,7 +1376,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "521c7156bc0197fa04a0",
@@ -1204,7 +1393,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "1ff4fddbfa634552eda7",
@@ -1220,7 +1410,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "d2928546ffb1d0dc996b",
@@ -1236,7 +1427,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "70fb620a1048941801c6",
@@ -1252,7 +1444,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "2237319532d96b5d10e8",
@@ -1268,7 +1461,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "6bb74d60c318820af3f4",
@@ -1284,7 +1478,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "fdc326fa2c6cf16a3de3",
@@ -1300,7 +1495,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "945ed8130bb1664cbb9c",
@@ -1316,7 +1512,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "41654552822b52181500",
@@ -1332,7 +1529,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "cf17970420618462045e",
@@ -1348,7 +1546,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "c49432de07ff3f8e0fd3",
@@ -1364,7 +1563,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "297001bcf97826b24d58",
@@ -1380,7 +1580,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "5fcecb761113e89fa1dc",
@@ -1396,7 +1597,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "14a6e2ed86b96cb3be84",
@@ -1412,7 +1614,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "911c45c3555f40c46ac5",
@@ -1428,7 +1631,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "df47f4da063a4955fa85",
@@ -1444,7 +1648,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "8332245a2c021647d18e",
@@ -1460,7 +1665,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "2ee18fd205765f29c74c",
@@ -1476,7 +1682,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "f66e17d5fd1f3b89548b",
@@ -1492,7 +1699,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "eac4728f6709e4090645",
@@ -1508,7 +1716,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "87d3b7bae121072aa486",
@@ -1524,7 +1733,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "936369a0efba98de637c",
@@ -1540,7 +1750,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "f2a59d8f74ab8d9b563a",
@@ -1556,7 +1767,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "78c1bf16ffe75e349ca0",
@@ -1572,7 +1784,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "b02378e53170724f6cdf",
@@ -1588,7 +1801,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "1c39c1cef9e240f1e16f",
@@ -1604,7 +1818,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "42b0c9f6c46293d64509",
@@ -1620,7 +1835,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "52c92a83720184e2f5e6",
@@ -1638,7 +1854,8 @@
       "lotes": [
         "2770073"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "fe39bb35b7b03238d0da",
@@ -1654,7 +1871,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "a4c08b6e0a372b92e1d6",
@@ -1670,7 +1888,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "8836fbbf419091dce101",
@@ -1686,7 +1905,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "f8e472104204c6899ee1",
@@ -1702,7 +1922,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "ab817aeaf114f0c96c90",
@@ -1718,7 +1939,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "4d2d111c6d1a6069245c",
@@ -1734,7 +1956,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "3a840bbaf4f5a15458c3",
@@ -1750,7 +1973,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "1c76125df5019ae5bf59",
@@ -1766,7 +1990,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "c5b99590d6dd2b88ecf7",
@@ -1782,7 +2007,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "d8a7b63fd5d074d3c379",
@@ -1798,7 +2024,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "998291e8d0778615eac6",
@@ -1814,7 +2041,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "3689eaac6cd396d8a3d0",
@@ -1830,7 +2058,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "574fa49079529b3b471f",
@@ -1848,7 +2077,8 @@
       "lotes": [
         "L1103"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "293aef9b2a8857dd6e77",
@@ -1866,7 +2096,8 @@
       "lotes": [
         "13120"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "271a64bc987db1eb987a",
@@ -1884,7 +2115,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "0eca0495eda5dab91cfb",
@@ -1900,7 +2132,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "d1b02e120fa3a132e720",
@@ -1916,7 +2149,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "5639459ea327058c63ed",
@@ -1932,7 +2166,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "0e19ef39a37d241633ef",
@@ -1948,7 +2183,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "ba7249aa6b8d1fb4fbd3",
@@ -1964,7 +2200,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "bf5b88aa8e3e21f81e6d",
@@ -1980,7 +2217,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "3ead3d0c12f3ec8d875f",
@@ -1996,7 +2234,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "f8aaee889ac57939395d",
@@ -2012,7 +2251,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "1f5a9c212362eb229ce7",
@@ -2028,7 +2268,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "cfd68ebd1875afeba3f6",
@@ -2044,7 +2285,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "5c8d1d0c148cc1a2a377",
@@ -2060,7 +2302,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "2f8de75b3c17940d4e37",
@@ -2076,7 +2319,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "3f66804a414ae3b5834c",
@@ -2092,7 +2336,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "a0eac1ab5ff69eb925a4",
@@ -2108,7 +2353,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "0b5f3c711c3d503f081d",
@@ -2124,7 +2370,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "8955be43a310bdb4539f",
@@ -2140,7 +2387,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "d634263d0b187873f05c",
@@ -2156,7 +2404,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "5b86557625e187276f1e",
@@ -2172,7 +2421,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "bf63e82c23406f4e7e7d",
@@ -2188,7 +2438,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "bcca0ba2a25c3cf31a84",
@@ -2204,7 +2455,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "b62563d9bd21f26f9841",
@@ -2220,7 +2472,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "89c100f89474ea63e691",
@@ -2236,7 +2489,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "645ce67f1d4c6394badb",
@@ -2252,7 +2506,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "107651995ac92fb46cb5",
@@ -2268,7 +2523,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "e7425ad4d2d300c9cd3a",
@@ -2284,7 +2540,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "ea4e6a754462c38c4027",
@@ -2300,7 +2557,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "8c9ace10d48848d0a624",
@@ -2316,7 +2574,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "14f0a8c789030e43288b",
@@ -2332,7 +2591,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "04cf96ae474398f0b483",
@@ -2348,7 +2608,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "304da66b3127b9062875",
@@ -2364,7 +2625,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "b13455c3d346be0c1314",
@@ -2380,7 +2642,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "888e233d9bd4284a19d8",
@@ -2398,7 +2661,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "33f21c142a780a480740",
@@ -2414,7 +2678,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "631ab8cab3bc78660321",
@@ -2430,7 +2695,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "22d247b8a127d391de56",
@@ -2446,7 +2712,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "3583eabb31f74234b4c2",
@@ -2464,7 +2731,8 @@
       "lotes": [
         "1530655"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "d84c3315d45cd04d0de4",
@@ -2482,7 +2750,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "a5c05d868145de5e248d",
@@ -2498,7 +2767,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "d0b10091b8f4f6b6334e",
@@ -2514,7 +2784,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "ff77f73e57105c7d5069",
@@ -2530,7 +2801,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "d8f9f8a97d1d72861b04",
@@ -2546,7 +2818,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "e13a890595c879f94d8e",
@@ -2562,7 +2835,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "2ead7005c587ea4f11b4",
@@ -2578,7 +2852,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "019dd401b52c0d88e52c",
@@ -2596,7 +2871,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "5f9022a2163b79302382",
@@ -2614,7 +2890,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "20edc5f1c52374d8c22c",
@@ -2632,7 +2909,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "72219c4cd204229dd169",
@@ -2648,7 +2926,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "7043f9a48544ce56456e",
@@ -2664,7 +2943,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "3813cd587515f6888333",
@@ -2680,7 +2960,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "bc5c8e1f9d5cb6d581e7",
@@ -2698,7 +2979,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "8b37f591466c17fb0cc9",
@@ -2714,7 +2996,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "e25122ddaadb015efea3",
@@ -2730,7 +3013,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "4e9a91117ec3ba0bbc7d",
@@ -2748,7 +3032,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "3d3e9ef7c78a033029aa",
@@ -2766,7 +3051,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "88c0880372fd2a846144",
@@ -2784,7 +3070,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "1008bbec6395e5fe3053",
@@ -2802,7 +3089,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "eea92a3534f590cebd4e",
@@ -2820,7 +3108,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "c4b816071746d3dc4ad4",
@@ -2836,7 +3125,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "62ffd47d3003a8a98768",
@@ -2852,7 +3142,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "2948672833b019eeef41",
@@ -2868,7 +3159,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "506b98c993c6aea760d2",
@@ -2884,7 +3176,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "1b92231dffe72385a435",
@@ -2900,7 +3193,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "9086ef89116d46290098",
@@ -2918,7 +3212,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "a68647bc7e95775b5ff7",
@@ -2936,7 +3231,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "6b7fab80512e20bb25e1",
@@ -2952,7 +3248,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "8a57e923229e0b91569b",
@@ -2970,7 +3267,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "daeda41463e07488ecd9",
@@ -2986,7 +3284,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "f4f5a563317d63cd9fa4",
@@ -3002,7 +3301,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "08af78c8d0a5c9e3d859",
@@ -3018,7 +3318,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "85d0bb1e5bc0d9718114",
@@ -3034,7 +3335,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "5e38d85b6299f58b7ecb",
@@ -3050,7 +3352,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "acee1b020054df8324e9",
@@ -3066,7 +3369,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "14c7364f833b2bc76a0e",
@@ -3082,7 +3386,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "13d8bfd723a4c11f59c0",
@@ -3098,7 +3403,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "1ae6df531532c0c9ff98",
@@ -3114,7 +3420,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "1c0b2111dfde7d021786",
@@ -3130,7 +3437,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "ca087212640c5a93e9ca",
@@ -3146,7 +3454,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "b69bfece71e957629986",
@@ -3162,7 +3471,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "ed46665c9c6c73651b3a",
@@ -3178,7 +3488,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "2fafecfe89affb8ebcfd",
@@ -3194,7 +3505,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "d2b54346277d71246920",
@@ -3210,7 +3522,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "da0f395f003465b4a012",
@@ -3226,7 +3539,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "d2db087ba45536e7e162",
@@ -3242,7 +3556,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "53d1c28fba3382900209",
@@ -3258,7 +3573,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "c7fc8b4756fe4ed10a36",
@@ -3274,7 +3590,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "d639001bcf2268c08fac",
@@ -3290,7 +3607,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "0bae7eac8a7835c13f15",
@@ -3306,7 +3624,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "4965cd3660c6e8a03a49",
@@ -3322,7 +3641,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "18ad0fe9fbfbbf91026f",
@@ -3338,7 +3658,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "2ed4d5a949075a1e7178",
@@ -3354,7 +3675,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "baf86fdb36556b23aa94",
@@ -3370,7 +3692,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "1d74af109bdf9cc8fc62",
@@ -3386,7 +3709,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "c6249418324fbb081d61",
@@ -3402,7 +3726,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "f6b4c593f49409528daf",
@@ -3418,7 +3743,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "14898868f7ee89cfed1e",
@@ -3434,7 +3760,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "e94fbb094c778430f91a",
@@ -3450,7 +3777,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "df381d46aaa24210ff5e",
@@ -3466,7 +3794,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "dd7e11c8f51ff7666267",
@@ -3482,7 +3811,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "2cd95299b3b317a98ad3",
@@ -3498,7 +3828,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "5bbca0a8a50b2a372f80",
@@ -3514,7 +3845,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "765af4bf65a05c10f2e1",
@@ -3530,7 +3862,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "56c878b0c6af0cf50303",
@@ -3546,7 +3879,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "1ef295b2e5431b4ee6a3",
@@ -3562,7 +3896,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "dee3c6a2e94528c758f8",
@@ -3578,7 +3913,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "a43b13c91d24f3716fa7",
@@ -3594,7 +3930,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "1878d395a5ad701ed372",
@@ -3610,7 +3947,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "4185e40da5aef7b873ac",
@@ -3626,7 +3964,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "59e3f2e3b70b1894d040",
@@ -3642,7 +3981,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "a0abda79203058e22d37",
@@ -3658,7 +3998,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "91e646ee3c99760c6b84",
@@ -3674,7 +4015,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "e25a6daeef437f74df70",
@@ -3690,7 +4032,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "f5661f017ca597c9e0fd",
@@ -3708,7 +4051,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "0cce4ab309b1332117e1",
@@ -3724,7 +4068,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "8014f45933c3d53b33f5",
@@ -3740,7 +4085,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "5ffdfe1c7eeaa7a2b2e2",
@@ -3756,7 +4102,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "15f8e2ee0a2c528d7e31",
@@ -3772,7 +4119,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "d78b1cd77c9f47395615",
@@ -3788,7 +4136,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "0715da68176ec1dfc55b",
@@ -3804,7 +4153,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "0f30f29cc60c35db74c4",
@@ -3820,7 +4170,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "a8cd83197016f859ff2c",
@@ -3836,7 +4187,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "2a9801d72f16586a29bc",
@@ -3852,7 +4204,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "173516b2cc6a0fba0c22",
@@ -3868,7 +4221,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "eba9506dfdbccc30039a",
@@ -3884,7 +4238,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "0a57c4e6e9f0abc3730a",
@@ -3900,7 +4255,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "ea07188c2c5b08e80907",
@@ -3916,7 +4272,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "c8abc2a498790f0bff1d",
@@ -3932,7 +4289,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "5333454d4d6e2f7f0460",
@@ -3948,7 +4306,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "546f59372b3748fe87dd",
@@ -3964,7 +4323,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "ddc70e1f5c022d3af772",
@@ -3980,7 +4340,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "97ecf3e5ae78e1ace5d6",
@@ -3996,7 +4357,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "f0d4ae721f89d8d09654",
@@ -4012,7 +4374,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "b2fc5d81e6b869e31b65",
@@ -4028,7 +4391,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "73b45a659c0c7bbd9c3b",
@@ -4044,7 +4408,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "38a69740d753c8681184",
@@ -4060,7 +4425,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "38f5dced2819cdfa377a",
@@ -4076,7 +4442,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "fb474bfa527f4a4c6728",
@@ -4092,7 +4459,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "e8cf386706d27ebc20d2",
@@ -4108,7 +4476,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "f320c39f4d7222709e07",
@@ -4124,7 +4493,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "3f27f22ede649095e220",
@@ -4140,7 +4510,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "45ce8946c25096171ad2",
@@ -4156,7 +4527,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "271ed45f20e46a90048b",
@@ -4172,7 +4544,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "f992602322c5e51a4605",
@@ -4188,7 +4561,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "e89500c3be179bcff25b",
@@ -4204,7 +4578,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "29730b51701c21b140a9",
@@ -4220,7 +4595,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "fab0b401e5ab7fcda2ea",
@@ -4236,7 +4612,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "88d85641a7fbe0fd2af3",
@@ -4254,7 +4631,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "b01bbc433a5dc42f4733",
@@ -4270,7 +4648,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "56df364da161ae92431b",
@@ -4286,7 +4665,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "959536c4f903b7cb1347",
@@ -4302,7 +4682,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "76bf2f678f60b9665518",
@@ -4318,7 +4699,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "02f20ac53c6bcf4e345c",
@@ -4334,7 +4716,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "154cdb311d0e78e0b600",
@@ -4350,7 +4733,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "78044a65d9c18b3593bd",
@@ -4366,7 +4750,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "bc32105a2d8be5864a18",
@@ -4382,7 +4767,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "f938ad06dc7db98b08a8",
@@ -4398,7 +4784,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "b64c2f9ed2972a235103",
@@ -4414,7 +4801,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "8f30c560152b3ca6ea64",
@@ -4430,7 +4818,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "d425bb3d048ce290085c",
@@ -4446,7 +4835,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "c330cfa9237fb874b665",
@@ -4462,7 +4852,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "65f69fe93f2183cb24ca",
@@ -4478,7 +4869,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "c89e78a37779f01a4bb9",
@@ -4494,7 +4886,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "caec57c31c75652d781b",
@@ -4510,7 +4903,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "06a36daec721bc510219",
@@ -4526,7 +4920,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "5fe6f0f4e3bc9134907b",
@@ -4542,7 +4937,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "cf566174b988473725ba",
@@ -4558,7 +4954,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "6ae9e5c655c9f0d845d4",
@@ -4574,7 +4971,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "bafe41072a54ff432c5c",
@@ -4590,7 +4988,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "8d21ad10a77b6ff7ff43",
@@ -4606,7 +5005,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "1a913592bb5b1abdcaea",
@@ -4624,7 +5024,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "9230725f9de8865b79e4",
@@ -4640,7 +5041,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "bf598f50d2ecb030aa27",
@@ -4656,7 +5058,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "b7091db8f184f9700c1a",
@@ -4672,7 +5075,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "fc7879f0444c49ede566",
@@ -4688,7 +5092,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "8879ee838ab0c27ac7ba",
@@ -4704,7 +5109,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "cbf7ef66b35c77533a21",
@@ -4722,7 +5128,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "0c56c3dd41f562385895",
@@ -4738,7 +5145,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "89ed3eed6a4214b6763c",
@@ -4754,7 +5162,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "28ebb947f4a1e1a3481c",
@@ -4770,7 +5179,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "f7fe704d8ebb0daa215f",
@@ -4786,7 +5196,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "47fc4d6ae5bab452f9c4",
@@ -4802,7 +5213,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "a90cfa20d5009f172f58",
@@ -4820,7 +5232,8 @@
       "lotes": [
         "L190801009"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "bde04a7e59ff9eebf117",
@@ -4836,7 +5249,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "8fd490bd0c3f11ef6c08",
@@ -4852,7 +5266,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "38d574654a7058c27535",
@@ -4868,7 +5283,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "3f3931f22db571eba079",
@@ -4886,7 +5302,8 @@
       "lotes": [
         "R1033A"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "e39147d832db2dccb578",
@@ -4902,7 +5319,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "0072233e21574262b867",
@@ -4918,7 +5336,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "e3710d97bd2a5ce6a4cd",
@@ -4934,7 +5353,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "451e91789ff37ef3485a",
@@ -4950,7 +5370,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "99f45b6b122f495230a8",
@@ -4966,7 +5387,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "f96db3984650e1c7ff98",
@@ -4982,7 +5404,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "21e6a703b89608396913",
@@ -5000,7 +5423,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "c87dcd3596c3a0590df7",
@@ -5018,7 +5442,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "6ed8004aef2117d98520",
@@ -5034,7 +5459,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "9458c144e928ec3f9c98",
@@ -5050,7 +5476,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "2c392c0a2f94e1089e27",
@@ -5066,7 +5493,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "f5100e335af8ecbccb4c",
@@ -5084,7 +5512,8 @@
       "lotes": [
         "del"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "1e168964c47257bdc4ee",
@@ -5100,7 +5529,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "0d3ae806fa57087a608c",
@@ -5116,7 +5546,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "66ce3675d4648fd59fc5",
@@ -5132,7 +5563,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "90c1b9d22b1e8f770666",
@@ -5148,7 +5580,8 @@
       "severity": "informativa",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "ae8480c91744fea90b33",
@@ -5166,7 +5599,8 @@
       "lotes": [
         "2007/158"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "f5f4b3e23d26af87b1ca",
@@ -5182,7 +5616,8 @@
       "severity": "alta",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "b45846965a098603682c",
@@ -5198,7 +5633,8 @@
       "severity": "media",
       "status": "Publicada",
       "lotes": [],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
       "id": "3240fc842fec050a7017",
@@ -5216,7 +5652,8 @@
       "lotes": [
         "fabricados"
       ],
-      "barcodes": []
+      "barcodes": [],
+      "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     }
   ]
 }
