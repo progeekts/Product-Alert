@@ -1,0 +1,23 @@
+name: Diagnóstico Safety Gate
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v7
+      - name: Configurar Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Instalar dependencias
+        run: pip install -r scripts/requirements.txt
+      - name: Inspeccionar estructura pública de Safety Gate
+        run: python scripts/probe_safety_gate.py
