@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_checked": "2026-09-16T15:10:07.808241+00:00",
+    "last_checked": "2026-09-16T21:15:00.453080+00:00",
     "sources": [
       {
         "id": "aesan_food",
@@ -10,8 +10,8 @@
         "ok": true,
         "stale": false,
         "items": 22,
-        "checked_at": "2026-09-16T15:09:49.400853+00:00",
-        "last_success": "2026-09-16T15:09:49.400853+00:00"
+        "checked_at": "2026-09-16T21:14:42.798398+00:00",
+        "last_success": "2026-09-16T21:14:42.798398+00:00"
       },
       {
         "id": "aemps_medicines",
@@ -21,8 +21,8 @@
         "ok": true,
         "stale": false,
         "items": 10,
-        "checked_at": "2026-09-16T15:09:49.940756+00:00",
-        "last_success": "2026-09-16T15:09:49.940756+00:00"
+        "checked_at": "2026-09-16T21:14:43.342455+00:00",
+        "last_success": "2026-09-16T21:14:43.342455+00:00"
       },
       {
         "id": "aemps_devices",
@@ -32,8 +32,8 @@
         "ok": true,
         "stale": false,
         "items": 231,
-        "checked_at": "2026-09-16T15:10:03.397038+00:00",
-        "last_success": "2026-09-16T15:10:03.397038+00:00"
+        "checked_at": "2026-09-16T21:14:56.207117+00:00",
+        "last_success": "2026-09-16T21:14:56.207117+00:00"
       },
       {
         "id": "aemps_cosmetics_actions",
@@ -43,8 +43,8 @@
         "ok": true,
         "stale": false,
         "items": 55,
-        "checked_at": "2026-09-16T15:10:05.043809+00:00",
-        "last_success": "2026-09-16T15:10:05.043809+00:00"
+        "checked_at": "2026-09-16T21:14:57.768136+00:00",
+        "last_success": "2026-09-16T21:14:57.768136+00:00"
       },
       {
         "id": "aemps_cosmetics_notes",
@@ -54,8 +54,8 @@
         "ok": true,
         "stale": false,
         "items": 14,
-        "checked_at": "2026-09-16T15:10:06.310000+00:00",
-        "last_success": "2026-09-16T15:10:06.310000+00:00"
+        "checked_at": "2026-09-16T21:14:59.097991+00:00",
+        "last_success": "2026-09-16T21:14:59.097991+00:00"
       },
       {
         "id": "eu_safety_gate",
@@ -64,13 +64,13 @@
         "url": "https://ec.europa.eu/safety-gate-alerts/screen/search",
         "ok": true,
         "stale": false,
-        "items": 266,
-        "fetched_now": 266,
-        "checked_at": "2026-09-16T15:10:07.808241+00:00",
-        "last_success": "2026-09-16T15:10:07.808241+00:00"
+        "items": 270,
+        "fetched_now": 270,
+        "checked_at": "2026-09-16T21:15:00.453080+00:00",
+        "last_success": "2026-09-16T21:15:00.453080+00:00"
       }
     ],
-    "count": 582,
+    "count": 586,
     "scope": "España + alertas UE/EEE claramente identificadas",
     "version": 9,
     "note": "Fuentes oficiales españolas y Safety Gate. En Safety Gate se distingue entre país notificante y países con actuaciones de seguimiento; ninguna de esas señales se interpreta automáticamente como prueba de comercialización en España.",
@@ -85,8 +85,8 @@
       "parser_version": 3,
       "processed_now": 35,
       "failed_now": 0,
-      "remaining": 231,
-      "checked_at": "2026-09-16T15:13:27.884056+00:00",
+      "remaining": 235,
+      "checked_at": "2026-09-16T21:17:46.981934+00:00",
       "note": "Enriquecimiento progresivo desde fichas PDF oficiales; extracción delimitada y fallos sin pérdida de historial."
     }
   },
@@ -135,7 +135,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118946/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:10:57.918558+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:15:36.823996+00:00"
     },
     {
       "id": "1cb2be1ede59af64e7d4",
@@ -183,7 +183,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118924/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:11:07.461006+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:15:41.522543+00:00"
     },
     {
       "id": "9c38d733c1678e8be36b",
@@ -231,7 +231,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118839/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:11:08.705288+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:15:42.521855+00:00"
     },
     {
       "id": "c78c639d05b7e1ffc004",
@@ -279,7 +279,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118737/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:11:11.906600+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:15:45.292995+00:00"
     },
     {
       "id": "b1f292e77d8affa281be",
@@ -325,7 +325,51 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118795/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:11:13.485008+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:15:46.877790+00:00"
+    },
+    {
+      "id": "fc18dc76bc5f08449d6f",
+      "source_id": "eu_safety_gate",
+      "title": "Mitre Essentials Plain Shower Curtain- White (SR/02479/26)",
+      "agency": "Safety Gate UE",
+      "category": "Artículos de decoración",
+      "category_basis": "official",
+      "official_category": "Artículos de decoración",
+      "date": "2026-09-16",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118662",
+      "description": "El tejido exterior del producto contiene una cantidad excesiva de sustancias relacionadas con el PFCA y compuestos relacionados con el ácido perfluorooctanoico (PFOA). Estas sustancias se bioacumulan en la vida silvestre y en los seres humanos, lo que supone un riesgo para la salud humana y el medio ambiente. Además, los PFOA son cancerígenos.",
+      "reference": "SR/02479/26",
+      "risk": "Riesgos químicos Medio ambiente",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "Cortina de ducha",
+      "brands": [],
+      "models": [
+        "GT798"
+      ],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
+      "legal_provision": "El producto no cumple el Reglamento REACH ni el Reglamento sobre contaminantes orgánicos persistentes (COP).",
+      "notifying_country": "Irlanda",
+      "country_origin": "Irlanda",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11229892",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false,
+      "category_method": "safety_gate_pdf",
+      "risk_description": "El tejido exterior del producto contiene una cantidad excesiva de sustancias relacionadas con el PFCA y compuestos relacionados con el ácido perfluorooctanoico (PFOA). Estas sustancias se bioacumulan en la vida silvestre y en los seres humanos, lo que supone un riesgo para la salud humana y el medio ambiente. Además, los PFOA son cancerígenos.",
+      "pdf_detail_enriched": true,
+      "pdf_detail_parser_version": 3,
+      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118662/es",
+      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
+      "pdf_detail_enriched_at": "2026-09-16T21:15:55.484826+00:00"
     },
     {
       "id": "acb2674cf902bb551aaa",
@@ -373,7 +417,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118818/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:11:15.136675+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:15:57.089753+00:00"
     },
     {
       "id": "7128091067f028458ae4",
@@ -419,7 +463,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10099468/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:11:35.649866+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:16:04.037265+00:00"
     },
     {
       "id": "ea4056069cd201979350",
@@ -467,7 +511,99 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118858/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:11:39.699224+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:16:05.844034+00:00"
+    },
+    {
+      "id": "3b032dffdde2426cde92",
+      "source_id": "eu_safety_gate",
+      "title": "Funda de cojín · Shein (SR/02448/26)",
+      "agency": "Safety Gate UE",
+      "category": "Ropa y textiles",
+      "category_basis": "official",
+      "official_category": "Ropa, textiles y artículos de moda",
+      "date": "2026-09-16",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118685",
+      "description": "El tejido exterior del producto contiene una cantidad excesiva de sustancias relacionadas con el C9-C14 PFCA y compuestos relacionados con el ácido perfluorooctanoico (PFOA). Estas sustancias se bioacumulan en la vida silvestre y en los seres humanos, lo que supone un riesgo para la salud humana y el medio ambiente. Además, los PFOA son cancerígenos.",
+      "reference": "SR/02448/26",
+      "risk": "Riesgos químicos Medio ambiente",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "Funda de cojín",
+      "brands": [
+        "Shein"
+      ],
+      "models": [],
+      "lotes": [
+        "123"
+      ],
+      "barcodes": [
+        "PB25111401222827"
+      ],
+      "measures": [],
+      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
+      "legal_provision": "El producto no cumple el Reglamento REACH ni el Reglamento sobre contaminantes orgánicos persistentes (COP).",
+      "notifying_country": "Irlanda",
+      "country_origin": "República Popular China",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11230414",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false,
+      "category_method": "safety_gate_pdf",
+      "risk_description": "El tejido exterior del producto contiene una cantidad excesiva de sustancias relacionadas con el C9-C14 PFCA y compuestos relacionados con el ácido perfluorooctanoico (PFOA). Estas sustancias se bioacumulan en la vida silvestre y en los seres humanos, lo que supone un riesgo para la salud humana y el medio ambiente. Además, los PFOA son cancerígenos.",
+      "pdf_detail_enriched": true,
+      "pdf_detail_parser_version": 3,
+      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118685/es",
+      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
+      "pdf_detail_enriched_at": "2026-09-16T21:16:22.303110+00:00"
+    },
+    {
+      "id": "fb88f3a7124f8615d640",
+      "source_id": "eu_safety_gate",
+      "title": "Couch Cushion Cover · Maxijin (SR/02437/26)",
+      "agency": "Safety Gate UE",
+      "category": "Ropa y textiles",
+      "category_basis": "official",
+      "official_category": "Ropa, textiles y artículos de moda",
+      "date": "2026-09-16",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118778",
+      "description": "El tejido exterior del producto contiene una cantidad excesiva de sustancias relacionadas con el C9-C14 PFCA y compuestos relacionados con el ácido perfluorooctanoico (PFOA). Estas sustancias se bioacumulan en la vida silvestre y en los seres humanos, lo que supone un riesgo para la salud humana y el medio ambiente. Además, los PFOA son cancerígenos.",
+      "reference": "SR/02437/26",
+      "risk": "Riesgos químicos Medio ambiente",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "Funda de cojín",
+      "brands": [
+        "Maxijin"
+      ],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
+      "legal_provision": "(COP).",
+      "notifying_country": "Irlanda",
+      "country_origin": "Desconocido",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11231403",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false,
+      "category_method": "safety_gate_pdf",
+      "risk_description": "El tejido exterior del producto contiene una cantidad excesiva de sustancias relacionadas con el C9-C14 PFCA y compuestos relacionados con el ácido perfluorooctanoico (PFOA). Estas sustancias se bioacumulan en la vida silvestre y en los seres humanos, lo que supone un riesgo para la salud humana y el medio ambiente. Además, los PFOA son cancerígenos.",
+      "pdf_detail_enriched": true,
+      "pdf_detail_parser_version": 3,
+      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118778/es",
+      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
+      "pdf_detail_enriched_at": "2026-09-16T21:16:34.619325+00:00"
     },
     {
       "id": "19fdbf320eb9db93af55",
@@ -515,7 +651,53 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118949/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:11:48.177176+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:16:43.017966+00:00"
+    },
+    {
+      "id": "f5a3d457f12df1844f77",
+      "source_id": "eu_safety_gate",
+      "title": "Christmas Cloth Napkins · Sastybale (SR/02449/26)",
+      "agency": "Safety Gate UE",
+      "category": "Ropa y textiles",
+      "category_basis": "official",
+      "official_category": "Ropa, textiles y artículos de moda",
+      "date": "2026-09-16",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118686",
+      "description": "El tejido exterior del producto contiene una cantidad excesiva de sustancias relacionadas con el C9-C14 PFCA y compuestos relacionados con el ácido perfluorooctanoico (PFOA). Estas sustancias se bioacumulan en la vida silvestre y en los seres humanos, lo que supone un riesgo para la salud humana y el medio ambiente. Además, los PFOA son cancerígenos.",
+      "reference": "SR/02449/26",
+      "risk": "Riesgos químicos Medio ambiente",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "Servilleta de tela",
+      "brands": [
+        "Sastybale"
+      ],
+      "models": [
+        "TB1225"
+      ],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
+      "legal_provision": "El producto no cumple los requisitos del Reglamento REACH ni del Reglamento sobre contaminantes orgánicos persistentes (COP).",
+      "notifying_country": "Irlanda",
+      "country_origin": "República Popular China",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11230426",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false,
+      "category_method": "safety_gate_pdf",
+      "risk_description": "El tejido exterior del producto contiene una cantidad excesiva de sustancias relacionadas con el C9-C14 PFCA y compuestos relacionados con el ácido perfluorooctanoico (PFOA). Estas sustancias se bioacumulan en la vida silvestre y en los seres humanos, lo que supone un riesgo para la salud humana y el medio ambiente. Además, los PFOA son cancerígenos.",
+      "pdf_detail_enriched": true,
+      "pdf_detail_parser_version": 3,
+      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118686/es",
+      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
+      "pdf_detail_enriched_at": "2026-09-16T21:16:55.304484+00:00"
     },
     {
       "id": "8386e46dd0db6629ca77",
@@ -559,7 +741,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118882/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:11:49.204753+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:16:56.259378+00:00"
     },
     {
       "id": "d24cf1255f2df3ec0562",
@@ -605,7 +787,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118733/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:11:56.500292+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:16:58.615110+00:00"
     },
     {
       "id": "3813b943f324ee7c1794",
@@ -651,7 +833,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118746/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:11:57.835158+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:16:59.889494+00:00"
     },
     {
       "id": "89f48111130b147baa7e",
@@ -697,7 +879,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118821/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:12:00.602105+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:17:01.419834+00:00"
     },
     {
       "id": "94cc64dfd8fa3942c752",
@@ -747,7 +929,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118953/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:12:05.947329+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:17:04.942490+00:00"
     },
     {
       "id": "93ed6161873c08c59284",
@@ -795,7 +977,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118861/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:12:11.799575+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:17:11.759473+00:00"
     },
     {
       "id": "aa8a138fe5283cfd7a74",
@@ -843,7 +1025,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118813/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:12:13.810718+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:17:13.678045+00:00"
     },
     {
       "id": "ad4e273466aebe2f21a4",
@@ -891,7 +1073,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118874/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:12:24.382941+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:17:18.211993+00:00"
     },
     {
       "id": "abadd1734e79d01380fa",
@@ -939,7 +1121,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118856/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:12:25.726224+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:17:19.433566+00:00"
     },
     {
       "id": "92dddd9ea85fdc624922",
@@ -987,7 +1169,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118938/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:12:29.050470+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:17:22.519502+00:00"
     },
     {
       "id": "43c359eb666281f4ad45",
@@ -1035,7 +1217,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118835/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:12:32.490144+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:17:25.801176+00:00"
     },
     {
       "id": "4ca1be1240f2dcb8bcf2",
@@ -1079,7 +1261,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118679/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:12:35.240588+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:17:28.377637+00:00"
     },
     {
       "id": "986b7e96f7a75662ec83",
@@ -1125,7 +1307,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118422/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:12:36.891017+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:17:30.018182+00:00"
     },
     {
       "id": "cc38970b6caa87a9d831",
@@ -1169,7 +1351,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118883/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:12:37.925135+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:17:31.023137+00:00"
     },
     {
       "id": "043d66c4a51d0a6a1a72",
@@ -1215,7 +1397,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118877/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:12:39.636551+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:17:32.670929+00:00"
     },
     {
       "id": "94d936ba42f347016864",
@@ -1259,7 +1441,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10094684/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:12:40.763858+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:17:33.775314+00:00"
     },
     {
       "id": "5cc3384491e49adb4c75",
@@ -1307,7 +1489,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118699/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:12:44.678759+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:17:35.683882+00:00"
     },
     {
       "id": "24b6f7cb71f1a2045bd7",
@@ -1355,7 +1537,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118830/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:12:55.041781+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:17:39.833925+00:00"
     },
     {
       "id": "203997427c03d50cbd87",
@@ -1403,7 +1585,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118572/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:12:56.700414+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:17:40.964259+00:00"
     },
     {
       "id": "ff0e2bcc822442bd2252",
@@ -1451,7 +1633,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118916/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:13:06.310926+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:17:44.247093+00:00"
     },
     {
       "id": "4e9c40b3aab99d8d42f7",
@@ -1495,7 +1677,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118914/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:13:07.434808+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:17:45.344459+00:00"
     },
     {
       "id": "f31ba82d1cd68949edeb",
@@ -1543,7 +1725,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118820/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:13:08.929556+00:00"
+      "pdf_detail_enriched_at": "2026-09-16T21:17:46.831806+00:00"
     },
     {
       "id": "eb7b75d133b445b656a6",
@@ -1551,29 +1733,25 @@
       "title": "GAN CHARGER 65W MAX 5 (SR/02519/26)",
       "agency": "Safety Gate UE",
       "category": "Electrónica y aparatos eléctricos",
-      "category_basis": "official",
-      "official_category": "Aparatos y equipos eléctricos",
+      "category_basis": "derived",
+      "official_category": "",
       "date": "2026-09-15",
       "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118798",
-      "description": "El producto carece de un aislamiento adecuado entre los circuitos primario y secundario. Los puertos USB secundarios y el cable conectado pueden activarse bajo tensión de red. En consecuencia, el usuario puede recibir una descarga eléctrica.",
+      "description": "GAN CHARGER 65W MAX 5",
       "reference": "SR/02519/26",
-      "risk": "Choque eléctrico",
+      "risk": "Descarga eléctrica",
       "severity": "media",
       "status": "Publicada",
-      "product": "Cargador USB",
+      "product": "GAN CHARGER 65W MAX 5",
       "brands": [],
-      "models": [
-        "ADC-GAN002 PKG012"
-      ],
+      "models": [],
       "lotes": [],
-      "barcodes": [
-        "6901756503002"
-      ],
+      "barcodes": [],
       "measures": [],
-      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
-      "legal_provision": "El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con la norma europea EN 60335-1.",
-      "notifying_country": "Hungría",
-      "country_origin": "República Popular China",
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
       "sold_online": "",
       "reacting_countries": [],
       "geographic_scope": "UE/EEE",
@@ -1582,14 +1760,7 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false,
-      "category_method": "safety_gate_pdf",
-      "risk_description": "El producto carece de un aislamiento adecuado entre los circuitos primario y secundario. Los puertos USB secundarios y el cable conectado pueden activarse bajo tensión de red. En consecuencia, el usuario puede recibir una descarga eléctrica.",
-      "pdf_detail_enriched": true,
-      "pdf_detail_parser_version": 3,
-      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118798/es",
-      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:13:15.046937+00:00"
+      "spain_related": false
     },
     {
       "id": "415f6ce12ffbd62eb601",
@@ -1597,33 +1768,27 @@
       "title": "FASTCHARGER · ORIGINAL (SR/02501/26)",
       "agency": "Safety Gate UE",
       "category": "Electrónica y aparatos eléctricos",
-      "category_basis": "official",
-      "official_category": "Aparatos y equipos eléctricos",
+      "category_basis": "derived",
+      "official_category": "",
       "date": "2026-09-15",
       "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118870",
-      "description": "El producto carece de un aislamiento adecuado entre los circuitos primario y secundario. El puerto USB secundario puede volverse activo bajo voltaje de red. En consecuencia, el usuario puede recibir una descarga eléctrica.",
+      "description": "FASTCHARGER",
       "reference": "SR/02501/26",
-      "risk": "Choque eléctrico",
+      "risk": "Descarga eléctrica",
       "severity": "media",
       "status": "Publicada",
-      "product": "Cargador USB",
+      "product": "FASTCHARGER",
       "brands": [
         "ORIGINAL"
       ],
-      "models": [
-        "044"
-      ],
-      "lotes": [
-        "1201655"
-      ],
-      "barcodes": [
-        "8000012016558"
-      ],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
       "measures": [],
-      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
-      "legal_provision": "El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con la norma europea EN 60335-1.",
-      "notifying_country": "Hungría",
-      "country_origin": "República Popular China",
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
       "sold_online": "",
       "reacting_countries": [],
       "geographic_scope": "UE/EEE",
@@ -1632,14 +1797,7 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false,
-      "category_method": "safety_gate_pdf",
-      "risk_description": "El producto carece de un aislamiento adecuado entre los circuitos primario y secundario. El puerto USB secundario puede volverse activo bajo voltaje de red. En consecuencia, el usuario puede recibir una descarga eléctrica.",
-      "pdf_detail_enriched": true,
-      "pdf_detail_parser_version": 3,
-      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118870/es",
-      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:13:16.836740+00:00"
+      "spain_related": false
     },
     {
       "id": "3896ab2b9d56d6605822",
@@ -1647,31 +1805,27 @@
       "title": "FAST TRAVEL CHARGER · EZRA (SR/02518/26)",
       "agency": "Safety Gate UE",
       "category": "Electrónica y aparatos eléctricos",
-      "category_basis": "official",
-      "official_category": "Aparatos y equipos eléctricos",
+      "category_basis": "derived",
+      "official_category": "",
       "date": "2026-09-15",
       "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118866",
-      "description": "El producto carece de un aislamiento adecuado entre los circuitos primario y secundario. Los puertos USB secundarios y el cable conectado pueden activarse bajo tensión de red. En consecuencia, el usuario puede recibir una descarga eléctrica.",
+      "description": "FAST TRAVEL CHARGER",
       "reference": "SR/02518/26",
-      "risk": "Choque eléctrico",
+      "risk": "Descarga eléctrica",
       "severity": "media",
       "status": "Publicada",
-      "product": "Cargador USB",
+      "product": "FAST TRAVEL CHARGER",
       "brands": [
         "EZRA"
       ],
-      "models": [
-        "HC67"
-      ],
+      "models": [],
       "lotes": [],
-      "barcodes": [
-        "6918888881465"
-      ],
+      "barcodes": [],
       "measures": [],
-      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
-      "legal_provision": "El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con la norma europea EN 60335-1.",
-      "notifying_country": "Hungría",
-      "country_origin": "República Popular China",
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
       "sold_online": "",
       "reacting_countries": [],
       "geographic_scope": "UE/EEE",
@@ -1680,14 +1834,7 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false,
-      "category_method": "safety_gate_pdf",
-      "risk_description": "El producto carece de un aislamiento adecuado entre los circuitos primario y secundario. Los puertos USB secundarios y el cable conectado pueden activarse bajo tensión de red. En consecuencia, el usuario puede recibir una descarga eléctrica.",
-      "pdf_detail_enriched": true,
-      "pdf_detail_parser_version": 3,
-      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118866/es",
-      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:13:26.039554+00:00"
+      "spain_related": false
     },
     {
       "id": "52d6caa55fda547f8505",
@@ -1695,31 +1842,27 @@
       "title": "FAST CHARGER · Qihang (SR/02515/26)",
       "agency": "Safety Gate UE",
       "category": "Electrónica y aparatos eléctricos",
-      "category_basis": "official",
-      "official_category": "Aparatos y equipos eléctricos",
+      "category_basis": "derived",
+      "official_category": "",
       "date": "2026-09-15",
       "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118801",
-      "description": "El producto carece de un aislamiento adecuado entre los circuitos primario y secundario. Los puertos USB secundarios y el cable conectado pueden activarse bajo tensión de red. En consecuencia, el usuario puede recibir una descarga eléctrica.",
+      "description": "FAST CHARGER",
       "reference": "SR/02515/26",
-      "risk": "Choque eléctrico",
+      "risk": "Descarga eléctrica",
       "severity": "media",
       "status": "Publicada",
-      "product": "Juego de cargadores USB",
+      "product": "FAST CHARGER",
       "brands": [
         "Qihang"
       ],
-      "models": [
-        "QH-Z50"
-      ],
+      "models": [],
       "lotes": [],
-      "barcodes": [
-        "6923450650509"
-      ],
+      "barcodes": [],
       "measures": [],
-      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
-      "legal_provision": "El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con la norma europea EN 60335-1.",
-      "notifying_country": "Hungría",
-      "country_origin": "República Popular China",
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
       "sold_online": "",
       "reacting_countries": [],
       "geographic_scope": "UE/EEE",
@@ -1728,14 +1871,7 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false,
-      "category_method": "safety_gate_pdf",
-      "risk_description": "El producto carece de un aislamiento adecuado entre los circuitos primario y secundario. Los puertos USB secundarios y el cable conectado pueden activarse bajo tensión de red. En consecuencia, el usuario puede recibir una descarga eléctrica.",
-      "pdf_detail_enriched": true,
-      "pdf_detail_parser_version": 3,
-      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118801/es",
-      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-16T15:13:27.733839+00:00"
+      "spain_related": false
     },
     {
       "id": "c5f5d3de7cb647e6fb28",
