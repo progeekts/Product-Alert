@@ -71,7 +71,11 @@ def enrich_aemps_medicine(item):
   if product:item["product"]=product
   if defect:item["risk"]=defect;item["description"]=f"Defecto de calidad: {defect}"
   if classification:item["official_classification"]=classification
-  if measures:item["measures"]=measures;item["consumer_action"]=measures
+  if measures:
+   item["measures"]=[measures]
+   # Una medida adoptada por AEMPS, fabricante o distribuidor no es por sí
+   # misma una instrucción dirigida al paciente/consumidor.
+   item["consumer_action"]="Consulta la publicación oficial de la AEMPS para conocer las recomendaciones aplicables a pacientes y usuarios."
   item["reference"]=reference;item["lotes"]=lots;item["enriched_from_detail"]=True
  except Exception as exc:item["enriched_from_detail"]=False;item["enrichment_error"]=str(exc)[:160]
  return item
@@ -113,7 +117,7 @@ def main():
    collected.extend(items);source_status.append({"id":source["id"],"agency":source["agency"],"category":source["category"],"url":source["url"],"ok":True,"stale":False,"items":len(items),"checked_at":checked,"last_success":checked});print(f"[{source['id']}] {len(items)} registros detectados")
   except Exception as exc:
    cached=previous_slice(previous,source);collected.extend(cached);old=next((s for s in previous.get("meta",{}).get("sources",[]) if s.get("id")==source["id"] or s.get("url")==source["url"]),{});source_status.append({"id":source["id"],"agency":source["agency"],"category":source["category"],"url":source["url"],"ok":False,"stale":True,"items":len(cached),"checked_at":checked,"last_success":old.get("last_success"),"error":str(exc)[:250]});print(f"[{source['id']}] ERROR; se conservan {len(cached)} registros previos: {exc}")
- alerts=dedupe(collected);alerts.sort(key=lambda x:(x.get("date",""),x.get("title","")),reverse=True);payload={"meta":{"last_checked":datetime.now(timezone.utc).isoformat(),"sources":source_status,"count":len(alerts),"scope":"España","version":6,"note":"Información agregada desde fuentes oficiales. Los campos de medidas y actuación del consumidor solo se muestran cuando proceden de la fuente oficial; en ausencia de instrucciones se remite a la publicación original."},"alerts":alerts}
+ alerts=dedupe(collected);alerts.sort(key=lambda x:(x.get("date",""),x.get("title","")),reverse=True);payload={"meta":{"last_checked":datetime.now(timezone.utc).isoformat(),"sources":source_status,"count":len(alerts),"scope":"España","version":6,"note":"Información agregada desde fuentes oficiales. Las medidas oficiales y las recomendaciones al consumidor se mantienen como conceptos separados; en ausencia de instrucciones explícitas para pacientes o usuarios se remite a la publicación original."},"alerts":alerts}
  with open(DATA_FILE,"w",encoding="utf-8") as f:json.dump(payload,f,ensure_ascii=False,indent=2)
  print(f"Registro actualizado: {len(alerts)} alertas únicas")
 if __name__=="__main__":main()
