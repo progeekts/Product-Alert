@@ -1,0 +1,30 @@
+name: Calidad de datos
+
+on:
+  pull_request:
+    paths:
+      - 'data/alertas.json'
+      - 'scripts/**'
+      - '.github/workflows/data-quality.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'data/alertas.json'
+      - 'scripts/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v5
+      - name: Configurar Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - name: Auditar datos publicados
+        run: python scripts/audit_data.py
