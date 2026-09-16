@@ -2,16 +2,28 @@
 
 Product Alert distingue entre datos oficiales publicados por Safety Gate y datos derivados por nuestra normalización.
 
-La documentación pública de la Comisión Europea indica que pueden publicarse, entre otros, estos campos de producto: categoría, marca, modelo/tipo, código de barras, país de origen, descripción breve y fotografía.
+## Fuentes verificadas
+
+El endpoint público `mostRecent` se usa como índice de alertas recientes. En las ejecuciones observadas expone ID, referencia, fechas, datos básicos de producto, marca/fotografía y tipos de riesgo, pero no el conjunto completo de campos de detalle.
+
+La ficha PDF individual oficial de Safety Gate se usa como fuente de enriquecimiento. En pruebas reales de septiembre de 2026 se comprobó que el PDF contiene texto extraíble sin OCR y puede publicar, según la alerta: país notificante, categoría oficial, producto, nombre, marca, modelo, lote, código de barras, descripción, tipo y descripción del riesgo, normativa, país de origen y medidas adoptadas.
+
+Safety Gate advierte que la versión española del PDF es una traducción automática; si existe discrepancia, prevalece la versión inglesa. Product Alert conserva esta limitación en la procedencia del dato.
 
 ## Regla de tratamiento
 
-1. Si el dato oficial está disponible y el extractor puede leerlo, se conserva como dato oficial.
-2. Las categorías oficiales tienen prioridad absoluta sobre cualquier clasificación interna.
-3. Si la categoría oficial no está disponible o no puede mapearse, puede aplicarse una clasificación textual de respaldo. Se marca como `category_basis: derived` y nunca se presenta como categoría oficial.
-4. Una relación administrativa con España (país notificante o seguimiento) no se interpreta como prueba automática de comercialización en España.
-5. Las medidas adoptadas por autoridades u operadores no se convierten automáticamente en instrucciones al consumidor.
+1. El dato oficial leído de la ficha tiene prioridad sobre una clasificación derivada.
+2. Solo se extraen campos delimitados por etiquetas conocidas; si la estructura no es reconocible, se conserva el registro anterior.
+3. La extracción de PDF no utiliza OCR.
+4. El enriquecimiento es progresivo y limitado por ejecución para evitar descargas masivas innecesarias.
+5. Una relación administrativa con España no demuestra por sí sola que el producto se comercializara en España.
+6. Las medidas adoptadas por autoridades u operadores se almacenan como medidas oficiales y no se convierten automáticamente en instrucciones al consumidor.
+7. Cada alerta mantiene enlace a la publicación oficial y, cuando se enriquece, referencia a la ficha PDF utilizada.
 
-## Objetivo de enriquecimiento
+## Resiliencia
 
-La clasificación textual es una solución de respaldo. El objetivo técnico es ampliar progresivamente el extractor para recuperar directamente todos los campos públicos que Safety Gate exponga de forma fiable, manteniendo trazabilidad hacia la publicación oficial.
+Un fallo del índice, de una ficha PDF o de la extracción no elimina alertas válidas ya almacenadas. La actualización conserva el último dato conocido y el control de calidad se ejecuta antes de publicar el JSON generado.
+
+## Evolución
+
+La clasificación textual permanece únicamente como respaldo. A medida que una alerta obtiene categoría oficial desde su ficha, `category_basis` pasa a `official` y `category_method` a `safety_gate_pdf`.
