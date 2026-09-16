@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_checked": "2026-09-16T12:07:43.241267+00:00",
+    "last_checked": "2026-09-16T12:41:25.999290+00:00",
     "sources": [
       {
         "id": "aesan_food",
@@ -10,8 +10,8 @@
         "ok": true,
         "stale": false,
         "items": 22,
-        "checked_at": "2026-09-16T12:07:25.221977+00:00",
-        "last_success": "2026-09-16T12:07:25.221977+00:00"
+        "checked_at": "2026-09-16T12:41:10.379404+00:00",
+        "last_success": "2026-09-16T12:41:10.379404+00:00"
       },
       {
         "id": "aemps_medicines",
@@ -21,8 +21,8 @@
         "ok": true,
         "stale": false,
         "items": 10,
-        "checked_at": "2026-09-16T12:07:25.876435+00:00",
-        "last_success": "2026-09-16T12:07:25.876435+00:00"
+        "checked_at": "2026-09-16T12:41:10.873002+00:00",
+        "last_success": "2026-09-16T12:41:10.873002+00:00"
       },
       {
         "id": "aemps_devices",
@@ -32,8 +32,8 @@
         "ok": true,
         "stale": false,
         "items": 231,
-        "checked_at": "2026-09-16T12:07:38.833220+00:00",
-        "last_success": "2026-09-16T12:07:38.833220+00:00"
+        "checked_at": "2026-09-16T12:41:22.222250+00:00",
+        "last_success": "2026-09-16T12:41:22.222250+00:00"
       },
       {
         "id": "aemps_cosmetics_actions",
@@ -43,8 +43,8 @@
         "ok": true,
         "stale": false,
         "items": 55,
-        "checked_at": "2026-09-16T12:07:40.487440+00:00",
-        "last_success": "2026-09-16T12:07:40.487440+00:00"
+        "checked_at": "2026-09-16T12:41:23.647438+00:00",
+        "last_success": "2026-09-16T12:41:23.647438+00:00"
       },
       {
         "id": "aemps_cosmetics_notes",
@@ -54,8 +54,8 @@
         "ok": true,
         "stale": false,
         "items": 14,
-        "checked_at": "2026-09-16T12:07:41.853807+00:00",
-        "last_success": "2026-09-16T12:07:41.853807+00:00"
+        "checked_at": "2026-09-16T12:41:24.742973+00:00",
+        "last_success": "2026-09-16T12:41:24.742973+00:00"
       },
       {
         "id": "eu_safety_gate",
@@ -66,14 +66,19 @@
         "stale": false,
         "items": 271,
         "fetched_now": 271,
-        "checked_at": "2026-09-16T12:07:43.241267+00:00",
-        "last_success": "2026-09-16T12:07:43.241267+00:00"
+        "checked_at": "2026-09-16T12:41:25.999290+00:00",
+        "last_success": "2026-09-16T12:41:25.999290+00:00"
       }
     ],
     "count": 587,
     "scope": "España + alertas UE/EEE claramente identificadas",
     "version": 9,
-    "note": "Fuentes oficiales españolas y Safety Gate. En Safety Gate se distingue entre país notificante y países con actuaciones de seguimiento; ninguna de esas señales se interpreta automáticamente como prueba de comercialización en España."
+    "note": "Fuentes oficiales españolas y Safety Gate. En Safety Gate se distingue entre país notificante y países con actuaciones de seguimiento; ninguna de esas señales se interpreta automáticamente como prueba de comercialización en España.",
+    "category_enrichment": {
+      "method": "text_fallback_v2",
+      "changed": 12,
+      "principle": "La categoría oficial prevalece; la inferencia solo se usa como respaldo cuando falta."
+    }
   },
   "alerts": [
     {
@@ -155,7 +160,7 @@
       "source_id": "eu_safety_gate",
       "title": "Oil Filled Radiator 9 FIN 2kW  · Kobe (SR/02444/26)",
       "agency": "Safety Gate UE",
-      "category": "Otros productos",
+      "category": "Electrónica y aparatos eléctricos",
       "category_basis": "derived",
       "official_category": "",
       "date": "2026-09-16",
@@ -185,7 +190,8 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false
+      "spain_related": false,
+      "category_method": "text_fallback_v2"
     },
     {
       "id": "acb2674cf902bb551aaa",
@@ -229,7 +235,7 @@
       "source_id": "eu_safety_gate",
       "title": "Loción para después del afeitado · Neptune (SR/02472/26)",
       "agency": "Safety Gate UE",
-      "category": "Otros productos",
+      "category": "Cosméticos",
       "category_basis": "derived",
       "official_category": "",
       "date": "2026-09-16",
@@ -259,7 +265,8 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false
+      "spain_related": false,
+      "category_method": "text_fallback_v2"
     },
     {
       "id": "ea4056069cd201979350",
@@ -377,7 +384,7 @@
       "source_id": "eu_safety_gate",
       "title": "AC/DC ADAPTOR · *GEO* (SR/02443/26)",
       "agency": "Safety Gate UE",
-      "category": "Otros productos",
+      "category": "Electrónica y aparatos eléctricos",
       "category_basis": "derived",
       "official_category": "",
       "date": "2026-09-16",
@@ -407,7 +414,8 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false
+      "spain_related": false,
+      "category_method": "text_fallback_v2"
     },
     {
       "id": "89f48111130b147baa7e",
@@ -931,7 +939,7 @@
       "source_id": "eu_safety_gate",
       "title": "Mermaid Girl · Abababy (SR/02504/26)",
       "agency": "Safety Gate UE",
-      "category": "Otros productos",
+      "category": "Infantil",
       "category_basis": "derived",
       "official_category": "",
       "date": "2026-09-15",
@@ -961,7 +969,8 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false
+      "spain_related": false,
+      "category_method": "text_fallback_v2"
     },
     {
       "id": "203997427c03d50cbd87",
@@ -2406,7 +2415,7 @@
       "source_id": "eu_safety_gate",
       "title": "SHOOT GANE · 7 Toys Kolorow (SR/02477/26)",
       "agency": "Safety Gate UE",
-      "category": "Otros productos",
+      "category": "Juguetes",
       "category_basis": "derived",
       "official_category": "",
       "date": "2026-09-10",
@@ -2436,7 +2445,8 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false
+      "spain_related": false,
+      "category_method": "text_fallback_v2"
     },
     {
       "id": "fc9233d99d57904ac5c2",
@@ -3029,7 +3039,7 @@
       "source_id": "eu_safety_gate",
       "title": "Luminaria · Oxyled (SR/02454/26)",
       "agency": "Safety Gate UE",
-      "category": "Otros productos",
+      "category": "Iluminación",
       "category_basis": "derived",
       "official_category": "",
       "date": "2026-09-10",
@@ -3059,7 +3069,8 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false
+      "spain_related": false,
+      "category_method": "text_fallback_v2"
     },
     {
       "id": "b77cd19fb127f5d4b842",
@@ -3212,7 +3223,7 @@
       "source_id": "eu_safety_gate",
       "title": "Hervidor eléctrico · Milla Home (SR/02453/26)",
       "agency": "Safety Gate UE",
-      "category": "Otros productos",
+      "category": "Electrónica y aparatos eléctricos",
       "category_basis": "derived",
       "official_category": "",
       "date": "2026-09-10",
@@ -3242,7 +3253,8 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false
+      "spain_related": false,
+      "category_method": "text_fallback_v2"
     },
     {
       "id": "0373ce27c17e47f37bbd",
@@ -4300,7 +4312,7 @@
       "source_id": "eu_safety_gate",
       "title": "pistolet de tir continu avec cible et balles à trou souples · Lefan Toys (SR/02272/26)",
       "agency": "Safety Gate UE",
-      "category": "Otros productos",
+      "category": "Juguetes",
       "category_basis": "derived",
       "official_category": "",
       "date": "2026-09-07",
@@ -4330,7 +4342,8 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false
+      "spain_related": false,
+      "category_method": "text_fallback_v2"
     },
     {
       "id": "b28da8707e4f7b491585",
@@ -4843,7 +4856,7 @@
       "source_id": "eu_safety_gate",
       "title": "CREPE MAKER  · *Ningbo Zhuoyi Electrical Appliance Co., Ltd* (SR/02115/26)",
       "agency": "Safety Gate UE",
-      "category": "Otros productos",
+      "category": "Electrónica y aparatos eléctricos",
       "category_basis": "derived",
       "official_category": "",
       "date": "2026-09-04",
@@ -4873,7 +4886,8 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false
+      "spain_related": false,
+      "category_method": "text_fallback_v2"
     },
     {
       "id": "a683a1e1aa4ccaa58064",
@@ -6322,7 +6336,7 @@
       "source_id": "eu_safety_gate",
       "title": "Adaptador de corriente · EXTRA DIGITAL (SR/02321/26)",
       "agency": "Safety Gate UE",
-      "category": "Otros productos",
+      "category": "Electrónica y aparatos eléctricos",
       "category_basis": "derived",
       "official_category": "",
       "date": "2026-08-18",
@@ -6352,7 +6366,8 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false
+      "spain_related": false,
+      "category_method": "text_fallback_v2"
     },
     {
       "id": "bb1d95b4a2ca655bb7cf",
@@ -6703,7 +6718,7 @@
       "source_id": "eu_safety_gate",
       "title": "Super Stretchy Soldier · TOI-TOYS (SR/02251/26)",
       "agency": "Safety Gate UE",
-      "category": "Otros productos",
+      "category": "Juguetes",
       "category_basis": "derived",
       "official_category": "",
       "date": "2026-08-11",
@@ -6733,7 +6748,8 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false
+      "spain_related": false,
+      "category_method": "text_fallback_v2"
     },
     {
       "id": "e3cc868682fe664f8904",
@@ -9225,10 +9241,12 @@
         "afectados"
       ],
       "barcodes": [],
-      "consumer_action": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "consumer_action": "Consulta la publicación oficial de la AEMPS para conocer las recomendaciones aplicables a pacientes y usuarios.",
       "product": "Medicamento Marca comercial y presentación: OCULOTECT 50 mg/ml COLIRIO EN SOLUCION , 1 frasco de 10 ml (NR: 61982, CN: 755215) DCI o DOE: POVIDONA",
       "official_classification": "de los defectos: Clase 3 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
-      "measures": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "measures": [
+        "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente"
+      ],
       "enriched_from_detail": true
     },
     {
@@ -9489,10 +9507,12 @@
         "2621440236"
       ],
       "barcodes": [],
-      "consumer_action": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada",
+      "consumer_action": "Consulta la publicación oficial de la AEMPS para conocer las recomendaciones aplicables a pacientes y usuarios.",
       "product": "Fórmula magistral Marca comercial y presentación: Solución cardiopléjica hemática (HM) con potasio Solución cardiopléjica hemática (HM) sin potasio Solución cardiopléjica IB DCI o DOE: ACETATO SODIO, BICARBONATO SÓDICO, CALCIO CLORURO, GLUCONATO SODIO, MAGNESIO CLORURO HEXAHIDRATO, POTASIO CLORURO ANHIDRO, SODIO CLORURO, CLORURO DE POTASIO, MAGNESIO SULFATO Lotes y fechas de caducidad: Solución cardiopléjica hemática (HM) con potasio",
       "official_classification": "de los defectos: Clase 1 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada",
-      "measures": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada",
+      "measures": [
+        "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada"
+      ],
       "enriched_from_detail": true
     },
     {
@@ -9513,10 +9533,12 @@
         "afectado"
       ],
       "barcodes": [],
-      "consumer_action": "adoptadas: Retirada del mercado de todas las unidades distribuidas del lote afectado y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "consumer_action": "Consulta la publicación oficial de la AEMPS para conocer las recomendaciones aplicables a pacientes y usuarios.",
       "product": "Medicamento Marca comercial y presentación: ORAMORPH 2 MG/ML SOLUCION ORAL , 1 frasco de 100 ml (NR: 62039, CN: 821934) DCI o DOE: MORFINA SULFATO",
       "official_classification": "de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas del lote afectado y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
-      "measures": "adoptadas: Retirada del mercado de todas las unidades distribuidas del lote afectado y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "measures": [
+        "adoptadas: Retirada del mercado de todas las unidades distribuidas del lote afectado y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente"
+      ],
       "enriched_from_detail": true
     },
     {
@@ -9698,10 +9720,12 @@
         "1136"
       ],
       "barcodes": [],
-      "consumer_action": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "consumer_action": "Consulta la publicación oficial de la AEMPS para conocer las recomendaciones aplicables a pacientes y usuarios.",
       "product": "Medicamento Marca comercial, presentación, número de registro y código nacional: EMULIQUEN LAXANTE 478,26 mg/ml + 0,3 mg/ml EMULSION ORAL, 1 frasco de 230 ml (NR: 16678, CN: 744011) EMULIQUEN LAXANTE 7.173,9 mg/4,5 mg EMULSION ORAL EN SOBRES, 10 sobres (NR: 64258, CN: 821249) EMULIQUEN LAXANTE 7.173,9 mg/4,5 mg EMULSION ORAL EN SOBRES, 200 sobres (NR: 64258, CN: 603035) DCI o DOE: PARAFINA LIQUIDA, PICOSULFATO SODIO Lotes y fechas de caducidad: EMULIQUEN LAXANTE 478,26 mg/ml + 0,3 mg/ml EMULSION ORAL , 1 frasco de 230 ml (NR: 16678, CN: 744011)",
       "official_classification": "de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
-      "measures": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "measures": [
+        "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente"
+      ],
       "enriched_from_detail": true
     },
     {
@@ -9796,10 +9820,12 @@
         "afectados"
       ],
       "barcodes": [],
-      "consumer_action": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "consumer_action": "Consulta la publicación oficial de la AEMPS para conocer las recomendaciones aplicables a pacientes y usuarios.",
       "product": "Medicamento Marca comercial y presentación: Allergovit 123 Parietaria 100% suspensión inyectable, en su formato de Mantenimiento de 2 viales, concentración B (10.000 UT/ml) DCI o DOE: Parietaria officinalis Lote G2311031-03 Fecha de caducidad: 30/09/2026 Fabricante: Allergopharma GmbH&Co. KG Responsable: MIBE PHARMA ESPAÑA, SLU – C/Amaltea 9, 4ª planta, puerta B Descripción del",
       "official_classification": "de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
-      "measures": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "measures": [
+        "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente"
+      ],
       "enriched_from_detail": true
     },
     {
@@ -9992,10 +10018,12 @@
         "afectados"
       ],
       "barcodes": [],
-      "consumer_action": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada",
+      "consumer_action": "Consulta la publicación oficial de la AEMPS para conocer las recomendaciones aplicables a pacientes y usuarios.",
       "product": "Medicamento de uso hospitalario Marca comercial, presentación, número de registro y código nacional: OMNIPAQUE 300 mg Iodo /ml SOLUCION INYECTABLE, 10 frascos de 100 ml (NR: 62018, CN: 607582) OMNIPAQUE 350 mg Iodo /ml SOLUCION INYECTABLE, 10 frascos de 100 ml (NR: 62019, CN: 607586) VISIPAQUE 320 mg /ml SOLUCION INYECTABLE, 10 frascos de 100 ml (NR: 60637, CN: 607595) DCI o DOE: IOHEXOL, IODIXANOL Lotes y fechas de caducidad: OMNIPAQUE 300 mg Iodo /ml SOLUCION INYECTABLE, 10 frascos de 100 ml (NR: 62018, CN: 607582)",
       "official_classification": "de los defectos: Clase 1 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada",
-      "measures": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada",
+      "measures": [
+        "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada"
+      ],
       "enriched_from_detail": true
     },
     {
@@ -10100,10 +10128,12 @@
         "afectados"
       ],
       "barcodes": [],
-      "consumer_action": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "consumer_action": "Consulta la publicación oficial de la AEMPS para conocer las recomendaciones aplicables a pacientes y usuarios.",
       "product": "Medicamento de uso hospitalario Marca comercial, presentación, número de registro y código nacional: UROGRAFIN 370 MG IODO/ML SOLUCION INYECTABLE Y PARA PERFUSION, 1 frasco de 50 ml (NR: 23817, CN: 914614) UROGRAFIN 370 MG IODO/ML SOLUCION INYECTABLE Y PARA PERFUSION, 1 ampolla de 20 ml (NR: 23817, CN: 910067) UROGRAFIN 370 MG IODO/ML SOLUCION INYECTABLE Y PARA PERFUSION, 1 frasco de 100 ml (NR: 23817, CN: 909846) DCI o DOE: AMIDOTRIZOATO MEGLUMINA, AMIDOTRIZOATO SODIO Lotes y fechas de caducidad: UROGRAFIN 370 MG IODO/ML SOLUCION INYECTABLE Y PARA PERFUSION, 1 frasco de 50 ml (NR: 23817, CN: 914614)",
       "official_classification": "de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
-      "measures": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "measures": [
+        "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente"
+      ],
       "enriched_from_detail": true
     },
     {
@@ -10133,10 +10163,12 @@
         "afectados"
       ],
       "barcodes": [],
-      "consumer_action": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "consumer_action": "Consulta la publicación oficial de la AEMPS para conocer las recomendaciones aplicables a pacientes y usuarios.",
       "product": "Medicamento de uso hospitalario Marca comercial, presentación, número de registro y código nacional: GASTROGRAFIN 370 MG IODO/ML SOLUCIÓN ORAL Y RECTAL , 1 frasco de 100 mi (NR: 36270, CN: 909622) DCI o DOE: AMIDOTRIZOATO MEGLUMINA, AMIDOTRIZOATO SODIO Lotes y fechas de caducidad",
       "official_classification": "de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
-      "measures": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "measures": [
+        "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente"
+      ],
       "enriched_from_detail": true
     },
     {
@@ -10157,10 +10189,12 @@
         "afectados"
       ],
       "barcodes": [],
-      "consumer_action": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de Calidad que no supone un riesgo vital para el paciente",
+      "consumer_action": "Consulta la publicación oficial de la AEMPS para conocer las recomendaciones aplicables a pacientes y usuarios.",
       "product": "Medicamento de uso hospitalario Marca comercial, presentación, número de registro y código nacional: CUROSURF 240, 1 vial de 3 ml (NR: 59600, CN: 778191) DCI o DOE: TENSIOACTIVO PULMONAR PORCINO",
       "official_classification": "de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de Calidad que no supone un riesgo vital para el paciente",
-      "measures": "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de Calidad que no supone un riesgo vital para el paciente",
+      "measures": [
+        "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de Calidad que no supone un riesgo vital para el paciente"
+      ],
       "enriched_from_detail": true
     },
     {
@@ -10218,10 +10252,12 @@
         "afectado"
       ],
       "barcodes": [],
-      "consumer_action": "adoptadas: Retirada del mercado de todas las unidades distribuidas del lote afectado y devolución al laboratorio por los cauces habituale Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "consumer_action": "Consulta la publicación oficial de la AEMPS para conocer las recomendaciones aplicables a pacientes y usuarios.",
       "product": "Medicamento Marca comercial, presentación, número de registro y código nacional: IKERVIS 1 mg/ml colirio en emulsion 30 envases unidosis de 0,3 ml (NR: 115990001, CN: 707966) DCI o DOE: CICLOSPORINA",
       "official_classification": "de los defectos: Clase 2 Medidas cautelares adoptadas: Retirada del mercado de todas las unidades distribuidas del lote afectado y devolución al laboratorio por los cauces habituale Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
-      "measures": "adoptadas: Retirada del mercado de todas las unidades distribuidas del lote afectado y devolución al laboratorio por los cauces habituale Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente",
+      "measures": [
+        "adoptadas: Retirada del mercado de todas las unidades distribuidas del lote afectado y devolución al laboratorio por los cauces habituale Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente"
+      ],
       "enriched_from_detail": true
     },
     {
@@ -10412,7 +10448,7 @@
       "source_id": "eu_safety_gate",
       "title": "CHALLENGER, CHIEFTAIN, PURSUIT, ROADMASTER, SPRINGFIELD · Indian Motorcycle (SR/02878/25)",
       "agency": "Safety Gate UE",
-      "category": "Otros productos",
+      "category": "Vehículos",
       "category_basis": "derived",
       "official_category": "",
       "date": "2025-07-31",
@@ -10442,7 +10478,8 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false
+      "spain_related": false,
+      "category_method": "text_fallback_v2"
     },
     {
       "id": "21e63c049a02eba24fd9",
