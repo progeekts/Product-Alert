@@ -1,56 +1,72 @@
 {
   "meta": {
-    "last_checked": "2026-09-16T09:55:04.476159+00:00",
+    "last_checked": "2026-09-16T10:04:20.464419+00:00",
     "sources": [
       {
+        "id": "aesan_food",
         "agency": "AESAN",
         "category": "Alimentación",
         "url": "https://www.aesan.gob.es/alertas/alertas-alimentarias",
         "ok": true,
         "stale": false,
-        "items": 22
+        "items": 22,
+        "checked_at": "2026-09-16T10:04:14.575320+00:00",
+        "last_success": "2026-09-16T10:04:14.575320+00:00"
       },
       {
+        "id": "aemps_medicines",
         "agency": "AEMPS",
         "category": "Medicamentos",
         "url": "https://www.aemps.gob.es/comunicacion/alertas/alertas-farmaceuticas-y-retiradas-de-lotes-de-medicamentos-de-uso-humano-por-defectos-de-calidad/",
         "ok": true,
         "stale": false,
-        "items": 0
+        "items": 0,
+        "checked_at": "2026-09-16T10:04:15.055355+00:00",
+        "last_success": "2026-09-16T10:04:15.055355+00:00"
       },
       {
+        "id": "aemps_devices",
         "agency": "AEMPS",
         "category": "Productos sanitarios",
         "url": "https://www.aemps.gob.es/productos-sanitarios/acciones-informativas-productos-sanitarios/",
         "ok": true,
         "stale": false,
-        "items": 231
+        "items": 231,
+        "checked_at": "2026-09-16T10:04:16.597130+00:00",
+        "last_success": "2026-09-16T10:04:16.597130+00:00"
       },
       {
+        "id": "aemps_cosmetics_actions",
         "agency": "AEMPS",
         "category": "Cosméticos",
         "url": "https://www.aemps.gob.es/comunicacion/notas-de-seguridad/acciones-informativas-notas-de-seguridad-cosmeticos-y-cuidado-personal/",
         "ok": true,
         "stale": false,
-        "items": 55
+        "items": 55,
+        "checked_at": "2026-09-16T10:04:18.081614+00:00",
+        "last_success": "2026-09-16T10:04:18.081614+00:00"
       },
       {
+        "id": "aemps_cosmetics_notes",
         "agency": "AEMPS",
         "category": "Cosméticos",
         "url": "https://www.aemps.gob.es/comunicacion/notas-de-seguridad/notas-informativas-de-seguridad-de-cosmeticos/",
         "ok": true,
         "stale": false,
-        "items": 14
+        "items": 14,
+        "checked_at": "2026-09-16T10:04:19.336094+00:00",
+        "last_success": "2026-09-16T10:04:19.336094+00:00"
       }
     ],
     "count": 306,
     "scope": "España",
-    "version": 3,
-    "note": "Información agregada desde fuentes oficiales. Si una fuente falla temporalmente, se conserva su último conjunto conocido y se marca como desactualizado. La publicación original prevalece siempre."
+    "version": 4,
+    "note": "Información agregada desde fuentes oficiales. Cada fuente se controla de forma independiente; ante un fallo se conserva su último conjunto conocido cuando está disponible y se marca como desactualizado. La publicación original prevalece siempre."
   },
   "alerts": [
     {
       "id": "2ead52f758a1b7626b4a",
+      "source_id": "aesan_food",
       "title": "11 Septiembre 2026 Ampliación de información sobre la alerta por presencia de gluten no declarado en salsas etiquetadas \"sin gluten\" procedentes de España (Ref. ES2026/517)",
       "agency": "AESAN",
       "category": "Alimentación",
@@ -66,6 +82,7 @@
     },
     {
       "id": "501e398e08e6f507ffbd",
+      "source_id": "aesan_food",
       "title": "09 Septiembre 2026 Alerta por elevado contenido de melatonina en complemento alimenticio procedente de Estados Unidos. (Ref. ES2026/543)",
       "agency": "AESAN",
       "category": "Alimentación",
@@ -81,6 +98,7 @@
     },
     {
       "id": "14c848a39fd8b107e08c",
+      "source_id": "aesan_food",
       "title": "02 Septiembre 2026 Alerta por presencia de sibutramina en complementos alimenticios (Ref. ES2026/535)",
       "agency": "AESAN",
       "category": "Alimentación",
@@ -96,6 +114,7 @@
     },
     {
       "id": "858066de2288228730b5",
+      "source_id": "aesan_food",
       "title": "17 Agosto 2026 Advertencia para personas con a alergia a la mostaza: Presencia de mostaza no declarada en pasta alimenticia “cabello de ángel” procedente de Marruecos (Ref.ES2026/478)",
       "agency": "AESAN",
       "category": "Alimentación",
@@ -111,6 +130,7 @@
     },
     {
       "id": "56c3136e27a00733ddbb",
+      "source_id": "aesan_food",
       "title": "10 Agosto 2026 Advertencia para personas con alergia o intolerancia a los componentes de la leche: etiquetado incorrecto de alérgeno (leche) en fideos de estilo oriental (Ref ES2026/485)",
       "agency": "AESAN",
       "category": "Alimentación",
@@ -126,6 +146,7 @@
     },
     {
       "id": "7008221845e4a33978a9",
+      "source_id": "aesan_food",
       "title": "07 Agosto 2026 Alerta por posible presencia de cuerpos extraños (fragmentos de vidrio) en confituras y en miel procedentes de Francia (Ref. ES2026/482)",
       "agency": "AESAN",
       "category": "Alimentación",
@@ -141,6 +162,7 @@
     },
     {
       "id": "0fd301f3236b7e40cd3f",
+      "source_id": "aesan_food",
       "title": "05 Agosto 2026 Advertencia para personas con alergia o intolerancia a los componentes de la leche: Presencia de leche no declarada en el etiquetado de salchichón cular extra procedente de España (Ref: ES2026/481)",
       "agency": "AESAN",
       "category": "Alimentación",
@@ -156,6 +178,7 @@
     },
     {
       "id": "d95a54aae6813d89fc7d",
+      "source_id": "aesan_food",
       "title": "04 Agosto 2026 Alerta por presencia de Salmonella spp. en langostinos pelados cocidos procedentes de Honduras. (Ref. ES2026/477)",
       "agency": "AESAN",
       "category": "Alimentación",
@@ -171,6 +194,7 @@
     },
     {
       "id": "3dbe683d8ae67115341a",
+      "source_id": "aesan_food",
       "title": "31 Julio 2026 Ampliación de información sobre la alerta por presencia de Salmonella spp. en salchichón procedente de España (Ref. ES2026/469)",
       "agency": "AESAN",
       "category": "Alimentación",
@@ -186,6 +210,7 @@
     },
     {
       "id": "afdf216f862767b73218",
+      "source_id": "aesan_food",
       "title": "31 Julio 2026 Alerta por presencia de Salmonella spp. en chips de fruta procedentes de Alemania. (Ref. ES2026/473)",
       "agency": "AESAN",
       "category": "Alimentación",
@@ -201,6 +226,7 @@
     },
     {
       "id": "e4a92e0a20c7718ddb61",
+      "source_id": "aesan_food",
       "title": "10 Julio 2026 Advertencia por presencia de gluten: presencia de gluten en harina de garbanzo procedente de España. (Ref. ES2026/431)",
       "agency": "AESAN",
       "category": "Alimentación",
@@ -216,6 +242,7 @@
     },
     {
       "id": "18256e907ea36ff6e712",
+      "source_id": "aesan_food",
       "title": "03 Julio 2026 Alerta por presencia de Listeria monocytogenes en bacalao en aceite de girasol procedente de España (Ref. ES2026/406)",
       "agency": "AESAN",
       "category": "Alimentación",
@@ -231,6 +258,7 @@
     },
     {
       "id": "ec67f628ac654eb34ad2",
+      "source_id": "aesan_food",
       "title": "19 Junio 2026 Alerta por presencia de sildenafilo y tadalafilo en complemento alimenticio procedente de Turquía. (Ref.ES2026/370)",
       "agency": "AESAN",
       "category": "Alimentación",
@@ -246,6 +274,7 @@
     },
     {
       "id": "5df23fa295f4a57a559a",
+      "source_id": "aesan_food",
       "title": "21 Mayo 2026 Alerta por presencia de sildenafilo en complemento alimenticio procedente de China. (Ref. ES2026/293)",
       "agency": "AESAN",
       "category": "Alimentación",
@@ -261,6 +290,7 @@
     },
     {
       "id": "7ae0128a4b29779163ba",
+      "source_id": "aesan_food",
       "title": "21 Mayo 2026 Alerta por presencia de sildenafilo en complemento alimenticio procedente de China. (Ref. ES2026/292)",
       "agency": "AESAN",
       "category": "Alimentación",
@@ -276,6 +306,7 @@
     },
     {
       "id": "e1c86e51bca651aaa456",
+      "source_id": "aesan_food",
       "title": "10 Abril 2026 Alerta por presencia de sildenafilo en complemento alimenticio procedente de Colombia. (Ref. ES2026/198)",
       "agency": "AESAN",
       "category": "Alimentación",
@@ -291,6 +322,7 @@
     },
     {
       "id": "71d41a985b2527f38913",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la posible pérdida de adhesividad del sistema de autoadhesión* del arnés MyWay",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -306,6 +338,7 @@
     },
     {
       "id": "fd60d5925ba19d83d9fd",
+      "source_id": "aemps_devices",
       "title": "Riesgo de obtener una lectura de glucemia erróneamente alta con las tiras reactivas “Glucomen® LX Sensor”",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -321,6 +354,7 @@
     },
     {
       "id": "57dff5a6c0283a054557",
+      "source_id": "aemps_devices",
       "title": "Riesgo de obtener lecturas inferiores a los valores reales de glucosa en sangre con los glucómetros Lisubel Chek Talk TD-4232, si la muestra de sangre es insuficiente",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -336,6 +370,7 @@
     },
     {
       "id": "894c0fbf1495ec65ba0d",
+      "source_id": "aemps_devices",
       "title": "Riesgo de infección debido a la falta de esterilidad en determinados productos fabricados por Assut Medical Sarl, Suiza, que fueron robados antes del proceso de esterilización",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -351,6 +386,7 @@
     },
     {
       "id": "dbb1e1bda6b07b1be598",
+      "source_id": "aemps_devices",
       "title": "Riesgo de caída del paciente por daños en el motor de elevación de determinadas grúas móviles Liko®, Viking® L, Viking® M, Viking® XL y Viking® 300",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -366,6 +402,7 @@
     },
     {
       "id": "aec69f51179c9146c4c0",
+      "source_id": "aemps_devices",
       "title": "Riesgo de avería de los motores de las camillas terapéuticas Solid, Novum y Novum Kingsize, fabricadas por HWK, Alemania, entre mayo de 1996 y mayo de 2001",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -381,6 +418,7 @@
     },
     {
       "id": "321a5166533fead3af49",
+      "source_id": "aemps_devices",
       "title": "Retirada voluntaria del mercado, por parte de la empresa BAUSCH & LOMB, de la solución para el cuidado de lentes de contacto – NUEVA INFORMACIÓN (septiembre 2006)",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -396,6 +434,7 @@
     },
     {
       "id": "0ca4c52787adbed76bde",
+      "source_id": "aemps_devices",
       "title": "Retirada voluntaria del mercado, por parte de la empresa BAUSCH & LOMB, de la solución para el cuidado de lentes de contacto",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -411,6 +450,7 @@
     },
     {
       "id": "2ee72e8f06ea11e3b90f",
+      "source_id": "aemps_devices",
       "title": "Retirada voluntaria del mercado de determinados números de lote, por parte de la empresa Pfizer Consumer Healthcare",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -426,6 +466,7 @@
     },
     {
       "id": "1f238649d89d6fd3400b",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Retirada del mercado y recuperación de varios lotes del maquillaje corrector Essence Camouflage+ Matt concealer 50 warm toast por contaminación microbiológica",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -443,6 +484,7 @@
     },
     {
       "id": "e2eed0033bb7fa8a9f87",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Retirada del mercado y cese de utilización de tres lotes del cosmético Carrefour Baby Sensitive 72 unidades, toallitas",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -460,6 +502,7 @@
     },
     {
       "id": "9ff3c4fda9b13941623b",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Retirada del mercado y cese de comercialización del cosmético Physiogel® A.I. Protect",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -475,6 +518,7 @@
     },
     {
       "id": "11b3e4ee2979d47bf32c",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Retirada del mercado y cese de comercialización de cosméticos Blondme Crystal",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -490,6 +534,7 @@
     },
     {
       "id": "5efb199bb721ccf74ae2",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado del lote MP17288 (impreso en la caja) y 703061 (impreso en la botella) de la solución de lentes de contacto MeniCare Soft 70 ml",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -507,6 +552,7 @@
     },
     {
       "id": "5a12dd4e24fb10e4bf0f",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado del lote B00WWWL de las lentes de contacto ACUVUE ® Vita",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -524,6 +570,7 @@
     },
     {
       "id": "4387e2e6712fb72b6148",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado del lote 51431 del “Spray Nasal Laboratoires Mercurochrome”",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -541,6 +588,7 @@
     },
     {
       "id": "70ea413303a1980f856c",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado del lote 2840420107 de lentes de contacto 1-Day Acuvue® Moist, fabricadas por Johnson & Johnson Vision Care Inc., EEUU",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -558,6 +606,7 @@
     },
     {
       "id": "aa160d3337b478572361",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado del lote 20290605400 de las lentes de contacto Zeiss CONTACT Day 30 AIR spheric",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -575,6 +624,7 @@
     },
     {
       "id": "16d1ada739d02c14b8e0",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado del lote 12018 del producto “Urgo Verrugas Persistentes”, fabricado por Temmler Pharma GmbH & Co. KG, Alemania",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -592,6 +642,7 @@
     },
     {
       "id": "8195feb651ffe1240235",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado del lote 109077 de la solución para lentes de contacto “Eye See All in One Solution + Hyaluronate”, fabricada por Lapis Lazuli International NV., Holanda",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -609,6 +660,7 @@
     },
     {
       "id": "b7082e0f43410be41edc",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado del lote 04-2018 de las muletas de codo Advance bi material",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -626,6 +678,7 @@
     },
     {
       "id": "4f2d7a7524e1d5aa5089",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Retirada del mercado del cosmético Arex Star maquillaje al agua en tarro (varias tonalidades)",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -641,6 +694,7 @@
     },
     {
       "id": "76b687094dc8ecefda17",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Retirada del mercado del antiséptico de piel sana Bohmclorh solución acuosa 2% de clorhexidina, 250 ml",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -656,6 +710,7 @@
     },
     {
       "id": "d3aaa15e3cb3889647cd",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Retirada del mercado de todos los lotes del producto cosmético “CREMA DE PLANTAS B.A.” comercializado por Alejandro Albert Astolfi",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -673,6 +728,7 @@
     },
     {
       "id": "1943758d1c879392426b",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Retirada del mercado de todos los ejemplares del producto cosmético “Flor de Lys. Crema dermatológica”",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -688,6 +744,7 @@
     },
     {
       "id": "0a97f8ad285be29b0395",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de los sistemas para el control de la coagulación TP/INR Alere INRatio®/INRatio®2, fabricados por Alere, EEUU",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -703,6 +760,7 @@
     },
     {
       "id": "f8e0276d9aa5788495c7",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de los parches de hidrogel Suavinex, fabricados por Pharmaplast, SAE, Egipto",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -718,6 +776,7 @@
     },
     {
       "id": "d2db5a7024d067de1f47",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Retirada del mercado de los lotes fabricados a partir del 8 de octubre de 2014 de todos los antisépticos de piel sana a base de clorhexidina en solución acuosa o alcohólica fabricados por Laboratorios Bohm, S.A.",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -735,6 +794,7 @@
     },
     {
       "id": "a9d43eacc3ca1d87c4a8",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de los glucómetros “OneTouch Verio® Pro” y “OneTouch Verio® IQ”",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -750,6 +810,7 @@
     },
     {
       "id": "e41853bebd40a524d7dd",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Retirada del mercado de los cosméticos de PRIMARK PS…PREP & PERFECT WATERMELON PRIMER WATER y PS…PREP & PERFECT PRIMER WATER CHARCOAL",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -765,6 +826,7 @@
     },
     {
       "id": "aab4c2298dd4e139940a",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Retirada del mercado de las fórmulas magistrales a base de clorhexidina fabricadas por Laboratorios Bohm, S.A., a partir del 8 de octubre de 2014",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -780,6 +842,7 @@
     },
     {
       "id": "58f4df8ff378601f52eb",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de la suspensión oral de uso pediátrico Aprotecol, fabricada por Noventure, S.L.",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -795,6 +858,7 @@
     },
     {
       "id": "a69665f1a66de3134c0e",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de la solución de limpieza y desinfección de lentes de contacto Easysept Hydro Plus",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -810,6 +874,7 @@
     },
     {
       "id": "be1ac9f3e041cd4b30a7",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de la Máscara de Fototerapia Anti Acné de Neutrógena® y el Activador",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -825,6 +890,7 @@
     },
     {
       "id": "ff11f7741f110f844f4a",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de determinados números de serie de audífonos Beltone y Resound",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -840,6 +906,7 @@
     },
     {
       "id": "417b529552511d66f186",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de determinados modelos y lotes de lentes de contacto Acuvue®, fabricadas por Johnson & Johnson Vision Care Inc., EEUU",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -855,6 +922,7 @@
     },
     {
       "id": "680649089fcb3213e997",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de determinados lotes del test de embarazo ClearBlue digital con indicador de semanas",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -872,6 +940,7 @@
     },
     {
       "id": "fe3b194505375fbedceb",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de determinados lotes del colirio Artelac Rebalance Monodosis",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -889,6 +958,7 @@
     },
     {
       "id": "fe7246cb4ee36589820d",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de determinados lotes de sets de líneas de diálisis peritoneal “Sleep Safe Set Plus” y “Sleep Safe Set Paed”",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -904,6 +974,7 @@
     },
     {
       "id": "9b01ab8e1de40338755b",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de determinados lotes de preservativos masculinos de poliisopreno Durex Real Feel y Durex Sin Látex",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -919,6 +990,7 @@
     },
     {
       "id": "5783e02210b19e57d90e",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de determinados lotes de muletas de codo de la familia BCR",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -934,6 +1006,7 @@
     },
     {
       "id": "505ca7c47ad768bdb23e",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de determinados lotes de muletas Advance",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -949,6 +1022,7 @@
     },
     {
       "id": "521c7156bc0197fa04a0",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de determinados lotes de lentes de contacto Acuvue® Oasys para astigmatismo",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -964,6 +1038,7 @@
     },
     {
       "id": "1ff4fddbfa634552eda7",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de determinados lotes de lentes de contacto ACUVUE® OASYS® (senofilcon A), fabricadas por Johnson & Johnson Vision Care Inc., EEUU.",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -979,6 +1054,7 @@
     },
     {
       "id": "d2928546ffb1d0dc996b",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de determinados lotes de lentes de contacto 1-Day Acuvue® Moist para astigmatismo",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -994,6 +1070,7 @@
     },
     {
       "id": "70fb620a1048941801c6",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de determinados lotes de lentes de contacto 1-DAY ACUVUE® MOIST® (etafilcon A) y ACUVUE® ADVANCE® WITH HYDRACLEAR (galyfilcon A), fabricadas por Johnson & Johnson Vision Care Inc., EEUU",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1009,6 +1086,7 @@
     },
     {
       "id": "2237319532d96b5d10e8",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de determinados lotes de las tiras reactivas “GlucoMen® LX Sensor”",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1024,6 +1102,7 @@
     },
     {
       "id": "6bb74d60c318820af3f4",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de determinados lotes de las tiras reactivas para la determinación de glucosa en sangre TRUEresult",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1039,6 +1118,7 @@
     },
     {
       "id": "fdc326fa2c6cf16a3de3",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de determinados lotes de las tiras reactivas para la determinación de glucosa en sangre Accu-Chek Aviva y Accu-Chek Performa",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1054,6 +1134,7 @@
     },
     {
       "id": "945ed8130bb1664cbb9c",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de determinados lotes de bastones de codera integral, fabricados por Easytec corporation",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1069,6 +1150,7 @@
     },
     {
       "id": "41654552822b52181500",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de determinados kits de llenado del sistema de balón intragástrico Elipse™",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1084,6 +1166,7 @@
     },
     {
       "id": "cf17970420618462045e",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de determinados equipos de infusión Minimed utilizados con las bombas de insulina de Medtronic",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1099,6 +1182,7 @@
     },
     {
       "id": "c49432de07ff3f8e0fd3",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de determinados equipos de infusión MiniMed utilizados con las bombas de insulina de Medtronic",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1114,6 +1198,7 @@
     },
     {
       "id": "297001bcf97826b24d58",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de determinados Respaldos Fijos, referencia 1555323, que se han podido instalar en las Sillas de Ducha y WC móviles Aquatec® Ocean, Aquatec® Ocean VIP y Aquatec® Ocean E-VIP",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1129,6 +1214,7 @@
     },
     {
       "id": "5fcecb761113e89fa1dc",
+      "source_id": "aemps_devices",
       "title": "Retirada del mercado de determinadas bombas de insulina “MiniMed 640G”, fabricadas por Medtronic Inc., EEUU",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1144,6 +1230,7 @@
     },
     {
       "id": "14a6e2ed86b96cb3be84",
+      "source_id": "aesan_food",
       "title": "Red de alerta alimentaria",
       "agency": "AESAN",
       "category": "Alimentación",
@@ -1159,6 +1246,7 @@
     },
     {
       "id": "911c45c3555f40c46ac5",
+      "source_id": "aemps_devices",
       "title": "Posible fallo en los equipos de rehabilitación THERA-Trainer balo y THERA-Trainer verto",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1174,6 +1262,7 @@
     },
     {
       "id": "df47f4da063a4955fa85",
+      "source_id": "aemps_devices",
       "title": "Posible fallo electrónico en determinadas manos mioeléctricas Steeper Select",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1189,6 +1278,7 @@
     },
     {
       "id": "8332245a2c021647d18e",
+      "source_id": "aemps_devices",
       "title": "Posible defecto en la soldadura de la horquilla de la rueda delantera en determinadas sillas de ruedas Breezy Parix², fabricadas por Sunrise Medical, Alemania",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1204,6 +1294,7 @@
     },
     {
       "id": "2ee18fd205765f29c74c",
+      "source_id": "aemps_devices",
       "title": "Posible defecto en determinados adaptadores de enchufe europeo de la fuente de alimentación, utilizados con cargadores para audífonos recargables, fabricados por Siemens Audiologische Technik GmbH, Alemania",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1219,6 +1310,7 @@
     },
     {
       "id": "f66e17d5fd1f3b89548b",
+      "source_id": "aemps_devices",
       "title": "Posibilidad de que se produzca un fallo con la aplicación Contour® diabetes (versión 1.2.0 o inferior)",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1234,6 +1326,7 @@
     },
     {
       "id": "eac4728f6709e4090645",
+      "source_id": "aemps_devices",
       "title": "Posibilidad de que las sillas de ducha y WC Aquatec® Ocean VIP se inclinen hacia delante con riesgo de caída del usuario",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1249,6 +1342,7 @@
     },
     {
       "id": "87d3b7bae121072aa486",
+      "source_id": "aemps_devices",
       "title": "Posibilidad de fallos en las grúas Birdie®, Birdie® compact y Flamingo® fabricadas por Invacare Portugal LDA, que pueden provocar la caída del paciente",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1264,6 +1358,7 @@
     },
     {
       "id": "936369a0efba98de637c",
+      "source_id": "aemps_devices",
       "title": "Posibilidad de fallo de las barras telescópicas de sujeción del respaldo en determinadas sillas de ruedas eléctricas Permobil",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1279,6 +1374,7 @@
     },
     {
       "id": "f2a59d8f74ab8d9b563a",
+      "source_id": "aemps_cosmetics_notes",
       "title": "Notas infomativas de seguridad",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -1294,6 +1390,7 @@
     },
     {
       "id": "78c1bf16ffe75e349ca0",
+      "source_id": "aemps_devices",
       "title": "Nota informativa de Productos Sanitarios nº 17/2011. Posible fallo de la señal acústica de la alarma secundaria (alarma back-up) de determinadas referencias del Ventilador Pulmonar Legendair®, fabricado por Airox S.A., Francia",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1309,6 +1406,7 @@
     },
     {
       "id": "b02378e53170724f6cdf",
+      "source_id": "aemps_devices",
       "title": "Nota informativa de Productos Sanitarios nº 15/2011. Retirada del mercado de todos los lotes de la referencia CRB33XXX y recomendación del cese de la implantación de la referencia CRB28XXX del Stent Coronario liberador de Sirolimus Cypher Select®+, fabricado por Cordis Europa N.V, Irlanda",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1324,6 +1422,7 @@
     },
     {
       "id": "1c39c1cef9e240f1e16f",
+      "source_id": "aemps_devices",
       "title": "Nota informativa de Productos Sanitarios nº 13/2011. Riesgo de infección debido a la falta de esterilidad en determinados productos fabricados por Boston Scientific Corp., EEUU, que fueron robados antes del proceso de esterilización",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1339,6 +1438,7 @@
     },
     {
       "id": "42b0c9f6c46293d64509",
+      "source_id": "aemps_devices",
       "title": "Nota informativa de Productos Sanitarios nº 12/2011 sobre retirada del mercado de determinadas grúas Jasmine",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1354,6 +1454,7 @@
     },
     {
       "id": "52c92a83720184e2f5e6",
+      "source_id": "aemps_devices",
       "title": "Nota informativa PS/21/2011. Retirada del mercado del lote 2770073 del producto “Sonda Speedicath CH10 mujer”, fabricado por Coloplast A/S, Dinamarca",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1371,6 +1472,7 @@
     },
     {
       "id": "fe39bb35b7b03238d0da",
+      "source_id": "aemps_devices",
       "title": "Nota de seguridad de Productos Sanitarios nº 05/2011 sobre cese de la utilización y retirada del mercado de los equipos y/o sistemas de descompresión vertebral axial VAX-D, fabricados por VAX-D MEDICAL TECHNOLOGIES LLC, EEUU.",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1386,6 +1488,7 @@
     },
     {
       "id": "a4c08b6e0a372b92e1d6",
+      "source_id": "aemps_devices",
       "title": "Nota de seguridad de Productos Sanitarios nº 04/2011 sobre riesgo de que los usuarios de determinados elevadores y grúas domiciliarias, fabricados por BHM MEDICAL INC., Canadá, reciban una descarga eléctrica",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1401,6 +1504,7 @@
     },
     {
       "id": "8836fbbf419091dce101",
+      "source_id": "aemps_devices",
       "title": "Nota de Seguridad sobre cese de la comercialización y retirada del mercado de tintas y agujas para tatuaje de la piel distribuidas por la empresa PRIMO STYL",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1416,6 +1520,7 @@
     },
     {
       "id": "f8e472104204c6899ee1",
+      "source_id": "aemps_devices",
       "title": "Nota de Seguridad sobre ampliación de la retirada a nuevos lotes de lentes de contacto 1-DAY ACUVUE® TruEyeTM (narafilcon A), fabricadas por Johnson & Johnson Vision Care Inc., EEUU",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1431,6 +1536,7 @@
     },
     {
       "id": "ab817aeaf114f0c96c90",
+      "source_id": "aemps_devices",
       "title": "Nota de Seguridad de Productos Sanitarios sobre retirada del mercado del producto “Chupete para medicinas”, Referencia FS012",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1446,6 +1552,7 @@
     },
     {
       "id": "4d2d111c6d1a6069245c",
+      "source_id": "aemps_devices",
       "title": "Nota de Seguridad de Productos Sanitarios nº 01/2011 sobre retirada del mercado de los implantes cocleares HIRES 90K, MODELOS CI-1400-01 Y CI-1400-02H, fabricados por ADVANCED BIONICS LLC., EEUU",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1461,6 +1568,7 @@
     },
     {
       "id": "3a840bbaf4f5a15458c3",
+      "source_id": "aemps_devices",
       "title": "Nota de Informativa PS/18/2011. Cese de la utilización y retirada del mercado de los implantes de relleno fabricados por la empresa CHOC MEDICAL, Francia",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1476,6 +1584,7 @@
     },
     {
       "id": "1c76125df5019ae5bf59",
+      "source_id": "aemps_devices",
       "title": "Nota Informativa PS/24/2011: Ampliación de la retirada a nuevos lotes de lentes de contacto Lent Soft 4 Air Tórica, fabricadas por CooperVision Manufacturing Ltd., Reino Unido",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1491,6 +1600,7 @@
     },
     {
       "id": "c5b99590d6dd2b88ecf7",
+      "source_id": "aemps_devices",
       "title": "Nota Informativa PS/20/2011. Retirada del mercado de determinadas bolsas de ostomía postoperatorias SENSURA® Y ASSURA®/ALTERNA, fabricadas por COLOPLAST A/S, Dinamarca",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1506,6 +1616,7 @@
     },
     {
       "id": "d8a7b63fd5d074d3c379",
+      "source_id": "aemps_devices",
       "title": "Nota Informativa PS/19/2011. Retirada del mercado de determinados lotes de lentes de contacto Lent Soft 4 Air Tórica, fabricadas por CooperVision Manufacturing Ltd., Reino Unido",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1521,6 +1632,7 @@
     },
     {
       "id": "998291e8d0778615eac6",
+      "source_id": "aemps_devices",
       "title": "Nota Informativa PS, 28/2011: Retirada del mercado de determinadas marcas y lotes de lentes de contacto, fabricadas por Coopervision Manufacturing Ltd., Reino Unido",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1536,6 +1648,7 @@
     },
     {
       "id": "3689eaac6cd396d8a3d0",
+      "source_id": "aemps_devices",
       "title": "Nota Informativa PS, 27/2011: Retirada del mercado de determinadas “Sondas femeninas” y “Catéteres de Nelaton” marca Unomedical",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1551,6 +1664,7 @@
     },
     {
       "id": "574fa49079529b3b471f",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Nota Informativa COS/03/2011: Retirada del mercado y cese de utilización del lote L1103 del producto Alcohol 96 Aposan 250 ml C.N. 2199231",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -1568,6 +1682,7 @@
     },
     {
       "id": "293aef9b2a8857dd6e77",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Nota Informativa COS/02/2011. Retirada del mercado y cese de utilización del lote 13120 de Salvelox agua oxigenada 10 vol. y Salvelox alcohol 96º",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -1585,6 +1700,7 @@
     },
     {
       "id": "271a64bc987db1eb987a",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Nota Informativa COS, 07/2011: Retirada del mercado de todos los lotes del producto «Colgate Periogard Clorhexidina Colutorio Bucal sin Alcohol», con nº de registro 1173-DENT",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -1602,6 +1718,7 @@
     },
     {
       "id": "0eca0495eda5dab91cfb",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Nota Informativa COS, 06/2011: Cese de comercialización y retirada del mercado de todos los lotes de varios cosméticos comercializados por ESTELCA S.L.U.",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -1617,6 +1734,7 @@
     },
     {
       "id": "d1b02e120fa3a132e720",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Nota Informativa COS, 05/2011: Cese de comercialización e inmovilización del jabón líquido Dermolit* y suspensión de las actividades de fabricación de la empresa que lo fabrica",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -1632,6 +1750,7 @@
     },
     {
       "id": "5639459ea327058c63ed",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Nota Informativa COS, 04/2011: Cese de comercialización y retirada del mercado del producto Salerm Cosmetics estabilizante 1:1",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -1647,6 +1766,7 @@
     },
     {
       "id": "0e19ef39a37d241633ef",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa sobre una contaminación bacteriana en determinados lotes de geles oculares lubrificantes: AaCarb eye gel, Aacomer eye gel y Puroptics eye gel",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1662,6 +1782,7 @@
     },
     {
       "id": "ba7249aa6b8d1fb4fbd3",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa sobre un problema de seguridad en los generadores de estimulación del nervio vago VNS Therapy SenTiva",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1677,6 +1798,7 @@
     },
     {
       "id": "bf5b88aa8e3e21f81e6d",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa sobre un posible problema en las protecciones laterales de determinadas sillas de ruedas Panthera AB",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1692,6 +1814,7 @@
     },
     {
       "id": "3ead3d0c12f3ec8d875f",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa sobre los problemas de suministro de varias marcas de bolsas de recogida de orina",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1707,6 +1830,7 @@
     },
     {
       "id": "f8aaee889ac57939395d",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa sobre la posibilidad de obtener recomendaciones de dosis de insulina incorrectas en dispositivos iOS con la aplicación mySugr",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1722,6 +1846,7 @@
     },
     {
       "id": "1f5a9c212362eb229ce7",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa sobre la detección de un certificado de marcado CE falso de la empresa Taiyu Gloves CO., Limited",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1737,6 +1862,7 @@
     },
     {
       "id": "cfd68ebd1875afeba3f6",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa sobre la detección de un certificado de marcado CE falso de la empresa Prolinx GmbH",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1752,6 +1878,7 @@
     },
     {
       "id": "5c8d1d0c148cc1a2a377",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa sobre la detección de un certificado de marcado CE falso de la empresa Ideal Makina Endüstri Ürünleri San. ve Tic. A.Ș.",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1767,6 +1894,7 @@
     },
     {
       "id": "2f8de75b3c17940d4e37",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa sobre la detección de un certificado de marcado CE falsificado de la empresa Neelkanth Polymer Industries",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1782,6 +1910,7 @@
     },
     {
       "id": "3f66804a414ae3b5834c",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa sobre la detección de dos certificados falsos de la empresa Suzhou Junwei Medical Equipment CO. LTD",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1797,6 +1926,7 @@
     },
     {
       "id": "a0eac1ab5ff69eb925a4",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa sobre la detección de cuatro certificados de marcado CE falsificados de la empresa Equimedical BV",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1812,6 +1942,7 @@
     },
     {
       "id": "0b5f3c711c3d503f081d",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa sobre el posible agotamiento prematuro de la batería en determinados generadores de estimulación del nervio vago VNS Therapy SenTiva",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1827,6 +1958,7 @@
     },
     {
       "id": "8955be43a310bdb4539f",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa sobre el cese de utilización de determinados adaptadores para línea móvil 4G LATITUDE MIMIC",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1842,6 +1974,7 @@
     },
     {
       "id": "d634263d0b187873f05c",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa sobre el cese de comercialización y utilización de las mascarillas quirúrgicas tipo IIR con grafeno fabricadas por Shandong Shenquan New Materials Co. Ltd, China",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1857,6 +1990,7 @@
     },
     {
       "id": "5b86557625e187276f1e",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa que las unidades de terapia ActiV.A.C.™ podrían apagarse sin ninguna advertencia ni alarma",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1872,6 +2006,7 @@
     },
     {
       "id": "bf63e82c23406f4e7e7d",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa que determinadas referencias de los ventiladores BiPAP A40 Pro, BiPAP A40 EFL, BiPAP A30 EFL podrían activar una falsa alarma de oxígeno interno alto",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1887,6 +2022,7 @@
     },
     {
       "id": "bcca0ba2a25c3cf31a84",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del sobrecalentamiento en cables del concentrador de oxígeno portátil iGo2",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1902,6 +2038,7 @@
     },
     {
       "id": "b62563d9bd21f26f9841",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del robo y distribución ilegal de dos lotes de sensores Dexcom G7",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1917,6 +2054,7 @@
     },
     {
       "id": "89c100f89474ea63e691",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del riesgo de torsión en la línea de sangre en determinadas configuraciones del monitor de diálisis AK98",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1932,6 +2070,7 @@
     },
     {
       "id": "645ce67f1d4c6394badb",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del riesgo de interferencia de los Sistemas de Terapia BEMER Classic y BEMER Pro con determinados productos sanitarios implantables activos",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1947,6 +2086,7 @@
     },
     {
       "id": "107651995ac92fb46cb5",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del riesgo de enganche incorrecto del componente Q-link 13 con el gancho de liberación rápida en grúas móviles Viking y básculas LikoScale",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1962,6 +2102,7 @@
     },
     {
       "id": "e7425ad4d2d300c9cd3a",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del riesgo de caídas en determinadas grúas Winn’Motion",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1977,6 +2118,7 @@
     },
     {
       "id": "ea4e6a754462c38c4027",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del reemplazo de los conectores del cable de alimentación de determinados concentradores de oxígeno DeVilbiss 525KS",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -1992,6 +2134,7 @@
     },
     {
       "id": "8c9ace10d48848d0a624",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del reemplazo de la válvula de ecualización de presión de determinados concentradores de oxígeno Invacare Perfecto2 V",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2007,6 +2150,7 @@
     },
     {
       "id": "14f0a8c789030e43288b",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del posible riesgo para la salud derivado del uso continuado acumulativo de los respiradores Puritan Bennett serie 500",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2022,6 +2166,7 @@
     },
     {
       "id": "04cf96ae474398f0b483",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del posible riesgo de desprendimiento del acoplamiento de liberación rápida de determinadas grúas de techo Molift Air",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2037,6 +2182,7 @@
     },
     {
       "id": "304da66b3127b9062875",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del posible riesgo de administración excesiva de insulina al reiniciar la aplicación mylife CamAPS FX",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2052,6 +2198,7 @@
     },
     {
       "id": "b13455c3d346be0c1314",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del posible mal funcionamiento de la alarma acústica de fallo total de alimentación de determinados ventiladores Astral 100 y 150",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2067,6 +2214,7 @@
     },
     {
       "id": "888e233d9bd4284a19d8",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del cese de utilización y retirada del mercado de un lote del producto RefluAliv, Reflujo y Acidez",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2084,6 +2232,7 @@
     },
     {
       "id": "33f21c142a780a480740",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del cese de utilización y retirada del mercado de los mandos a distancia MiniMed™ (MMT-500 o MMT-503)",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2099,6 +2248,7 @@
     },
     {
       "id": "631ab8cab3bc78660321",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del cese de utilización y retirada del mercado de determinados adaptadores y tubos para bombas de insulina Accu-Chek® Insight",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2114,6 +2264,7 @@
     },
     {
       "id": "22d247b8a127d391de56",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del cese de utilización para transportar en vehículo de determinadas sillas de ruedas eléctricas QUICKIE Q400F y Q500F",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2129,6 +2280,7 @@
     },
     {
       "id": "3583eabb31f74234b4c2",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del cese de utilización del lote 1530655 del depósito para bomba EVER Pharma D-mine",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2146,6 +2298,7 @@
     },
     {
       "id": "d84c3315d45cd04d0de4",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del cese de utilización de un lote del sensor Simplera de Medtronic Minimed",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2163,6 +2316,7 @@
     },
     {
       "id": "a5c05d868145de5e248d",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del cese de utilización de determinados lotes de los cartuchos Accu-Chek Spirit de 3,15 ml por posibles fugas de insulina",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2178,6 +2332,7 @@
     },
     {
       "id": "d0b10091b8f4f6b6334e",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del cese de utilización de determinados dispositivos Handbikes Batec",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2193,6 +2348,7 @@
     },
     {
       "id": "ff77f73e57105c7d5069",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del cese de utilización de determinados apósitos del fabricante Advanced Medical Solutions por un problema de esterilidad",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2208,6 +2364,7 @@
     },
     {
       "id": "d8f9f8a97d1d72861b04",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del cese de la comercialización de determinados lotes de lentes de contacto DAILIES TOTAL1 y TOTAL30",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2223,6 +2380,7 @@
     },
     {
       "id": "e13a890595c879f94d8e",
+      "source_id": "aemps_cosmetics_actions",
       "title": "La AEMPS informa del cese de fabricación, de comercialización y retirada del mercado de todos los productos de las marcas Pirinherbsan, Fontdeblanc, Mythological y ExtrAroma",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2238,6 +2396,7 @@
     },
     {
       "id": "2ead7005c587ea4f11b4",
+      "source_id": "aemps_cosmetics_actions",
       "title": "La AEMPS informa del cese de comercialización, retirada y recuperación del producto cosmético Noa Nox Gel Remover",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2253,6 +2412,7 @@
     },
     {
       "id": "019dd401b52c0d88e52c",
+      "source_id": "aemps_cosmetics_actions",
       "title": "La AEMPS informa del cese de comercialización, retirada y recuperación de varios lotes del cosmético Erborian – Centella Crème envases de 50ml y 20ml",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2270,6 +2430,7 @@
     },
     {
       "id": "5f9022a2163b79302382",
+      "source_id": "aemps_cosmetics_actions",
       "title": "La AEMPS informa del cese de comercialización, retirada y recuperación de un lote del producto cosmético OXD leche neutra para masaje",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2287,6 +2448,7 @@
     },
     {
       "id": "20edc5f1c52374d8c22c",
+      "source_id": "aemps_cosmetics_actions",
       "title": "La AEMPS informa del cese de comercialización, retirada y recuperación de un lote del producto cosmético Alma Secret Waterproof and Soothing Eye Make-Up Remover",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2304,6 +2466,7 @@
     },
     {
       "id": "72219c4cd204229dd169",
+      "source_id": "aemps_cosmetics_actions",
       "title": "La AEMPS informa del cese de comercialización, retirada y recuperación de los productos cosméticos Noa Nox Mousse Limpiadora y Lashes & More Total Serum",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2319,6 +2482,7 @@
     },
     {
       "id": "7043f9a48544ce56456e",
+      "source_id": "aemps_cosmetics_notes",
       "title": "La AEMPS informa del cese de comercialización, retirada y recuperación de los cosméticos Inoar G.Hair 2 Anti-Volume Treatment e Inoar Moroccan Step 2 Capilary Treatment",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2334,6 +2498,7 @@
     },
     {
       "id": "3813cd587515f6888333",
+      "source_id": "aemps_cosmetics_notes",
       "title": "La AEMPS informa del cese de comercialización, retirada del mercado y recuperación del cosmético Imaqe Mascarilla Facial Tissue Hidratante",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2349,6 +2514,7 @@
     },
     {
       "id": "bc5c8e1f9d5cb6d581e7",
+      "source_id": "aemps_cosmetics_notes",
       "title": "La AEMPS informa del cese de comercialización, retirada del mercado y recuperación de varios lotes del producto cosmético YODEYMA Kids",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2366,6 +2532,7 @@
     },
     {
       "id": "8b37f591466c17fb0cc9",
+      "source_id": "aemps_cosmetics_actions",
       "title": "La AEMPS informa del cese de comercialización, retirada del mercado y recuperación de varios lotes de productos de protección solar Parasol",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2381,6 +2548,7 @@
     },
     {
       "id": "e25122ddaadb015efea3",
+      "source_id": "aemps_cosmetics_notes",
       "title": "La AEMPS informa del cese de comercialización, retirada del mercado y recuperación de varios lotes de FluorKin infantil fresa enjuague bucal por contaminación microbiológica",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2396,6 +2564,7 @@
     },
     {
       "id": "4e9a91117ec3ba0bbc7d",
+      "source_id": "aemps_cosmetics_notes",
       "title": "La AEMPS informa del cese de comercialización, retirada del mercado y recuperación de un lote del producto cosmético Suavinex Baby Cologne Memories",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2413,6 +2582,7 @@
     },
     {
       "id": "3d3e9ef7c78a033029aa",
+      "source_id": "aemps_cosmetics_actions",
       "title": "La AEMPS informa del cese de comercialización, retirada del mercado y recuperación de un lote del cosmético Yepoda – The Cocoa Cloud",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2430,6 +2600,7 @@
     },
     {
       "id": "88c0880372fd2a846144",
+      "source_id": "aemps_cosmetics_notes",
       "title": "La AEMPS informa del cese de comercialización, retirada del mercado y recuperación de un lote del cosmético Dolebalm",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2447,6 +2618,7 @@
     },
     {
       "id": "1008bbec6395e5fe3053",
+      "source_id": "aemps_cosmetics_notes",
       "title": "La AEMPS informa del cese de comercialización, retirada del mercado y recuperación de un lote del cosmético Agrado crema solar SPF 50",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2464,6 +2636,7 @@
     },
     {
       "id": "eea92a3534f590cebd4e",
+      "source_id": "aemps_cosmetics_actions",
       "title": "La AEMPS informa del cese de comercialización, retirada del mercado y recuperación de todos los lotes del cosmético Wet N Wild Proline Felt Tip Eyeliner",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2481,6 +2654,7 @@
     },
     {
       "id": "c4b816071746d3dc4ad4",
+      "source_id": "aemps_cosmetics_actions",
       "title": "La AEMPS informa del cese de comercialización, retirada del mercado y recuperación de los productos HA Corrector, Pbserum Enzymatic Solution y Pbserum HA",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2496,6 +2670,7 @@
     },
     {
       "id": "62ffd47d3003a8a98768",
+      "source_id": "aemps_cosmetics_notes",
       "title": "La AEMPS informa del cese de comercialización, retirada del mercado y recuperación de los cosméticos Blonde Henna y Oil Balance, de la marca Real Earth",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2511,6 +2686,7 @@
     },
     {
       "id": "2948672833b019eeef41",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del cese de comercialización y retirada del mercado del sensor y transmisor del sistema de monitorización continua de glucosa A8 TouchCare",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2526,6 +2702,7 @@
     },
     {
       "id": "506b98c993c6aea760d2",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del cese de comercialización y retirada del mercado del dispositivo antiatragantamientos DAEM",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2541,6 +2718,7 @@
     },
     {
       "id": "1b92231dffe72385a435",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del cese de comercialización y retirada del mercado de varios lotes de Rapid COVID-19 Antigen Test (Colloidal Gold)/Saliva",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2556,6 +2734,7 @@
     },
     {
       "id": "9086ef89116d46290098",
+      "source_id": "aemps_cosmetics_notes",
       "title": "La AEMPS informa del cese de comercialización y retirada del mercado de un lote del cosmético Fresh baby sunscreen SPF 50",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2573,6 +2752,7 @@
     },
     {
       "id": "a68647bc7e95775b5ff7",
+      "source_id": "aemps_cosmetics_actions",
       "title": "La AEMPS informa del cese de comercialización y retirada de tres lotes del cosmético Stradivarius Nº129 Fleur Saline Eau de Parfum",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2590,6 +2770,7 @@
     },
     {
       "id": "6b7fab80512e20bb25e1",
+      "source_id": "aemps_cosmetics_notes",
       "title": "La AEMPS informa del cese de comercialización y la retirada del mercado de Deliplus Men Depil bajo la ducha",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2605,6 +2786,7 @@
     },
     {
       "id": "8a57e923229e0b91569b",
+      "source_id": "aemps_cosmetics_actions",
       "title": "La AEMPS informa del cese de comercialización y de uso de varios lotes del Agua Bidestilada Orravan",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2622,6 +2804,7 @@
     },
     {
       "id": "daeda41463e07488ecd9",
+      "source_id": "aemps_cosmetics_actions",
       "title": "La AEMPS informa del cese de actividad de fabricación de productos cosméticos de Laboratorios Quimiplas S.L., y la retirada del mercado de todos los productos que elabora",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2637,6 +2820,7 @@
     },
     {
       "id": "f4f5a563317d63cd9fa4",
+      "source_id": "aemps_cosmetics_actions",
       "title": "La AEMPS informa del cese de actividad de fabricación de la empresa Parfums Codibel S.L. y de la retirada del mercado de todos los productos que fabrica",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -2652,6 +2836,7 @@
     },
     {
       "id": "08af78c8d0a5c9e3d859",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa del aumento de cierres automáticos de sesión en CareLink™, en la versión 1.3.0 de la aplicación Guardian™",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2667,6 +2852,7 @@
     },
     {
       "id": "85d0bb1e5bc0d9718114",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de varios fallos de software relacionados con las bombas de insulina t:slim X2",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2682,6 +2868,7 @@
     },
     {
       "id": "5e38d85b6299f58b7ecb",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de una posible variabilidad en la administración de insulina en determinadas bombas de insulina Paradigm y Minimed",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2697,6 +2884,7 @@
     },
     {
       "id": "acee1b020054df8324e9",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de una posible rotura del cable de alimentación del cabezal de los generadores de impulso implantables de los sistemas de estimulación cerebral profunda Vercise Genus R16 y R32",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2712,6 +2900,7 @@
     },
     {
       "id": "14c7364f833b2bc76a0e",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de una posible administración errónea de insulina en determinadas bombas Minimed de las series Paradigm, 600 y 700 debido a cambios en la presión atmosférica",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2727,6 +2916,7 @@
     },
     {
       "id": "13d8bfd723a4c11f59c0",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un riesgo relacionado con determinadas sillas de ruedas eléctricas Quirumed",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2742,6 +2932,7 @@
     },
     {
       "id": "1ae6df531532c0c9ff98",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un riesgo en los paquetes de baterías Zinc-Aire M de los procesadores de sonido de Advanced Bionics",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2757,6 +2948,7 @@
     },
     {
       "id": "1c0b2111dfde7d021786",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un riesgo de suspensión de la administración de insulina en determinadas bombas Minimed 780G",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2772,6 +2964,7 @@
     },
     {
       "id": "ca087212640c5a93e9ca",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un riesgo de acceso no autorizado en el sistema Albert e-motion M25 de accionamiento adicional para sillas de ruedas",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2787,6 +2980,7 @@
     },
     {
       "id": "b69bfece71e957629986",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un problema en los ventiladores BIPAP A30 y A40 que podría provocar la interrupción de la terapia",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2802,6 +2996,7 @@
     },
     {
       "id": "ed46665c9c6c73651b3a",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un problema en el registro de los bolos de insulina en la aplicación mylife TM App",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2817,6 +3012,7 @@
     },
     {
       "id": "2fafecfe89affb8ebcfd",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un problema de seguridad relacionado con los sistemas neuroestimuladores Proclaim, Proclaim XR, Proclaim Elite SCS y Proclaim DRG no recargables",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2832,6 +3028,7 @@
     },
     {
       "id": "d2b54346277d71246920",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un problema de seguridad relacionado con las sillas de ruedas Jazz S50 y 708D",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2847,6 +3044,7 @@
     },
     {
       "id": "da0f395f003465b4a012",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un problema de seguridad relacionado con las mascarillas respiratorias con imanes de Sleepnet Corporation",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2862,6 +3060,7 @@
     },
     {
       "id": "d2db087ba45536e7e162",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un problema de seguridad relacionado con las mascarillas respiratorias con imanes de ResMed",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2877,6 +3076,7 @@
     },
     {
       "id": "53d1c28fba3382900209",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un problema de seguridad relacionado con el sistema neuroestimulador Infinity DBS no recargable",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2892,6 +3092,7 @@
     },
     {
       "id": "c7fc8b4756fe4ed10a36",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un problema de seguridad con las férulas de abducción de pie para niños ALFA-Flex y BETA-Flex",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2907,6 +3108,7 @@
     },
     {
       "id": "d639001bcf2268c08fac",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un problema de seguridad con determinadas mascarillas de Philips Respironics que contienen imanes que pueden afectar a implantes y dispositivos médicos",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2922,6 +3124,7 @@
     },
     {
       "id": "0bae7eac8a7835c13f15",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un potencial problema de seguridad relacionado con las bombas de insulina t:slim X2",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2937,6 +3140,7 @@
     },
     {
       "id": "4965cd3660c6e8a03a49",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible riesgo de seguridad en los chasis High-low:xo y las sillas Wombat Living",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2952,6 +3156,7 @@
     },
     {
       "id": "18ad0fe9fbfbbf91026f",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible problema en determinados controladores del sistema de asistencia ventricular Heartmate 3",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2967,6 +3172,7 @@
     },
     {
       "id": "2ed4d5a949075a1e7178",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible problema de seguridad relacionado con la inserción de la cánula del sistema Accu-Chek Solo",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2982,6 +3188,7 @@
     },
     {
       "id": "baf86fdb36556b23aa94",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible problema de estabilidad de los datos del sistema de suministro automatizado de insulina DBLG1",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -2997,6 +3204,7 @@
     },
     {
       "id": "1d74af109bdf9cc8fc62",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible mal funcionamiento de los equipos de alimentación enteral FreeGo debido a un uso incorrecto de la bomba",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3012,6 +3220,7 @@
     },
     {
       "id": "c6249418324fbb081d61",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible fallo en las alarmas y alertas de algunos receptores del sistema de monitorización continua de glucosa Dexcom G6",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3027,6 +3236,7 @@
     },
     {
       "id": "f6b4c593f49409528daf",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible fallo en las alarmas y alertas auditivas de algunos receptores Dexcom G7, Dexcom ONE+ y Dexcom ONE",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3042,6 +3252,7 @@
     },
     {
       "id": "14898868f7ee89cfed1e",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible fallo en la fijación interna de la batería en determinados dispositivos de comunicación aumentativa y alternativa TD Navio Midi y TD Navio Maxi",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3057,6 +3268,7 @@
     },
     {
       "id": "e94fbb094c778430f91a",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible fallo en la emisión de alertas en las versiones 2.8 y anteriores de las aplicaciones Dexcom G7 iOS/Android y Dexcom G7 Watch iOS",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3072,6 +3284,7 @@
     },
     {
       "id": "df381d46aaa24210ff5e",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible fallo en la emisión de alertas en las versiones 1.4 y anteriores de la aplicación Dexcom One+ iOS/Android",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3087,6 +3300,7 @@
     },
     {
       "id": "dd7e11c8f51ff7666267",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible fallo en la aplicación para la diabetes InPen que impide que las notificaciones se activen correctamente",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3102,6 +3316,7 @@
     },
     {
       "id": "2cd95299b3b317a98ad3",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible fallo en la aplicación SmartDrive MX2+ para los relojes PushTracker E2 y E3",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3117,6 +3332,7 @@
     },
     {
       "id": "5bbca0a8a50b2a372f80",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible fallo en la aplicación MiniMed Go para la diabetes que afecta al funcionamiento de las alertas nocturnas",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3132,6 +3348,7 @@
     },
     {
       "id": "765af4bf65a05c10f2e1",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible fallo en la administración de insulina en determinados números de serie de las bombas t: slim X2",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3147,6 +3364,7 @@
     },
     {
       "id": "56c878b0c6af0cf50303",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible fallo en la actualización de los valores estimados de glucosa en la aplicación Dexcom One+ iOS",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3162,6 +3380,7 @@
     },
     {
       "id": "1ef295b2e5431b4ee6a3",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible fallo en la actualización de los valores estimados de glucosa en la aplicación Dexcom G7 iOS",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3177,6 +3396,7 @@
     },
     {
       "id": "dee3c6a2e94528c758f8",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible fallo de la alarma acústica en determinados equipos de respiración de las series LUISA, TIVAN SL y Life One del tipo LM150TD",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3192,6 +3412,7 @@
     },
     {
       "id": "a43b13c91d24f3716fa7",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible error en las versiones 2.9.0 a 2.11.2 de las aplicaciones Dexcom G7 iOS y Dexcom G7 Watch iOS",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3207,6 +3428,7 @@
     },
     {
       "id": "1878d395a5ad701ed372",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible error de software en las versiones 1.5 a 1.6 de la aplicación Dexcom One+ iOS",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3222,6 +3444,7 @@
     },
     {
       "id": "4185e40da5aef7b873ac",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible desgaste prematuro en las conteras de determinadas muletas de antebrazo, bastones de aluminio ligero y conteras de goma con inserto de acero",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3237,6 +3460,7 @@
     },
     {
       "id": "59e3f2e3b70b1894d040",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible defecto de fabricación en la sonda intermitente uretral hidrofílica Onli",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3252,6 +3476,7 @@
     },
     {
       "id": "a0abda79203058e22d37",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un posible ajuste inexacto de la ratio de hidratos de carbono en los informes generados por CareLink™",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3267,6 +3492,7 @@
     },
     {
       "id": "91e646ee3c99760c6b84",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un montaje incorrecto en determinadas sillas de ruedas eléctricas M3 Corpus y M5 Corpus",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3282,6 +3508,7 @@
     },
     {
       "id": "e25a6daeef437f74df70",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un fallo en determinados respiradores Newport HT70 Plus y piezas de recambio PCBA",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3297,6 +3524,7 @@
     },
     {
       "id": "f5661f017ca597c9e0fd",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un fallo en determinados códigos y lotes del prolongador de catéter de larga duración con pinza integrada para diálisis peritoneal Minicap",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3314,6 +3542,7 @@
     },
     {
       "id": "0cce4ab309b1332117e1",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un error en las versiones 1.11.2 y 1.12.0 de la aplicación Dexcom G6 para iOS",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3329,6 +3558,7 @@
     },
     {
       "id": "8014f45933c3d53b33f5",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de un defecto en el firmware de las rodillas biónicas Rheo Knee y Rheo Knee XC",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3344,6 +3574,7 @@
     },
     {
       "id": "5ffdfe1c7eeaa7a2b2e2",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de que la bomba de insulina MiniMed™ 780G con la versión de software 6.5 podría presentar errores después de administrar un bolus grande",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3359,6 +3590,7 @@
     },
     {
       "id": "15f8e2ee0a2c528d7e31",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de que determinados modelos de sensores Dexcom G6 pueden producir irritación cutánea",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3374,6 +3606,7 @@
     },
     {
       "id": "d78b1cd77c9f47395615",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de pérdidas de señal prolongadas en las aplicaciones FreeStyle LibreLink y FreeStyle Libre 3",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3389,6 +3622,7 @@
     },
     {
       "id": "0715da68176ec1dfc55b",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de problemas de funcionamiento en determinadas unidades de alimentación móvil del sistema HeartMate",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3404,6 +3638,7 @@
     },
     {
       "id": "0f30f29cc60c35db74c4",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de posibles retrasos al utilizar la versión 1.x de la aplicación myPTM que interactúa con la bomba implantable SynchroMed",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3419,6 +3654,7 @@
     },
     {
       "id": "a8cd83197016f859ff2c",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de posibles retrasos al utilizar la aplicación myPTM que interactúa con la bomba implantable SynchroMed",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3434,6 +3670,7 @@
     },
     {
       "id": "2a9801d72f16586a29bc",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de posibles lecturas incorrectas de glucosa en determinados sensores FreeStyle Libre 3 y FreeStyle Libre 3 Plus",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3449,6 +3686,7 @@
     },
     {
       "id": "173516b2cc6a0fba0c22",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de posibles lecturas erróneas de glucosa en determinados sensores FreeStyle Libre 3 Plus",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3464,6 +3702,7 @@
     },
     {
       "id": "eba9506dfdbccc30039a",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de posibles fallos del componente SpeedControl Dial utilizado en el sistema de asistencia eléctrica SmartDrive MX2+ para sillas de ruedas",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3479,6 +3718,7 @@
     },
     {
       "id": "0a57c4e6e9f0abc3730a",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de posibles daños en los generadores de impulso implantables de los sistemas de neuroestimulación Infinity y Proclaim",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3494,6 +3734,7 @@
     },
     {
       "id": "ea07188c2c5b08e80907",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de los resultados de la investigación efectuada sobre las mascarillas quirúrgicas tipo IIR con grafeno, fabricadas por Shandong Shenquan New Materials Co. Ltd, China",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3509,6 +3750,7 @@
     },
     {
       "id": "c8abc2a498790f0bff1d",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la sustitución del cierre de la cinta Q-link de las grúas de techo Multirall™ 200 por Q-link II",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3524,6 +3766,7 @@
     },
     {
       "id": "5333454d4d6e2f7f0460",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la sustitución de determinadas bombas de insulina MiniMed™ serie 600",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3539,6 +3782,7 @@
     },
     {
       "id": "546f59372b3748fe87dd",
+      "source_id": "aemps_cosmetics_actions",
       "title": "La AEMPS informa de la retirada del mercado y de la recuperación de varios productos cosméticos de MSL SOLUTION PROVIDERS LIMITED por contaminación microbiológica",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -3554,6 +3798,7 @@
     },
     {
       "id": "ddc70e1f5c022d3af772",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la retirada del mercado de un lote de las cánulas de traqueostomía flexible para adultos Shiley™",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3569,6 +3814,7 @@
     },
     {
       "id": "97ecf3e5ae78e1ace5d6",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la retirada del mercado de determinados lotes de soluciones para lentes de contacto, lavado de ojos y lubricantes oculares, fabricadas por Bausch&Lomb",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3584,6 +3830,7 @@
     },
     {
       "id": "f0d4ae721f89d8d09654",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la retirada del mercado de determinados lotes de los sensores Guardian 4 por un posible error de precisión en la monitorización de glucosa",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3599,6 +3846,7 @@
     },
     {
       "id": "b2fc5d81e6b869e31b65",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la retirada del mercado de determinados lotes de las medias de compresión VenoTrain Clinic",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3614,6 +3862,7 @@
     },
     {
       "id": "73b45a659c0c7bbd9c3b",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la retirada del mercado de determinados lotes de la muleta con puño anatómico blando y con referencia AD112",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3629,6 +3878,7 @@
     },
     {
       "id": "38a69740d753c8681184",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la retirada del mercado de determinados lotes de equipos VariSoft para infusión subcutánea de insulina",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3644,6 +3894,7 @@
     },
     {
       "id": "38f5dced2819cdfa377a",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la retirada del mercado de determinados equipos de succión New Askir 30",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3659,6 +3910,7 @@
     },
     {
       "id": "fb474bfa527f4a4c6728",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la retirada del mercado de determinadas medias de compresión y vendajes fabricados por Bauerfeind AG",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3674,6 +3926,7 @@
     },
     {
       "id": "e8cf386706d27ebc20d2",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la retirada del mercado de determinadas cánulas Guedel de una sola pieza",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3689,6 +3942,7 @@
     },
     {
       "id": "f320c39f4d7222709e07",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la retirada del mercado de determinadas cánulas Guedel de una sola pieza",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3704,6 +3958,7 @@
     },
     {
       "id": "3f27f22ede649095e220",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la retirada del mercado de determinadas compresas estériles SalveloxMED",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3719,6 +3974,7 @@
     },
     {
       "id": "45ce8946c25096171ad2",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la retirada del enjuague bucal Caphosol",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3734,6 +3990,7 @@
     },
     {
       "id": "271ed45f20e46a90048b",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la retirada de un lote de lentes de contacto Acuvue Oasys Max 1-Day Multifocal",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3749,6 +4006,7 @@
     },
     {
       "id": "f992602322c5e51a4605",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la retirada de los productos MediHoney para heridas y quemaduras",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3764,6 +4022,7 @@
     },
     {
       "id": "e89500c3be179bcff25b",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la retirada de las cremas dermatológica y protectora MediHoney",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3779,6 +4038,7 @@
     },
     {
       "id": "29730b51701c21b140a9",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la retirada de equipos para Cicladora Personal HomeChoice con cassette y 4 líneas",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3794,6 +4054,7 @@
     },
     {
       "id": "fab0b401e5ab7fcda2ea",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la retirada de dos lotes de Veo Peróxido USP 360+36 Comprimidos para lentes de contacto",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3809,6 +4070,7 @@
     },
     {
       "id": "88d85641a7fbe0fd2af3",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la retirada de determinados lotes del Kit de nebulización CIRRUS2 con mascarilla para adulto EcoLite™ y línea de oxigeno de 2.1m",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3826,6 +4088,7 @@
     },
     {
       "id": "b01bbc433a5dc42f4733",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la retirada de determinados lotes de sistemas de peróxido para lentes de contacto distribuidos por Disop",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3841,6 +4104,7 @@
     },
     {
       "id": "56df364da161ae92431b",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la retirada de determinados equipos de terapia respiratoria Airvo 2 y myAirvo 2 debido a un fallo en las alarmas sonoras",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3856,6 +4120,7 @@
     },
     {
       "id": "959536c4f903b7cb1347",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la posible rotura de los pies protésicos Vari-Flex Junior cuando se les aplica una torsión o flexión repentina de alto impacto",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3871,6 +4136,7 @@
     },
     {
       "id": "76bf2f678f60b9665518",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la posible apertura de los tubos de las tiras reactivas de glucemia Accu-chek® Aviva y Accu-chek® Performa dentro de la caja de cartón sellada",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3886,6 +4152,7 @@
     },
     {
       "id": "02f20ac53c6bcf4e345c",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la posible administración repetida de un bolo estándar de insulina desde la aplicación mylife CamAPS FX, con versión de software 1.4(174) o anteriores",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3901,6 +4168,7 @@
     },
     {
       "id": "154cdb311d0e78e0b600",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la posible activación repentina de la alarma de fallo de la batería de respaldo del controlador en los sistemas HeartMate II y HeartMate 3",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3916,6 +4184,7 @@
     },
     {
       "id": "78044a65d9c18b3593bd",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la posibilidad de que no se pueda acceder a las aplicaciones preinstaladas del Receptor de Monitorización Inteligente para el control de la glucosa de Medtronic",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3931,6 +4200,7 @@
     },
     {
       "id": "bc32105a2d8be5864a18",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la posibilidad de que los datos de bolo mostrados en el administrador de diabetes Accu-Chek Solo sean incorrectos",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3946,6 +4216,7 @@
     },
     {
       "id": "f938ad06dc7db98b08a8",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la posibilidad de que la aplicación Guardian™ Connect presente problemas en la sincronización de los datos con el software CareLink™ Personal",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3961,6 +4232,7 @@
     },
     {
       "id": "b64c2f9ed2972a235103",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la posibilidad de que el enchufe, de determinados números de serie, del sistema electrónico del paciente CardioMEMS pueda deteriorarse si se manipula o dobla repetidamente",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3976,6 +4248,7 @@
     },
     {
       "id": "8f30c560152b3ca6ea64",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la posibilidad de que el desfibrilador Reanibex 100 se apague inesperadamente al intentar administrar una descarga",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -3991,6 +4264,7 @@
     },
     {
       "id": "d425bb3d048ce290085c",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la posibilidad de que el Neuroestimulador Implantable (INS) Vanta™ modelo 977006 falle tras un procedimiento de cardioversión",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4006,6 +4280,7 @@
     },
     {
       "id": "c330cfa9237fb874b665",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la posibilidad de que el Neuroestimulador Implantable (INS) Percept PC falle tras un procedimiento de cardioversión",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4021,6 +4296,7 @@
     },
     {
       "id": "65f69fe93f2183cb24ca",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la posibilidad de que determinadas bombas de administración intratecal de fármacos SynchroMed II no reanuden su funcionamiento al finalizar un procedimiento de resonancia magnética",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4036,6 +4312,7 @@
     },
     {
       "id": "c89e78a37779f01a4bb9",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la posibilidad de obstrucción de la válvula espiratoria de control de presión de ventiladores Vivo 55/65 con el uso de determinadas cubiertas protectoras.",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4051,6 +4328,7 @@
     },
     {
       "id": "caec57c31c75652d781b",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la posibilidad de irritación cutánea asociada a determinados modelos de los sets de infusión Mylife YpsoPump Orbit Micro 2.0",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4066,6 +4344,7 @@
     },
     {
       "id": "06a36daec721bc510219",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la posibilidad de interferencias con dispositivos electrónicos durante el uso de determinadas camas ECOFIT",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4081,6 +4360,7 @@
     },
     {
       "id": "5fe6f0f4e3bc9134907b",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la posibilidad de degradación de la espuma de reducción de ruido en determinados ventiladores de asistencia respiratoria de Philips Respironics",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4096,6 +4376,7 @@
     },
     {
       "id": "cf566174b988473725ba",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la disponibilidad de un nuevo modelo de tapón de la pila para las bombas de insulina MiniMed™ serie 600 y determinadas bombas de la serie 700",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4111,6 +4392,7 @@
     },
     {
       "id": "6ae9e5c655c9f0d845d4",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la detección del producto falsificado Juvederm Ultra 4 en el mercado español",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4126,6 +4408,7 @@
     },
     {
       "id": "bafe41072a54ff432c5c",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la detección de productos sanitarios para diagnóstico in vitro iCare no conformes comercializados bajo la marca de JAL Medical (Singapore) Pte. Ltd.",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4141,6 +4424,7 @@
     },
     {
       "id": "8d21ad10a77b6ff7ff43",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la corrección de la capacidad de peso máximo de algunas muletas Globe-Trotter y Globe-Trotter+",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4156,6 +4440,7 @@
     },
     {
       "id": "1a913592bb5b1abdcaea",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la ampliación de la retirada de nuevos lotes del kit de nebulización CIRRUS2 con mascarilla para adulto EcoLite™ y línea de oxígeno de 2.1 m",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4173,6 +4458,7 @@
     },
     {
       "id": "9230725f9de8865b79e4",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la actualización del software de las bombas de insulina MiniMed™ 780G para eliminar determinados errores",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4188,6 +4474,7 @@
     },
     {
       "id": "bf598f50d2ecb030aa27",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la actualización del manual del usuario de mylife CamAPS FX para aclarar su compatibilidad con dispositivos móviles y sistemas operativos",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4203,6 +4490,7 @@
     },
     {
       "id": "b7091db8f184f9700c1a",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la actualización de las instrucciones de uso del producto Molusinkid para disminuir las posibles quemaduras químicas",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4218,6 +4506,7 @@
     },
     {
       "id": "fc7879f0444c49ede566",
+      "source_id": "aemps_devices",
       "title": "La AEMPS informa de la actualización de las instrucciones de la cama Invacare NorBed Kid para la correcta instalación y uso de la barandilla lateral deslizante",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4233,6 +4522,7 @@
     },
     {
       "id": "8879ee838ab0c27ac7ba",
+      "source_id": "aemps_devices",
       "title": "La AEMPS indica la retirada de determinados pesarios vaginales CETRO Prolapse Incontinence antes de una resonancia magnética",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4248,6 +4538,7 @@
     },
     {
       "id": "cbf7ef66b35c77533a21",
+      "source_id": "aemps_cosmetics_actions",
       "title": "La AEMPS ha solicitado el cese de la comercialización y la retirada voluntaria del mercado de todos los lotes del producto Nuud the carefree deodorant",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -4265,6 +4556,7 @@
     },
     {
       "id": "0c56c3dd41f562385895",
+      "source_id": "aemps_cosmetics_actions",
       "title": "La AEMPS comunica el cese de actividad de fabricación de productos cosméticos de la empresa KOR KOSMETIK, S.L., y la retirada del mercado de todos los productos que elabora",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -4280,6 +4572,7 @@
     },
     {
       "id": "89ed3eed6a4214b6763c",
+      "source_id": "aemps_devices",
       "title": "La AEMPS advierte del riesgo de fuga de aire en algunos colchones motorizados Axtair",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4295,6 +4588,7 @@
     },
     {
       "id": "28ebb947f4a1e1a3481c",
+      "source_id": "aemps_devices",
       "title": "La AEMPS advierte del riesgo asociado a una colocación incorrecta del mosquetón en la grúa de elevación Invacare Birdie",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4310,6 +4604,7 @@
     },
     {
       "id": "f7fe704d8ebb0daa215f",
+      "source_id": "aemps_devices",
       "title": "La AEMPS actualiza la información sobre posibles fallos del componente SpeedControl Dial del sistema de asistencia eléctrica SmartDrive MX2+ para sillas de ruedas",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4325,6 +4620,7 @@
     },
     {
       "id": "47fc4d6ae5bab452f9c4",
+      "source_id": "aemps_devices",
       "title": "Instrucciones para reducir el riesgo de fugas de insulina al cambiar el cartucho precargado de la bomba Accu-Chek® Insight",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4340,6 +4636,7 @@
     },
     {
       "id": "a90cfa20d5009f172f58",
+      "source_id": "aemps_devices",
       "title": "Información sobre la retirada del mercado del lote L190801009 de AUXIPOPS, pastillas para chupar.",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4357,6 +4654,7 @@
     },
     {
       "id": "bde04a7e59ff9eebf117",
+      "source_id": "aemps_devices",
       "title": "Información sobre la retirada de determinados números de serie de los implantes cocleares HiRes Ultra y HiRes Ultra 3D",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4372,6 +4670,7 @@
     },
     {
       "id": "8fd490bd0c3f11ef6c08",
+      "source_id": "aemps_cosmetics_notes",
       "title": "Dispositivos de seguridad de medicamentos de uso humano",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -4387,6 +4686,7 @@
     },
     {
       "id": "38d574654a7058c27535",
+      "source_id": "aesan_food",
       "title": "Control oficial y Red de Alertas alimentarias",
       "agency": "AESAN",
       "category": "Alimentación",
@@ -4402,6 +4702,7 @@
     },
     {
       "id": "3f3931f22db571eba079",
+      "source_id": "aemps_devices",
       "title": "Cese de utilización y retirada del mercado del lote R1033A de la solución oftálmica Optiben Ojos Secos 10ml",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4419,6 +4720,7 @@
     },
     {
       "id": "e39147d832db2dccb578",
+      "source_id": "aemps_devices",
       "title": "Cese de utilización y retirada del mercado de varios lotes de la solución oftálmica Ectodol®",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4434,6 +4736,7 @@
     },
     {
       "id": "0072233e21574262b867",
+      "source_id": "aemps_devices",
       "title": "Cese de utilización y retirada del mercado de determinadas cánulas Accu-Chek Solo por riesgo de fugas de insulina",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4449,6 +4752,7 @@
     },
     {
       "id": "e3710d97bd2a5ce6a4cd",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Cese de la comercialización y retirada del mercado de todos los productos cosméticos comercializados por COSMÉTICA PROFESIONAL LATORRE S.L., ONES COSMETICS S.L. O NOVA LINE COSMETICS",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -4464,6 +4768,7 @@
     },
     {
       "id": "451e91789ff37ef3485a",
+      "source_id": "aemps_cosmetics_notes",
       "title": "Cese de comercialización, retirada y recuperación del cosmético Mya Beauty Tin",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -4479,6 +4784,7 @@
     },
     {
       "id": "99f45b6b122f495230a8",
+      "source_id": "aemps_cosmetics_notes",
       "title": "Cese de comercialización, retirada y recuperación del cosmético Hello Sunday The One For Your eyes SPF 50",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -4494,6 +4800,7 @@
     },
     {
       "id": "f96db3984650e1c7ff98",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Cese de comercialización, retirada y recuperación de Kneipp Gel de Ducha Litsea Cubeba Limón",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -4509,6 +4816,7 @@
     },
     {
       "id": "21e6a703b89608396913",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Cese de comercialización, retirada del mercado y recuperación de un lote del producto cosmético Ma Brume Fraîcheur por contaminación microbiológica",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -4526,6 +4834,7 @@
     },
     {
       "id": "c87dcd3596c3a0590df7",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Cese de comercialización, retirada del mercado y recuperación de un lote del cosmético Taky cera divina depilatoria facial con aceites naturales",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -4543,6 +4852,7 @@
     },
     {
       "id": "6ed8004aef2117d98520",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Cese de comercialización, retirada del mercado y recuperación de las ampollas antiedad Vichy Liftactiv Specialist Peptide-C",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -4558,6 +4868,7 @@
     },
     {
       "id": "9458c144e928ec3f9c98",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Cese de comercialización, inmovilización cautelar y cese de utilización del cosmético +B.O emulsión hidratante pH 5, fabricado por Telic S.A.U.",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -4573,6 +4884,7 @@
     },
     {
       "id": "2c392c0a2f94e1089e27",
+      "source_id": "aemps_devices",
       "title": "Cese de comercialización y retirada del mercado de todos los lotes de Rapid COVID-19 Antigen Test (Colloidal Gold)/Saliva",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4588,6 +4900,7 @@
     },
     {
       "id": "f5100e335af8ecbccb4c",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Cese de comercialización y de utilización de un lote del cosmético Colutorio Clorhexidina + Xilitol Imark-Formato Monodosis",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -4605,6 +4918,7 @@
     },
     {
       "id": "1e168964c47257bdc4ee",
+      "source_id": "aesan_food",
       "title": "Buscador de alertas alimentarias",
       "agency": "AESAN",
       "category": "Alimentación",
@@ -4620,6 +4934,7 @@
     },
     {
       "id": "0d3ae806fa57087a608c",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Ampliación de la retirada del mercado del antiséptico de piel sana Bohmclorh solución acuosa 2% de clorhexidina, 250 ml",
       "agency": "AEMPS",
       "category": "Cosméticos",
@@ -4635,6 +4950,7 @@
     },
     {
       "id": "66ce3675d4648fd59fc5",
+      "source_id": "aesan_food",
       "title": "Alertas alimentarias",
       "agency": "AESAN",
       "category": "Alimentación",
@@ -4650,6 +4966,7 @@
     },
     {
       "id": "90c1b9d22b1e8f770666",
+      "source_id": "aemps_devices",
       "title": "Alerta de productos sanitarios «Retirada voluntaria del mercado por parte de la empresa ADVANCED MEDICAL OPTICS (AMO), de la soluci&oacute;n de mantenimiento de lentes de contacto COMPLETE MOISTUREPLUS»",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4665,6 +4982,7 @@
     },
     {
       "id": "ae8480c91744fea90b33",
+      "source_id": "aemps_devices",
       "title": "Alerta de Productos Sanitarios «Retirada del mercado de los lotes 2007/158 y 2007/203 del producto Glucocard G Meter GT-1810 Ref. 33934, fabricado por Arkray Inc, Japón y distribuido por Menarini Diagnostics, S.A.»",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4682,6 +5000,7 @@
     },
     {
       "id": "f5f4b3e23d26af87b1ca",
+      "source_id": "aemps_devices",
       "title": "Alerta de Productos Sanitarios «Retirada del mercado de ciertos lotes de los equipos para infusión intravenosa por gravedad PERFUSEND, fabricados por SENDAL, S.A.»",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4697,6 +5016,7 @@
     },
     {
       "id": "b45846965a098603682c",
+      "source_id": "aemps_devices",
       "title": "Actualización de la nota sobre riesgo de obtener una lectura de glucemia erróneamente alta con las tiras reactivas “Glucomen® LX Sensor”",
       "agency": "AEMPS",
       "category": "Productos sanitarios",
@@ -4712,6 +5032,7 @@
     },
     {
       "id": "3240fc842fec050a7017",
+      "source_id": "aemps_cosmetics_actions",
       "title": "Actualización de la nota informativa sobre el cosmético +B.O emulsión hidratante pH 5: retirada del mercado de todas las unidades de los lotes fabricados desde julio de 2017",
       "agency": "AEMPS",
       "category": "Cosméticos",
