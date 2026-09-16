@@ -35,6 +35,9 @@ jobs:
       - name: Normalizar semántica geográfica
         run: python scripts/semantic_cleanup.py
 
+      - name: Enriquecer clasificación Safety Gate
+        run: python scripts/enrich_safety_gate.py
+
       - name: Guardar registro actualizado
         run: |
           git config user.name "github-actions[bot]"
