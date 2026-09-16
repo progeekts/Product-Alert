@@ -10,10 +10,8 @@ from bs4 import BeautifulSoup
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 DATA_FILE = os.path.join(ROOT, "data", "alertas.json")
-HEADERS = {"User-Agent": "ProductAlertSpain/2.0 (+https://github.com/progeekts/Product-Alert)", "Accept-Language": "es-ES,es;q=0.9,en;q=0.5"}
+HEADERS = {"User-Agent": "ProductAlertSpain/2.1 (+https://github.com/progeekts/Product-Alert)", "Accept-Language": "es-ES,es;q=0.9,en;q=0.5"}
 
-# Fuentes públicas oficiales con extracción HTML estable. Safety Gate/Red de Alerta
-# se incorporarán cuando dispongamos de un endpoint público que podamos validar.
 SOURCES = [
  {"agency":"AESAN","category":"Alimentación","url":"https://www.aesan.gob.es/alertas/alertas-alimentarias","keywords":["alerta","advertencia","ampliación"]},
  {"agency":"AEMPS","category":"Medicamentos","url":"https://www.aemps.gob.es/comunicacion/alertas/alertas-farmaceuticas-y-retiradas-de-lotes-de-medicamentos-de-uso-humano-por-defectos-de-calidad/","keywords":["alerta","retirada","defecto de calidad"]},
@@ -79,17 +77,28 @@ def dedupe(alerts):
   if not old or (x.get("date","") >= old.get("date","")): by_key[key]=x
  return list(by_key.values())
 
+def load_previous():
+ try:
+  with open(DATA_FILE,encoding="utf-8") as f: raw=json.load(f)
+  return raw if isinstance(raw,dict) else {"meta":{},"alerts":raw}
+ except Exception: return {"meta":{},"alerts":[]}
+
+def previous_slice(previous, source):
+ return [x for x in previous.get("alerts",[]) if x.get("agency")==source["agency"] and x.get("category")==source["category"]]
+
 def main():
- os.makedirs(os.path.dirname(DATA_FILE),exist_ok=True); collected=[]; source_status=[]
+ os.makedirs(os.path.dirname(DATA_FILE),exist_ok=True); previous=load_previous(); collected=[]; source_status=[]
  for source in SOURCES:
   try:
    items=parse_generic(source); collected.extend(items)
-   source_status.append({"agency":source["agency"],"category":source["category"],"url":source["url"],"ok":True,"items":len(items)})
+   source_status.append({"agency":source["agency"],"category":source["category"],"url":source["url"],"ok":True,"stale":False,"items":len(items)})
    print(f"[{source['agency']} / {source['category']}] {len(items)} registros detectados")
   except Exception as exc:
-   source_status.append({"agency":source["agency"],"category":source["category"],"url":source["url"],"ok":False,"error":str(exc)[:250]}); print(f"[{source['agency']} / {source['category']}] ERROR: {exc}")
+   cached=previous_slice(previous,source); collected.extend(cached)
+   source_status.append({"agency":source["agency"],"category":source["category"],"url":source["url"],"ok":False,"stale":True,"items":len(cached),"error":str(exc)[:250]})
+   print(f"[{source['agency']} / {source['category']}] ERROR; se conservan {len(cached)} registros previos: {exc}")
  alerts=dedupe(collected); alerts.sort(key=lambda x:(x.get("date",""),x.get("title","")),reverse=True)
- payload={"meta":{"last_checked":datetime.now(timezone.utc).isoformat(),"sources":source_status,"count":len(alerts),"scope":"España","version":2,"note":"Información agregada desde fuentes oficiales. La publicación original prevalece siempre."},"alerts":alerts}
+ payload={"meta":{"last_checked":datetime.now(timezone.utc).isoformat(),"sources":source_status,"count":len(alerts),"scope":"España","version":3,"note":"Información agregada desde fuentes oficiales. Si una fuente falla temporalmente, se conserva su último conjunto conocido y se marca como desactualizado. La publicación original prevalece siempre."},"alerts":alerts}
  with open(DATA_FILE,"w",encoding="utf-8") as f:json.dump(payload,f,ensure_ascii=False,indent=2)
  print(f"Registro actualizado: {len(alerts)} alertas únicas")
 if __name__=="__main__":main()

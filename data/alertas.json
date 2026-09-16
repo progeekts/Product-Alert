@@ -1,12 +1,13 @@
 {
   "meta": {
-    "last_checked": "2026-09-16T09:51:23.009629+00:00",
+    "last_checked": "2026-09-16T09:55:04.476159+00:00",
     "sources": [
       {
         "agency": "AESAN",
         "category": "Alimentación",
         "url": "https://www.aesan.gob.es/alertas/alertas-alimentarias",
         "ok": true,
+        "stale": false,
         "items": 22
       },
       {
@@ -14,6 +15,7 @@
         "category": "Medicamentos",
         "url": "https://www.aemps.gob.es/comunicacion/alertas/alertas-farmaceuticas-y-retiradas-de-lotes-de-medicamentos-de-uso-humano-por-defectos-de-calidad/",
         "ok": true,
+        "stale": false,
         "items": 0
       },
       {
@@ -21,6 +23,7 @@
         "category": "Productos sanitarios",
         "url": "https://www.aemps.gob.es/productos-sanitarios/acciones-informativas-productos-sanitarios/",
         "ok": true,
+        "stale": false,
         "items": 231
       },
       {
@@ -28,6 +31,7 @@
         "category": "Cosméticos",
         "url": "https://www.aemps.gob.es/comunicacion/notas-de-seguridad/acciones-informativas-notas-de-seguridad-cosmeticos-y-cuidado-personal/",
         "ok": true,
+        "stale": false,
         "items": 55
       },
       {
@@ -35,13 +39,14 @@
         "category": "Cosméticos",
         "url": "https://www.aemps.gob.es/comunicacion/notas-de-seguridad/notas-informativas-de-seguridad-de-cosmeticos/",
         "ok": true,
+        "stale": false,
         "items": 14
       }
     ],
     "count": 306,
     "scope": "España",
-    "version": 2,
-    "note": "Información agregada desde fuentes oficiales. La publicación original prevalece siempre."
+    "version": 3,
+    "note": "Información agregada desde fuentes oficiales. Si una fuente falla temporalmente, se conserva su último conjunto conocido y se marca como desactualizado. La publicación original prevalece siempre."
   },
   "alerts": [
     {
