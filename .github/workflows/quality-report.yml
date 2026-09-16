@@ -1,0 +1,22 @@
+name: Informe de calidad
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v5
+      - name: Configurar Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - name: Informe
+        run: python scripts/report_quality.py
+      - name: Auditoría
+        run: python scripts/audit_data.py
