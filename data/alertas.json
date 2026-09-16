@@ -1,71 +1,12 @@
-[
-  {
-    "id": "aesan-2024-001",
-    "title": "Presencia de fragmentos de plástico en tabletas de chocolate Milka",
-    "agency": "AESAN",
-    "category": "alimentacion",
-    "brand": "Milka",
-    "product_type": "Chocolate con leche y galleta",
-    "date": "2024-02-19",
-    "link": "https://www.aesan.gob.es/AECOSAN/web/seguridad_alimentaria/alertas_alimentarias/2024_08.htm",
-    "description": "Retirada precautoria por presencia de cuerpos extraños (plásticos) en lotes específicos distribuidos en España.",
-    "lotes": [
-      "OSK0934422"
+{
+  "meta": {
+    "last_checked": null,
+    "sources": [
+      "AESAN",
+      "AEMPS",
+      "CONSUMO"
     ],
-    "barcodes": [
-      "7622210987132"
-    ]
+    "note": "Registro generado a partir de fuentes oficiales. Cada alerta conserva enlace a su publicación original."
   },
-  {
-    "id": "aemps-2024-002",
-    "title": "Retirada del lote N004 de Omeprazol pensa 20 mg cápsulas",
-    "agency": "AEMPS",
-    "category": "medicamentos",
-    "brand": "Pensa Pharma",
-    "product_type": "Medicamento antiulceroso",
-    "date": "2024-03-05",
-    "link": "https://www.aemps.gob.es/medicamentos-de-uso-humano/defectos-de-calidad/2024/",
-    "description": "Defecto de clase 2: Resultado fuera de especificaciones en el ensayo de disolución durante los estudios de estabilidad.",
-    "lotes": [
-      "N004",
-      "N005"
-    ],
-    "barcodes": [
-      "8470006543210"
-    ]
-  },
-  {
-    "id": "aesan-2024-003",
-    "title": "Presencia de gluten no declarado en galletas digestive de avena sin gluten",
-    "agency": "AESAN",
-    "category": "alimentacion",
-    "brand": "Gullón",
-    "product_type": "Galletas sin gluten",
-    "date": "2024-04-12",
-    "link": "https://www.aesan.gob.es/AECOSAN/web/seguridad_alimentaria/alertas_alimentarias/alertas_gluten.htm",
-    "description": "Alerta por riesgo para celíacos debido a contaminación cruzada accidental con trazas de trigo superiores a 20 ppm.",
-    "lotes": [
-      "L23091B"
-    ],
-    "barcodes": [
-      "8410376041235"
-    ]
-  },
-  {
-    "id": "safetygate-2024-004",
-    "title": "Riesgo de asfixia por desprendimiento de piezas pequeñas en sonajero mordedor",
-    "agency": "CONSUMO",
-    "category": "infantil",
-    "brand": "BabiesFun",
-    "product_type": "Juguete primera infancia",
-    "date": "2024-05-18",
-    "link": "https://ec.europa.eu/safety-gate-alerts/",
-    "description": "Notificación de la Dirección General de Consumo: los aros laterales pueden romperse bajo tracción moderada generando piezas ingeribles.",
-    "lotes": [
-      "BF-2023-X"
-    ],
-    "barcodes": [
-      "8435123456789"
-    ]
-  }
-]
+  "alerts": []
+}
