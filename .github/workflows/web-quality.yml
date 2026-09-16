@@ -1,0 +1,33 @@
+name: Calidad web
+
+on:
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'alerta.html'
+      - 'scripts/audit_web.py'
+      - '.github/workflows/web-quality.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'alerta.html'
+      - 'scripts/audit_web.py'
+      - '.github/workflows/web-quality.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit-web:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v7
+      - name: Configurar Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+      - name: Auditar interfaz
+        run: python scripts/audit_web.py
