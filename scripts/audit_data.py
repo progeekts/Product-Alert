@@ -1,9 +1,34 @@
 import json
+import re
 import sys
 from collections import Counter
 from pathlib import Path
 
 DATA = Path(__file__).resolve().parents[1] / "data" / "alertas.json"
+
+
+def unsupported_spain_commercial_claim(text):
+    """Detecta afirmaciones positivas de comercialización en España.
+
+    No marca frases preventivas/negativas como «no demuestra que se haya
+    comercializado en España» o «no implica ... comercializado en España».
+    """
+    text = " ".join(str(text or "").lower().split())
+    if not text:
+        return False
+    patterns = (
+        r"\b(?:se\s+)?(?:ha\s+)?comercializad[oa]\s+en\s+españa\b",
+        r"\b(?:se\s+)?(?:ha\s+)?vendid[oa]\s+en\s+españa\b",
+        r"\b(?:se\s+)?(?:ha\s+)?distribuid[oa]\s+en\s+españa\b",
+    )
+    for pattern in patterns:
+        for match in re.finditer(pattern, text):
+            prefix = text[max(0, match.start() - 100):match.start()]
+            # Formulaciones explícitamente prudentes que niegan la inferencia.
+            if re.search(r"(?:no\s+(?:demuestra|implica|acredita|confirma|prueba)|sin\s+(?:demostrar|acreditar|confirmar|probar))[^.]{0,80}$", prefix):
+                continue
+            return True
+    return False
 
 
 def main():
@@ -28,22 +53,28 @@ def main():
             errors.append(f"{ref}: falta enlace oficial")
         if not a.get("title"):
             errors.append(f"{ref}: falta título")
+
         if a.get("source_id") == "eu_safety_gate":
             if a.get("category_basis") not in {"official", "derived"}:
                 errors.append(f"{ref}: category_basis inválido")
-            if a.get("spain_confirmed") is not True and "España" in str(a.get("consumer_action", "")) and "no implica" not in str(a.get("consumer_action", "")):
-                errors.append(f"{ref}: posible afirmación geográfica no respaldada")
+            if a.get("spain_confirmed") is True:
+                errors.append(f"{ref}: spain_confirmed no puede usarse como prueba de comercialización")
+            for key in ("notified_by_spain", "spain_follow_up", "spain_related"):
+                if key in a and not isinstance(a.get(key), bool):
+                    errors.append(f"{ref}: {key} debe ser booleano")
+            expected_related = bool(a.get("notified_by_spain") or a.get("spain_follow_up"))
+            if bool(a.get("spain_related")) != expected_related:
+                errors.append(f"{ref}: spain_related incoherente")
+
+            if unsupported_spain_commercial_claim(a.get("consumer_action")):
+                errors.append(f"{ref}: afirmación comercial/geográfica positiva no respaldada")
             if a.get("category") == "Otros productos":
                 warnings.append(f"{ref}: categoría pendiente de mejorar")
-        # Las medidas de fabricante/autoridad no deben presentarse automáticamente
-        # como una instrucción específica para el consumidor.
+
         action = str(a.get("consumer_action") or "")
         measures = a.get("measures") or []
-        if measures and action and action not in {
-            "Consulta la publicación oficial para conocer las medidas aplicables.",
-            "Consulta las medidas oficiales de la alerta. La presencia en Safety Gate no implica por sí sola que el producto se haya comercializado en España.",
-        }:
-            warnings.append(f"{ref}: revisar separación entre medidas y consejo al consumidor")
+        if measures and action and action in measures:
+            warnings.append(f"{ref}: consumer_action coincide con una medida oficial")
 
     categories = Counter(a.get("category") or "Sin categoría" for a in alerts)
     sources = Counter(a.get("source_id") or "sin_source_id" for a in alerts)
