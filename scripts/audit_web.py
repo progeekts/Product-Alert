@@ -4,7 +4,13 @@ import sys
 errors = []
 required = {
     "index.html": ["Product Alert España", "alerta.html?id=", "spain_related", "Fuente oficial"],
-    "alerta.html": ["data/alertas.json", "Fuente oficial", "Medidas oficiales", "Qué debe hacer el consumidor", "¿Qué relación tiene con España?"],
+    "alerta.html": [
+        "data/alertas.json",
+        "Abrir publicación oficial",
+        "¿Qué medidas oficiales constan?",
+        "¿Qué debe hacer el consumidor?",
+        "¿Qué relación tiene con España?",
+    ],
 }
 
 for name, needles in required.items():
