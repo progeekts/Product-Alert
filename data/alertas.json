@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_checked": "2026-09-20T11:26:18.271684+00:00",
+    "last_checked": "2026-09-20T20:45:50.555018+00:00",
     "sources": [
       {
         "id": "aesan_food",
@@ -10,8 +10,8 @@
         "ok": true,
         "stale": false,
         "items": 22,
-        "checked_at": "2026-09-20T11:25:57.406977+00:00",
-        "last_success": "2026-09-20T11:25:57.406977+00:00"
+        "checked_at": "2026-09-20T20:45:30.824940+00:00",
+        "last_success": "2026-09-20T20:45:30.824940+00:00"
       },
       {
         "id": "aemps_medicines",
@@ -21,8 +21,8 @@
         "ok": true,
         "stale": false,
         "items": 10,
-        "checked_at": "2026-09-20T11:25:58.067355+00:00",
-        "last_success": "2026-09-20T11:25:58.067355+00:00"
+        "checked_at": "2026-09-20T20:45:31.498800+00:00",
+        "last_success": "2026-09-20T20:45:31.498800+00:00"
       },
       {
         "id": "aemps_devices",
@@ -32,8 +32,8 @@
         "ok": true,
         "stale": false,
         "items": 232,
-        "checked_at": "2026-09-20T11:26:13.429016+00:00",
-        "last_success": "2026-09-20T11:26:13.429016+00:00"
+        "checked_at": "2026-09-20T20:45:45.784540+00:00",
+        "last_success": "2026-09-20T20:45:45.784540+00:00"
       },
       {
         "id": "aemps_cosmetics_actions",
@@ -43,8 +43,8 @@
         "ok": true,
         "stale": false,
         "items": 55,
-        "checked_at": "2026-09-20T11:26:15.304835+00:00",
-        "last_success": "2026-09-20T11:26:15.304835+00:00"
+        "checked_at": "2026-09-20T20:45:47.693709+00:00",
+        "last_success": "2026-09-20T20:45:47.693709+00:00"
       },
       {
         "id": "aemps_cosmetics_notes",
@@ -54,8 +54,8 @@
         "ok": true,
         "stale": false,
         "items": 14,
-        "checked_at": "2026-09-20T11:26:16.799687+00:00",
-        "last_success": "2026-09-20T11:26:16.799687+00:00"
+        "checked_at": "2026-09-20T20:45:49.130218+00:00",
+        "last_success": "2026-09-20T20:45:49.130218+00:00"
       },
       {
         "id": "eu_safety_gate",
@@ -66,8 +66,8 @@
         "stale": false,
         "items": 170,
         "fetched_now": 170,
-        "checked_at": "2026-09-20T11:26:18.271684+00:00",
-        "last_success": "2026-09-20T11:26:18.271684+00:00"
+        "checked_at": "2026-09-20T20:45:50.555018+00:00",
+        "last_success": "2026-09-20T20:45:50.555018+00:00"
       }
     ],
     "count": 487,
@@ -86,7 +86,7 @@
       "processed_now": 35,
       "failed_now": 0,
       "remaining": 135,
-      "checked_at": "2026-09-20T11:29:15.649387+00:00",
+      "checked_at": "2026-09-20T20:48:09.977275+00:00",
       "note": "Enriquecimiento progresivo desde fichas PDF oficiales; extracción delimitada y fallos sin pérdida de historial."
     }
   },
@@ -135,7 +135,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118954/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:26:38.554542+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:46:13.087920+00:00"
     },
     {
       "id": "bca1e57d8ac0c21748b9",
@@ -179,7 +179,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118915/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:26:39.748489+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:46:14.344015+00:00"
     },
     {
       "id": "42328a91c1edbc4b1613",
@@ -225,7 +225,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118943/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:26:42.848642+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:46:17.355047+00:00"
     },
     {
       "id": "c1260ed3a4cce3bb2059",
@@ -269,7 +269,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118948/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:26:53.333142+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:46:28.435429+00:00"
     },
     {
       "id": "e792e973a229dc1a3d7d",
@@ -317,7 +317,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118758/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:26:56.020483+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:46:30.165214+00:00"
     },
     {
       "id": "6170536f5bf693ad8d40",
@@ -365,7 +365,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118947/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:27:12.227214+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:46:36.856435+00:00"
     },
     {
       "id": "f41f49769506fc11a97b",
@@ -413,7 +413,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118911/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:27:17.357826+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:46:41.892317+00:00"
     },
     {
       "id": "5011bc28afa952e8ce26",
@@ -463,7 +463,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10106564/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:27:18.947446+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:46:43.267741+00:00"
     },
     {
       "id": "587063f22e27a1ceb928",
@@ -507,7 +507,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118932/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:27:20.317828+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:46:44.540448+00:00"
     },
     {
       "id": "6e72ada27dd238291400",
@@ -555,7 +555,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118748/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:27:30.558183+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:46:47.874889+00:00"
     },
     {
       "id": "379fb2095b07787e7aca",
@@ -601,7 +601,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118763/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:27:32.658321+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:46:50.117015+00:00"
     },
     {
       "id": "f29501627e60e80ef608",
@@ -649,7 +649,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118884/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:27:39.177293+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:46:56.583284+00:00"
     },
     {
       "id": "f6cae85a5db2714d9ba5",
@@ -699,7 +699,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118757/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:27:41.631811+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:46:58.984875+00:00"
     },
     {
       "id": "83a908b980c386b7451a",
@@ -747,7 +747,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118927/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:27:46.106984+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:47:03.503033+00:00"
     },
     {
       "id": "851e0733a7ac4e4c6451",
@@ -793,7 +793,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118980/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:27:49.142129+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:47:05.359328+00:00"
     },
     {
       "id": "7d1c4fece8db9e9f8929",
@@ -841,7 +841,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118912/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:27:50.215437+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:47:06.433909+00:00"
     },
     {
       "id": "32a622b8039dca6c3e50",
@@ -885,7 +885,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118977/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:27:56.156639+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:47:12.490005+00:00"
     },
     {
       "id": "622f8f03e1f71a35034d",
@@ -929,7 +929,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118978/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:28:03.646959+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:47:19.820701+00:00"
     },
     {
       "id": "efc721c5e09e52d4dbf1",
@@ -973,7 +973,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118976/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:28:20.903149+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:47:26.260384+00:00"
     },
     {
       "id": "efcaaf66c9ebb0332039",
@@ -1019,7 +1019,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118750/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:28:25.424204+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:47:28.171878+00:00"
     },
     {
       "id": "c3de3d2d944c27149737",
@@ -1063,7 +1063,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118930/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:28:26.623772+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:47:29.401872+00:00"
     },
     {
       "id": "4fe59128d61a39c97694",
@@ -1107,7 +1107,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118929/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:28:28.546416+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:47:30.790865+00:00"
     },
     {
       "id": "41951846fce717ba273a",
@@ -1151,7 +1151,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118925/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:28:31.529627+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:47:32.299242+00:00"
     },
     {
       "id": "10f0fda2a117ddd076c0",
@@ -1199,7 +1199,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118900/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:28:36.292436+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:47:34.775515+00:00"
     },
     {
       "id": "7edeeb392261264a880d",
@@ -1249,7 +1249,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118751/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:28:40.503622+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:47:39.024511+00:00"
     },
     {
       "id": "b4917383cdb87871ecb8",
@@ -1297,7 +1297,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118762/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:28:43.978336+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:47:42.484926+00:00"
     },
     {
       "id": "b7206709aedfbdaabfa0",
@@ -1345,7 +1345,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118983/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:28:45.449303+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:47:44.085617+00:00"
     },
     {
       "id": "ef272e1def163fe6ae91",
@@ -1391,7 +1391,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118979/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:28:46.913881+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:47:45.541274+00:00"
     },
     {
       "id": "7208a4945a14c818c166",
@@ -1437,7 +1437,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118917/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:28:48.361555+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:47:47.167713+00:00"
     },
     {
       "id": "8d2698ec0309bc4e3e02",
@@ -1485,7 +1485,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118966/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:28:53.042229+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:47:51.898933+00:00"
     },
     {
       "id": "83d5d2075ef02f9be8d8",
@@ -1533,7 +1533,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118958/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:28:58.325721+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:47:54.292583+00:00"
     },
     {
       "id": "1b6b1ca8fe0b030c3899",
@@ -1581,7 +1581,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118955/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:29:01.021290+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:47:57.134427+00:00"
     },
     {
       "id": "4e589be7ed458d09f063",
@@ -1631,7 +1631,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118936/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:29:04.985968+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:47:59.322299+00:00"
     },
     {
       "id": "f9d16617b2768f58c372",
@@ -1681,7 +1681,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118747/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:29:10.076583+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:48:06.650070+00:00"
     },
     {
       "id": "945c08ab1da0eb5f90ef",
@@ -1729,7 +1729,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118960/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T11:29:15.499241+00:00"
+      "pdf_detail_enriched_at": "2026-09-20T20:48:09.827119+00:00"
     },
     {
       "id": "8bd70538a1e6db8f91fc",
