@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_checked": "2026-09-21T12:50:45.228664+00:00",
+    "last_checked": "2026-09-21T21:56:34.218420+00:00",
     "sources": [
       {
         "id": "aesan_food",
@@ -10,8 +10,8 @@
         "ok": true,
         "stale": false,
         "items": 22,
-        "checked_at": "2026-09-21T12:50:26.663474+00:00",
-        "last_success": "2026-09-21T12:50:26.663474+00:00"
+        "checked_at": "2026-09-21T21:56:17.053020+00:00",
+        "last_success": "2026-09-21T21:56:17.053020+00:00"
       },
       {
         "id": "aemps_medicines",
@@ -21,8 +21,8 @@
         "ok": true,
         "stale": false,
         "items": 10,
-        "checked_at": "2026-09-21T12:50:27.204898+00:00",
-        "last_success": "2026-09-21T12:50:27.204898+00:00"
+        "checked_at": "2026-09-21T21:56:17.633575+00:00",
+        "last_success": "2026-09-21T21:56:17.633575+00:00"
       },
       {
         "id": "aemps_devices",
@@ -32,8 +32,8 @@
         "ok": true,
         "stale": false,
         "items": 232,
-        "checked_at": "2026-09-21T12:50:41.167633+00:00",
-        "last_success": "2026-09-21T12:50:41.167633+00:00"
+        "checked_at": "2026-09-21T21:56:30.252695+00:00",
+        "last_success": "2026-09-21T21:56:30.252695+00:00"
       },
       {
         "id": "aemps_cosmetics_actions",
@@ -43,8 +43,8 @@
         "ok": true,
         "stale": false,
         "items": 55,
-        "checked_at": "2026-09-21T12:50:42.705181+00:00",
-        "last_success": "2026-09-21T12:50:42.705181+00:00"
+        "checked_at": "2026-09-21T21:56:31.833818+00:00",
+        "last_success": "2026-09-21T21:56:31.833818+00:00"
       },
       {
         "id": "aemps_cosmetics_notes",
@@ -54,8 +54,8 @@
         "ok": true,
         "stale": false,
         "items": 14,
-        "checked_at": "2026-09-21T12:50:43.931806+00:00",
-        "last_success": "2026-09-21T12:50:43.931806+00:00"
+        "checked_at": "2026-09-21T21:56:32.992559+00:00",
+        "last_success": "2026-09-21T21:56:32.992559+00:00"
       },
       {
         "id": "eu_safety_gate",
@@ -64,19 +64,19 @@
         "url": "https://ec.europa.eu/safety-gate-alerts/screen/search",
         "ok": true,
         "stale": false,
-        "items": 169,
-        "fetched_now": 169,
-        "checked_at": "2026-09-21T12:50:45.228664+00:00",
-        "last_success": "2026-09-21T12:50:45.228664+00:00"
+        "items": 160,
+        "fetched_now": 160,
+        "checked_at": "2026-09-21T21:56:34.218420+00:00",
+        "last_success": "2026-09-21T21:56:34.218420+00:00"
       }
     ],
-    "count": 486,
+    "count": 477,
     "scope": "España + alertas UE/EEE claramente identificadas",
     "version": 9,
     "note": "Fuentes oficiales españolas y Safety Gate. En Safety Gate se distingue entre país notificante y países con actuaciones de seguimiento; ninguna de esas señales se interpreta automáticamente como prueba de comercialización en España.",
     "category_enrichment": {
       "method": "text_fallback_v2",
-      "changed": 11,
+      "changed": 10,
       "principle": "La categoría oficial prevalece; la inferencia solo se usa como respaldo cuando falta."
     },
     "safety_gate_pdf_enrichment": {
@@ -85,8 +85,8 @@
       "parser_version": 3,
       "processed_now": 35,
       "failed_now": 0,
-      "remaining": 134,
-      "checked_at": "2026-09-21T12:52:57.358328+00:00",
+      "remaining": 125,
+      "checked_at": "2026-09-21T21:59:24.485159+00:00",
       "note": "Enriquecimiento progresivo desde fichas PDF oficiales; extracción delimitada y fallos sin pérdida de historial."
     }
   },
@@ -133,7 +133,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118981/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:51:05.320965+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:56:55.762471+00:00"
     },
     {
       "id": "c13e107c4dbcbc0e7388",
@@ -177,7 +177,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10099557/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:51:07.408349+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:56:59.332626+00:00"
     },
     {
       "id": "28ff8abfe76a6b6c2ec9",
@@ -223,7 +223,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118954/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:51:10.540547+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:57:03.149658+00:00"
     },
     {
       "id": "bca1e57d8ac0c21748b9",
@@ -267,7 +267,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118915/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:51:11.612133+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:57:04.156938+00:00"
     },
     {
       "id": "42328a91c1edbc4b1613",
@@ -313,7 +313,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118943/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:51:18.910645+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:57:06.635995+00:00"
     },
     {
       "id": "c1260ed3a4cce3bb2059",
@@ -357,7 +357,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118948/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:51:25.631338+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:57:15.333444+00:00"
     },
     {
       "id": "e792e973a229dc1a3d7d",
@@ -405,7 +405,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118758/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:51:28.577800+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:57:16.915615+00:00"
     },
     {
       "id": "6170536f5bf693ad8d40",
@@ -453,7 +453,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118947/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:51:31.790696+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:57:23.635265+00:00"
     },
     {
       "id": "f41f49769506fc11a97b",
@@ -501,7 +501,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118911/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:51:35.263940+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:57:36.700118+00:00"
     },
     {
       "id": "5011bc28afa952e8ce26",
@@ -551,7 +551,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10106564/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:51:36.348523+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:57:37.938702+00:00"
     },
     {
       "id": "587063f22e27a1ceb928",
@@ -595,7 +595,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118932/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:51:37.293419+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:57:39.050061+00:00"
     },
     {
       "id": "6e72ada27dd238291400",
@@ -643,7 +643,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118748/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:51:39.561605+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:57:43.948857+00:00"
     },
     {
       "id": "379fb2095b07787e7aca",
@@ -689,7 +689,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118763/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:51:42.930711+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:57:47.955209+00:00"
     },
     {
       "id": "f29501627e60e80ef608",
@@ -737,7 +737,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118884/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:51:47.396559+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:58:02.741242+00:00"
     },
     {
       "id": "f6cae85a5db2714d9ba5",
@@ -787,7 +787,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118757/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:51:49.210942+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:58:07.115375+00:00"
     },
     {
       "id": "83a908b980c386b7451a",
@@ -835,7 +835,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118927/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:51:58.219236+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:58:10.629767+00:00"
     },
     {
       "id": "851e0733a7ac4e4c6451",
@@ -881,7 +881,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118980/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:51:59.539998+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:58:12.204039+00:00"
     },
     {
       "id": "7d1c4fece8db9e9f8929",
@@ -929,7 +929,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118912/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:52:00.642718+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:58:13.190720+00:00"
     },
     {
       "id": "32a622b8039dca6c3e50",
@@ -973,7 +973,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118977/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:52:06.353776+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:58:18.228722+00:00"
     },
     {
       "id": "622f8f03e1f71a35034d",
@@ -1017,7 +1017,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118978/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:52:11.209906+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:58:35.857077+00:00"
     },
     {
       "id": "efc721c5e09e52d4dbf1",
@@ -1061,7 +1061,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118976/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:52:22.589901+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:58:40.645413+00:00"
     },
     {
       "id": "efcaaf66c9ebb0332039",
@@ -1107,7 +1107,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118750/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:52:24.023570+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:58:42.288419+00:00"
     },
     {
       "id": "c3de3d2d944c27149737",
@@ -1151,7 +1151,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118930/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:52:25.184999+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:58:43.409244+00:00"
     },
     {
       "id": "4fe59128d61a39c97694",
@@ -1195,7 +1195,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118929/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:52:26.424911+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:58:45.119808+00:00"
     },
     {
       "id": "41951846fce717ba273a",
@@ -1239,7 +1239,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118925/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:52:27.454947+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:58:47.211075+00:00"
     },
     {
       "id": "10f0fda2a117ddd076c0",
@@ -1287,7 +1287,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118900/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:52:29.144926+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:58:49.190306+00:00"
     },
     {
       "id": "7edeeb392261264a880d",
@@ -1337,7 +1337,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118751/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:52:37.480999+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:58:52.727057+00:00"
     },
     {
       "id": "b4917383cdb87871ecb8",
@@ -1385,7 +1385,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118762/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:52:40.734682+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:59:02.233684+00:00"
     },
     {
       "id": "b7206709aedfbdaabfa0",
@@ -1433,7 +1433,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118983/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:52:42.306608+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:59:03.689261+00:00"
     },
     {
       "id": "ef272e1def163fe6ae91",
@@ -1479,7 +1479,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118979/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:52:43.330591+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:59:05.736682+00:00"
     },
     {
       "id": "7208a4945a14c818c166",
@@ -1525,7 +1525,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118917/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:52:44.802547+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:59:07.172893+00:00"
     },
     {
       "id": "8d2698ec0309bc4e3e02",
@@ -1573,7 +1573,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118966/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:52:50.150039+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:59:15.754803+00:00"
     },
     {
       "id": "83d5d2075ef02f9be8d8",
@@ -1621,7 +1621,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118958/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:52:53.481184+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:59:17.758504+00:00"
     },
     {
       "id": "1b6b1ca8fe0b030c3899",
@@ -1669,7 +1669,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118955/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:52:55.441485+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:59:21.640784+00:00"
     },
     {
       "id": "4e589be7ed458d09f063",
@@ -1719,7 +1719,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118936/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-21T12:52:57.208168+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T21:59:24.335048+00:00"
     },
     {
       "id": "f9d16617b2768f58c372",
@@ -2161,6 +2161,43 @@
       "spain_related": false
     },
     {
+      "id": "cc38970b6caa87a9d831",
+      "source_id": "eu_safety_gate",
+      "title": "S 1000 RR · BMW Motorrad (SR/02526/26)",
+      "agency": "Safety Gate UE",
+      "category": "Otros productos",
+      "category_basis": "derived",
+      "official_category": "",
+      "date": "2026-09-15",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118883",
+      "description": "S 1000 RR",
+      "reference": "SR/02526/26",
+      "risk": "Lesiones",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "S 1000 RR",
+      "brands": [
+        "BMW Motorrad"
+      ],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11234242",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false
+    },
+    {
       "id": "94d936ba42f347016864",
       "source_id": "eu_safety_gate",
       "title": "Ranger · Polaris (SR/02144/25)",
@@ -2272,6 +2309,43 @@
       "spain_related": false
     },
     {
+      "id": "c870e032b0e257aab547",
+      "source_id": "eu_safety_gate",
+      "title": "3 series, 5 series, 7 series \t\t\t\t\t\t\t · Bmw (SR/02525/26)",
+      "agency": "Safety Gate UE",
+      "category": "Otros productos",
+      "category_basis": "derived",
+      "official_category": "",
+      "date": "2026-09-15",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118832",
+      "description": "3 series, 5 series, 7 series \t\t\t\t\t\t\t",
+      "reference": "SR/02525/26",
+      "risk": "Incendio",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "3 series, 5 series, 7 series \t\t\t\t\t\t\t",
+      "brands": [
+        "Bmw"
+      ],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11234126",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false
+    },
+    {
       "id": "66d47c294ba8c6fa2317",
       "source_id": "eu_safety_gate",
       "title": "Chaqueta de lluvia para niños · H&M (SR/02268/26)",
@@ -2324,6 +2398,115 @@
       "lotes": [],
       "barcodes": [],
       "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
+    },
+    {
+      "id": "fc9233d99d57904ac5c2",
+      "source_id": "eu_safety_gate",
+      "title": "SANTA FE (MX5 HEV) · Hyundai (SR/02467/26)",
+      "agency": "Safety Gate UE",
+      "category": "Otros productos",
+      "category_basis": "derived",
+      "official_category": "",
+      "date": "2026-09-10",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118811",
+      "description": "SANTA FE (MX5 HEV)",
+      "reference": "SR/02467/26",
+      "risk": "Lesiones",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "SANTA FE (MX5 HEV)",
+      "brands": [
+        "Hyundai"
+      ],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11234086",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false
+    },
+    {
+      "id": "fe459c21b6e8260e4b2d",
+      "source_id": "eu_safety_gate",
+      "title": "Mini Laser stage lighting. Holographic laser star projector (SR/02455/26)",
+      "agency": "Safety Gate UE",
+      "category": "Iluminación",
+      "category_basis": "derived",
+      "official_category": "",
+      "date": "2026-09-10",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118838",
+      "description": "Mini Laser stage lighting. Holographic laser star projector",
+      "reference": "SR/02455/26",
+      "risk": "Daño ocular",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "Mini Laser stage lighting. Holographic laser star projector",
+      "brands": [],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11234147",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false
+    },
+    {
+      "id": "12b52fb770673e0e0a2f",
+      "source_id": "eu_safety_gate",
+      "title": "Focus / C-MAX / Transit Connect / Galaxy / S-MAX / Mondeo / Kuga · Ford (SR/02468/26)",
+      "agency": "Safety Gate UE",
+      "category": "Otros productos",
+      "category_basis": "derived",
+      "official_category": "",
+      "date": "2026-09-10",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118753",
+      "description": "Focus / C-MAX / Transit Connect / Galaxy / S-MAX / Mondeo / Kuga",
+      "reference": "SR/02468/26",
+      "risk": "Riesgo medioambiental",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "Focus / C-MAX / Transit Connect / Galaxy / S-MAX / Mondeo / Kuga",
+      "brands": [
+        "Ford"
+      ],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11234030",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false
     },
     {
       "id": "ade42e2796003879b09c",
@@ -2600,44 +2783,6 @@
       "notified_by_spain": false,
       "spain_follow_up": false,
       "spain_related": false
-    },
-    {
-      "id": "d60bde4316e6db377c86",
-      "source_id": "eu_safety_gate",
-      "title": "pistolet de tir continu avec cible et balles à trou souples · Lefan Toys (SR/02272/26)",
-      "agency": "Safety Gate UE",
-      "category": "Juguetes",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-09-07",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118473",
-      "description": "pistolet de tir continu avec cible et balles à trou souples",
-      "reference": "SR/02272/26",
-      "risk": "Asfixia",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "pistolet de tir continu avec cible et balles à trou souples",
-      "brands": [
-        "Lefan Toys"
-      ],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11228161",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false,
-      "category_method": "text_fallback_v2"
     },
     {
       "id": "b28da8707e4f7b491585",
@@ -2963,41 +3108,6 @@
       "spain_related": false
     },
     {
-      "id": "c180a368bf8b9c593c0d",
-      "source_id": "eu_safety_gate",
-      "title": "Halloween Cape with Hood Child (SR/02274/26)",
-      "agency": "Safety Gate UE",
-      "category": "Otros productos",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-09-07",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118492",
-      "description": "Halloween Cape with Hood Child",
-      "reference": "SR/02274/26",
-      "risk": "Estrangulamiento",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "Halloween Cape with Hood Child",
-      "brands": [],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11228459",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
-    },
-    {
       "id": "79d1fb37e84505efda99",
       "source_id": "eu_safety_gate",
       "title": "Flashing princess wand · The Glowhouse (SR/02344/26)",
@@ -3103,41 +3213,6 @@
       "geographic_scope": "UE/EEE",
       "spain_confirmed": false,
       "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11233270",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
-    },
-    {
-      "id": "33e41d925c58132651c4",
-      "source_id": "eu_safety_gate",
-      "title": "Doudou kawaii, animaux en peluche, costume, poupée douce, cadeaux d’anniversaire et noel pour filles (SR/02359/26)",
-      "agency": "Safety Gate UE",
-      "category": "Juguetes",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-09-07",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118680",
-      "description": "Doudou kawaii, animaux en peluche, costume, poupée douce, cadeaux d’anniversaire et noel pour filles",
-      "reference": "SR/02359/26",
-      "risk": "Asfixia",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "Doudou kawaii, animaux en peluche, costume, poupée douce, cadeaux d’anniversaire et noel pour filles",
-      "brands": [],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11230363",
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
@@ -4037,43 +4112,6 @@
       "spain_related": false
     },
     {
-      "id": "25e71cebb42061e46394",
-      "source_id": "eu_safety_gate",
-      "title": "Jumper NG · CITROEN (SR/00557/26)",
-      "agency": "Safety Gate UE",
-      "category": "Otros productos",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-08-31",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10097886",
-      "description": "Jumper NG",
-      "reference": "SR/00557/26",
-      "risk": "Incendio",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "Jumper NG",
-      "brands": [
-        "CITROEN"
-      ],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10997210",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
-    },
-    {
       "id": "15593af24e0e0ecc5114",
       "source_id": "eu_safety_gate",
       "title": "Engineering die-cast car (SR/02375/26)",
@@ -4140,43 +4178,6 @@
       "geographic_scope": "UE/EEE",
       "spain_confirmed": false,
       "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11232597",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
-    },
-    {
-      "id": "99d95462eae3fc34defe",
-      "source_id": "eu_safety_gate",
-      "title": "Luz de noche · Grifema (SR/02366/26)",
-      "agency": "Safety Gate UE",
-      "category": "Otros productos",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-08-27",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118592",
-      "description": "Luz de noche",
-      "reference": "SR/02366/26",
-      "risk": "Descarga eléctrica",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "Luz de noche",
-      "brands": [
-        "Grifema"
-      ],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11232548",
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
@@ -4578,43 +4579,6 @@
       "geographic_scope": "UE/EEE",
       "spain_confirmed": false,
       "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11230636",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
-    },
-    {
-      "id": "cba72befb9a0ec9eaa23",
-      "source_id": "eu_safety_gate",
-      "title": "Circuit-breakers for overcurrent protection  · CILIA (SR/02333/26)",
-      "agency": "Safety Gate UE",
-      "category": "Otros productos",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-08-19",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118507",
-      "description": "Circuit-breakers for overcurrent protection ",
-      "reference": "SR/02333/26",
-      "risk": "Descarga eléctrica",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "Circuit-breakers for overcurrent protection ",
-      "brands": [
-        "CILIA"
-      ],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11231520",
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
@@ -5112,6 +5076,43 @@
       "spain_related": false
     },
     {
+      "id": "76b9be6f2aaeea85fb17",
+      "source_id": "eu_safety_gate",
+      "title": "Fiat 500e, Panda MHEV  · Fiat (SR/02286/26)",
+      "agency": "Safety Gate UE",
+      "category": "Otros productos",
+      "category_basis": "derived",
+      "official_category": "",
+      "date": "2026-08-13",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118586",
+      "description": "Fiat 500e, Panda MHEV ",
+      "reference": "SR/02286/26",
+      "risk": "Incendio, Lesiones",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "Fiat 500e, Panda MHEV ",
+      "brands": [
+        "Fiat"
+      ],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11230734",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false
+    },
+    {
       "id": "22339d71068ad4805ec5",
       "source_id": "eu_safety_gate",
       "title": "FobPatiy · FobPatiy (SR/02197/26)",
@@ -5534,80 +5535,6 @@
       "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
     },
     {
-      "id": "8bae1e202732501feb59",
-      "source_id": "eu_safety_gate",
-      "title": "ID.3 · VW (SR/02178/26)",
-      "agency": "Safety Gate UE",
-      "category": "Otros productos",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-08-04",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118450",
-      "description": "ID.3",
-      "reference": "SR/02178/26",
-      "risk": "Lesiones",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "ID.3",
-      "brands": [
-        "VW"
-      ],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11229242",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
-    },
-    {
-      "id": "7051d957d3f750c9ee08",
-      "source_id": "eu_safety_gate",
-      "title": "Born · Cupra (SR/02179/26)",
-      "agency": "Safety Gate UE",
-      "category": "Otros productos",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-08-04",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118446",
-      "description": "Born",
-      "reference": "SR/02179/26",
-      "risk": "Lesiones",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "Born",
-      "brands": [
-        "Cupra"
-      ],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11229234",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
-    },
-    {
       "id": "d95a54aae6813d89fc7d",
       "source_id": "aesan_food",
       "title": "04 Agosto 2026 Alerta por presencia de Salmonella spp. en langostinos pelados cocidos procedentes de Honduras. (Ref. ES2026/477)",
@@ -5770,43 +5697,6 @@
       "spain_related": false
     },
     {
-      "id": "23349333834ce59e9847",
-      "source_id": "eu_safety_gate",
-      "title": "Terramar · Cupra (SR/02104/26)",
-      "agency": "Safety Gate UE",
-      "category": "Otros productos",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-07-24",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10099627",
-      "description": "Terramar",
-      "reference": "SR/02104/26",
-      "risk": "Lesiones",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "Terramar",
-      "brands": [
-        "Cupra"
-      ],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11014664",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
-    },
-    {
       "id": "f6a56992216fb6a3087a",
       "source_id": "eu_safety_gate",
       "title": "Silence S04\t\t\t\t\t\t\t · Silence (SR/02086/26)",
@@ -5838,6 +5728,78 @@
       "geographic_scope": "UE/EEE",
       "spain_confirmed": false,
       "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11014663",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false
+    },
+    {
+      "id": "ff839ed83e6d32ddbb14",
+      "source_id": "eu_safety_gate",
+      "title": "L-SERIE, P-SERIE, G-SERIE,  R-SERIE, S-SERIE · Scania (SR/01445/26)",
+      "agency": "Safety Gate UE",
+      "category": "Otros productos",
+      "category_basis": "derived",
+      "official_category": "",
+      "date": "2026-07-22",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10098943",
+      "description": "L-SERIE, P-SERIE, G-SERIE,  R-SERIE, S-SERIE",
+      "reference": "SR/01445/26",
+      "risk": "Lesiones",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "L-SERIE, P-SERIE, G-SERIE,  R-SERIE, S-SERIE",
+      "brands": [
+        "Scania"
+      ],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11008292",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false
+    },
+    {
+      "id": "9e95f1cbc0c99bca9d3e",
+      "source_id": "eu_safety_gate",
+      "title": "Squeezy Dumplings  (SR/02073/26)",
+      "agency": "Safety Gate UE",
+      "category": "Otros productos",
+      "category_basis": "derived",
+      "official_category": "",
+      "date": "2026-07-17",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10099572",
+      "description": "Squeezy Dumplings ",
+      "reference": "SR/02073/26",
+      "risk": "Riesgo químico",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "Squeezy Dumplings ",
+      "brands": [],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11227576",
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
@@ -6135,6 +6097,43 @@
       "spain_related": false
     },
     {
+      "id": "f0f75db3e8df8816f14f",
+      "source_id": "eu_safety_gate",
+      "title": "Qashqai · Nissan (SR/01937/26)",
+      "agency": "Safety Gate UE",
+      "category": "Otros productos",
+      "category_basis": "derived",
+      "official_category": "",
+      "date": "2026-06-30",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10099464",
+      "description": "Qashqai",
+      "reference": "SR/01937/26",
+      "risk": "Incendio",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "Qashqai",
+      "brands": [
+        "Nissan"
+      ],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11013613",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false
+    },
+    {
       "id": "c9fd09bf83488e5fa2db",
       "source_id": "eu_safety_gate",
       "title": "Austral · Renault (SR/01910/26)",
@@ -6166,154 +6165,6 @@
       "geographic_scope": "UE/EEE",
       "spain_confirmed": false,
       "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11013682",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
-    },
-    {
-      "id": "163abe5db1c1f0d563e2",
-      "source_id": "eu_safety_gate",
-      "title": "Plomo de extensión · GTV (SR/01883/26)",
-      "agency": "Safety Gate UE",
-      "category": "Otros productos",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-06-23",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10099375",
-      "description": "Plomo de extensión",
-      "reference": "SR/01883/26",
-      "risk": "Descarga eléctrica",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "Plomo de extensión",
-      "brands": [
-        "GTV"
-      ],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11013126",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
-    },
-    {
-      "id": "8bb956bdf8709dff732f",
-      "source_id": "eu_safety_gate",
-      "title": "Plomo de extensión · GTV (SR/01882/26)",
-      "agency": "Safety Gate UE",
-      "category": "Otros productos",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-06-23",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10099374",
-      "description": "Plomo de extensión",
-      "reference": "SR/01882/26",
-      "risk": "Descarga eléctrica",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "Plomo de extensión",
-      "brands": [
-        "GTV"
-      ],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11013125",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
-    },
-    {
-      "id": "7170f75bba84282af0e9",
-      "source_id": "eu_safety_gate",
-      "title": "Plomo de extensión · GTV (SR/01880/26)",
-      "agency": "Safety Gate UE",
-      "category": "Otros productos",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-06-23",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10099379",
-      "description": "Plomo de extensión",
-      "reference": "SR/01880/26",
-      "risk": "Descarga eléctrica",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "Plomo de extensión",
-      "brands": [
-        "GTV"
-      ],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11013133",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
-    },
-    {
-      "id": "0ed77bb75594b09a3607",
-      "source_id": "eu_safety_gate",
-      "title": "Plomo de extensión · GTV (SR/01878/26)",
-      "agency": "Safety Gate UE",
-      "category": "Otros productos",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-06-23",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10099377",
-      "description": "Plomo de extensión",
-      "reference": "SR/01878/26",
-      "risk": "Descarga eléctrica",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "Plomo de extensión",
-      "brands": [
-        "GTV"
-      ],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11013128",
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
@@ -6366,43 +6217,6 @@
       "geographic_scope": "UE/EEE",
       "spain_confirmed": false,
       "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11012184",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
-    },
-    {
-      "id": "58cb717697b20fa76dec",
-      "source_id": "eu_safety_gate",
-      "title": "S-WAY, X-WAY MY24 · Iveco (SR/01681/26)",
-      "agency": "Safety Gate UE",
-      "category": "Otros productos",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-06-10",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10097674",
-      "description": "S-WAY, X-WAY MY24",
-      "reference": "SR/01681/26",
-      "risk": "Lesiones",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "S-WAY, X-WAY MY24",
-      "brands": [
-        "Iveco"
-      ],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11011079",
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
@@ -6470,6 +6284,43 @@
         "adoptadas: Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales Actuaciones a realizar por las CCAA: Seguimiento de la retirada Aclaraciones: Defecto de calidad que no supone un riesgo vital para el paciente"
       ],
       "enriched_from_detail": true
+    },
+    {
+      "id": "dba4b521c9f34e463992",
+      "source_id": "eu_safety_gate",
+      "title": "Kids · Yodeyma (SR/01635/26)",
+      "agency": "Safety Gate UE",
+      "category": "Otros productos",
+      "category_basis": "derived",
+      "official_category": "",
+      "date": "2026-06-03",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10099119",
+      "description": "Kids",
+      "reference": "SR/01635/26",
+      "risk": "Riesgo químico",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "Kids",
+      "brands": [
+        "Yodeyma"
+      ],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11011200",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false
     },
     {
       "id": "c9e37dfda846ec5ec305",
@@ -6579,43 +6430,6 @@
       "enriched_from_detail": true
     },
     {
-      "id": "ab9907409e54710e867a",
-      "source_id": "eu_safety_gate",
-      "title": "Hulajnoga trojkolowa Biedronka LED · ENERO (SR/01551/26)",
-      "agency": "Safety Gate UE",
-      "category": "Otros productos",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-05-28",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10099046",
-      "description": "Hulajnoga trojkolowa Biedronka LED",
-      "reference": "SR/01551/26",
-      "risk": "Lesiones",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "Hulajnoga trojkolowa Biedronka LED",
-      "brands": [
-        "ENERO"
-      ],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11010250",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
-    },
-    {
       "id": "5df23fa295f4a57a559a",
       "source_id": "aesan_food",
       "title": "21 Mayo 2026 Alerta por presencia de sildenafilo en complemento alimenticio procedente de China. (Ref. ES2026/293)",
@@ -6720,43 +6534,6 @@
       "enriched_from_detail": true
     },
     {
-      "id": "f3dc1329f561aff2608a",
-      "source_id": "eu_safety_gate",
-      "title": "Juguete suave · Unitoys (SR/00606/26)",
-      "agency": "Safety Gate UE",
-      "category": "Juguetes",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-04-10",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10097984",
-      "description": "Juguete suave",
-      "reference": "SR/00606/26",
-      "risk": "Asfixia",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "Juguete suave",
-      "brands": [
-        "Unitoys"
-      ],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10998023",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
-    },
-    {
       "id": "e1c86e51bca651aaa456",
       "source_id": "aesan_food",
       "title": "10 Abril 2026 Alerta por presencia de sildenafilo en complemento alimenticio procedente de Colombia. (Ref. ES2026/198)",
@@ -6772,43 +6549,6 @@
       "lotes": [],
       "barcodes": [],
       "consumer_action": "Consulta la publicación oficial para conocer las medidas aplicables."
-    },
-    {
-      "id": "eed1706fdeba5ac56840",
-      "source_id": "eu_safety_gate",
-      "title": "The monsters - Big into Energy Series (counterfeit) · Pop Mart (COUNTERFEIT) (SR/00926/26)",
-      "agency": "Safety Gate UE",
-      "category": "Otros productos",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-03-26",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10098376",
-      "description": "The monsters - Big into Energy Series (counterfeit)",
-      "reference": "SR/00926/26",
-      "risk": "Asfixia",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "The monsters - Big into Energy Series (counterfeit)",
-      "brands": [
-        "Pop Mart (COUNTERFEIT)"
-      ],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11002794",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
     },
     {
       "id": "962043450edc0379d651",
@@ -7003,43 +6743,6 @@
       "enriched_from_detail": true
     },
     {
-      "id": "2f4029d4a42a6fab9bdd",
-      "source_id": "eu_safety_gate",
-      "title": "295/80R22.5 152/148M KMAX D Gen2 · Goodyear (SR/03996/25)",
-      "agency": "Safety Gate UE",
-      "category": "Otros productos",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-03-02",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10096751",
-      "description": "295/80R22.5 152/148M KMAX D Gen2",
-      "reference": "SR/03996/25",
-      "risk": "Lesiones",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "295/80R22.5 152/148M KMAX D Gen2",
-      "brands": [
-        "Goodyear"
-      ],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10984484",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
-    },
-    {
       "id": "42f99e25216829f2b63d",
       "source_id": "eu_safety_gate",
       "title": "Townstar XFK · Nissan (SR/00280/26)",
@@ -7077,23 +6780,23 @@
       "spain_related": false
     },
     {
-      "id": "e197c55101f8031bc4d1",
+      "id": "37d3f19ba58714b41399",
       "source_id": "eu_safety_gate",
-      "title": "Cayenne, Cayenne Coupe, Panamera · Porsche (SR/04432/25)",
+      "title": "Magnetic Reusable Water Balloons · TheKiddoSpace (SR/03447/25)",
       "agency": "Safety Gate UE",
       "category": "Otros productos",
       "category_basis": "derived",
       "official_category": "",
-      "date": "2025-12-17",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10097092",
-      "description": "Cayenne, Cayenne Coupe, Panamera",
-      "reference": "SR/04432/25",
-      "risk": "Incendio",
+      "date": "2025-10-02",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10096144",
+      "description": "Magnetic Reusable Water Balloons",
+      "reference": "SR/03447/25",
+      "risk": "Lesiones",
       "severity": "media",
       "status": "Publicada",
-      "product": "Cayenne, Cayenne Coupe, Panamera",
+      "product": "Magnetic Reusable Water Balloons",
       "brands": [
-        "Porsche"
+        "TheKiddoSpace"
       ],
       "models": [],
       "lotes": [],
@@ -7107,7 +6810,7 @@
       "reacting_countries": [],
       "geographic_scope": "UE/EEE",
       "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10989019",
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10978718",
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
@@ -7143,43 +6846,6 @@
       "geographic_scope": "UE/EEE",
       "spain_confirmed": false,
       "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10976598",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
-    },
-    {
-      "id": "c46d6ef3138bf5870f11",
-      "source_id": "eu_safety_gate",
-      "title": "Macan\t\t\t\t\t\t\t · Porsche (SR/02898/25)",
-      "agency": "Safety Gate UE",
-      "category": "Otros productos",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2025-08-04",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10095466",
-      "description": "Macan\t\t\t\t\t\t\t",
-      "reference": "SR/02898/25",
-      "risk": "Lesiones",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "Macan\t\t\t\t\t\t\t",
-      "brands": [
-        "Porsche"
-      ],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10971534",
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
