@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_checked": "2026-09-20T20:45:50.555018+00:00",
+    "last_checked": "2026-09-21T12:50:45.228664+00:00",
     "sources": [
       {
         "id": "aesan_food",
@@ -10,8 +10,8 @@
         "ok": true,
         "stale": false,
         "items": 22,
-        "checked_at": "2026-09-20T20:45:30.824940+00:00",
-        "last_success": "2026-09-20T20:45:30.824940+00:00"
+        "checked_at": "2026-09-21T12:50:26.663474+00:00",
+        "last_success": "2026-09-21T12:50:26.663474+00:00"
       },
       {
         "id": "aemps_medicines",
@@ -21,8 +21,8 @@
         "ok": true,
         "stale": false,
         "items": 10,
-        "checked_at": "2026-09-20T20:45:31.498800+00:00",
-        "last_success": "2026-09-20T20:45:31.498800+00:00"
+        "checked_at": "2026-09-21T12:50:27.204898+00:00",
+        "last_success": "2026-09-21T12:50:27.204898+00:00"
       },
       {
         "id": "aemps_devices",
@@ -32,8 +32,8 @@
         "ok": true,
         "stale": false,
         "items": 232,
-        "checked_at": "2026-09-20T20:45:45.784540+00:00",
-        "last_success": "2026-09-20T20:45:45.784540+00:00"
+        "checked_at": "2026-09-21T12:50:41.167633+00:00",
+        "last_success": "2026-09-21T12:50:41.167633+00:00"
       },
       {
         "id": "aemps_cosmetics_actions",
@@ -43,8 +43,8 @@
         "ok": true,
         "stale": false,
         "items": 55,
-        "checked_at": "2026-09-20T20:45:47.693709+00:00",
-        "last_success": "2026-09-20T20:45:47.693709+00:00"
+        "checked_at": "2026-09-21T12:50:42.705181+00:00",
+        "last_success": "2026-09-21T12:50:42.705181+00:00"
       },
       {
         "id": "aemps_cosmetics_notes",
@@ -54,8 +54,8 @@
         "ok": true,
         "stale": false,
         "items": 14,
-        "checked_at": "2026-09-20T20:45:49.130218+00:00",
-        "last_success": "2026-09-20T20:45:49.130218+00:00"
+        "checked_at": "2026-09-21T12:50:43.931806+00:00",
+        "last_success": "2026-09-21T12:50:43.931806+00:00"
       },
       {
         "id": "eu_safety_gate",
@@ -64,13 +64,13 @@
         "url": "https://ec.europa.eu/safety-gate-alerts/screen/search",
         "ok": true,
         "stale": false,
-        "items": 170,
-        "fetched_now": 170,
-        "checked_at": "2026-09-20T20:45:50.555018+00:00",
-        "last_success": "2026-09-20T20:45:50.555018+00:00"
+        "items": 169,
+        "fetched_now": 169,
+        "checked_at": "2026-09-21T12:50:45.228664+00:00",
+        "last_success": "2026-09-21T12:50:45.228664+00:00"
       }
     ],
-    "count": 487,
+    "count": 486,
     "scope": "España + alertas UE/EEE claramente identificadas",
     "version": 9,
     "note": "Fuentes oficiales españolas y Safety Gate. En Safety Gate se distingue entre país notificante y países con actuaciones de seguimiento; ninguna de esas señales se interpreta automáticamente como prueba de comercialización en España.",
@@ -85,12 +85,100 @@
       "parser_version": 3,
       "processed_now": 35,
       "failed_now": 0,
-      "remaining": 135,
-      "checked_at": "2026-09-20T20:48:09.977275+00:00",
+      "remaining": 134,
+      "checked_at": "2026-09-21T12:52:57.358328+00:00",
       "note": "Enriquecimiento progresivo desde fichas PDF oficiales; extracción delimitada y fallos sin pérdida de historial."
     }
   },
   "alerts": [
+    {
+      "id": "27928fcbcf94efff61e9",
+      "source_id": "eu_safety_gate",
+      "title": "Pawsitive Cat Toy (SR/02574/26)",
+      "agency": "Safety Gate UE",
+      "category": "Juguetes",
+      "category_basis": "official",
+      "official_category": "Juguetes",
+      "date": "2026-09-21",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118981",
+      "description": "El producto tiene partes pequeñas (ojos) que pueden desprenderse fácilmente. Los niños pequeños pueden ponerlos en la boca y ahogarse. Además, la bolsa de plástico flexible que contiene el producto es demasiado delgada. Si un niño coloca la bolsa sobre su cabeza, podría obstruir la respiración y causar asfixia.",
+      "reference": "SR/02574/26",
+      "risk": "Asfixia Atragantamiento",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "Juguete suave",
+      "brands": [],
+      "models": [
+        "22#orangecat"
+      ],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
+      "legal_provision": "El producto no cumple los requisitos de la Directiva sobre la seguridad de los juguetes.",
+      "notifying_country": "Reino Unido en lo que respecta a Irlanda del Norte",
+      "country_origin": "",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11233653",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false,
+      "category_method": "safety_gate_pdf",
+      "risk_description": "El producto tiene partes pequeñas (ojos) que pueden desprenderse fácilmente. Los niños pequeños pueden ponerlos en la boca y ahogarse. Además, la bolsa de plástico flexible que contiene el producto es demasiado delgada. Si un niño coloca la bolsa sobre su cabeza, podría obstruir la respiración y causar asfixia.",
+      "pdf_detail_enriched": true,
+      "pdf_detail_parser_version": 3,
+      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118981/es",
+      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
+      "pdf_detail_enriched_at": "2026-09-21T12:51:05.320965+00:00"
+    },
+    {
+      "id": "c13e107c4dbcbc0e7388",
+      "source_id": "eu_safety_gate",
+      "title": "F-Pace, XE, XF · Jaguar (SR/02023/26)",
+      "agency": "Safety Gate UE",
+      "category": "Vehículos de motor",
+      "category_basis": "official",
+      "official_category": "Vehículos de motor",
+      "date": "2026-09-21",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10099557",
+      "description": "delantero puede deteriorarse con el tiempo. Si las bolsas de aire se despliegan, podría resultar en fragmentos del inflador lesionando a los ocupantes del vehículo.",
+      "reference": "SR/02023/26",
+      "risk": "Lesiones El propulsor en los airbags del conductor y del pasajero",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "Coche de pasajeros.",
+      "brands": [
+        "Jaguar Homologación/modelo CE de tipo CC9, JB, JA, DC e11*2001/116*0323*00-*15, e5*2007/46*1048* (e11*2007/46*2981*00-*03), e5*2007/46*1049* (e11*2007/46*2150*00-*02), e5*2007/46*1047* (e11*2007/46*3324*00-*02) Fechas de producción 8.9.2007 to 20.3.2017 Código de recuperación de la empresa H573"
+      ],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
+      "legal_provision": "El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+      "notifying_country": "Alemania",
+      "country_origin": "Reino Unido",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11013935",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false,
+      "category_method": "safety_gate_pdf",
+      "risk_description": "delantero puede deteriorarse con el tiempo. Si las bolsas de aire se despliegan, podría resultar en fragmentos del inflador lesionando a los ocupantes del vehículo.",
+      "pdf_detail_enriched": true,
+      "pdf_detail_parser_version": 3,
+      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10099557/es",
+      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
+      "pdf_detail_enriched_at": "2026-09-21T12:51:07.408349+00:00"
+    },
     {
       "id": "28ff8abfe76a6b6c2ec9",
       "source_id": "eu_safety_gate",
@@ -135,7 +223,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118954/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:46:13.087920+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:51:10.540547+00:00"
     },
     {
       "id": "bca1e57d8ac0c21748b9",
@@ -179,7 +267,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118915/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:46:14.344015+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:51:11.612133+00:00"
     },
     {
       "id": "42328a91c1edbc4b1613",
@@ -225,7 +313,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118943/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:46:17.355047+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:51:18.910645+00:00"
     },
     {
       "id": "c1260ed3a4cce3bb2059",
@@ -269,7 +357,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118948/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:46:28.435429+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:51:25.631338+00:00"
     },
     {
       "id": "e792e973a229dc1a3d7d",
@@ -317,7 +405,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118758/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:46:30.165214+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:51:28.577800+00:00"
     },
     {
       "id": "6170536f5bf693ad8d40",
@@ -365,7 +453,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118947/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:46:36.856435+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:51:31.790696+00:00"
     },
     {
       "id": "f41f49769506fc11a97b",
@@ -413,7 +501,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118911/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:46:41.892317+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:51:35.263940+00:00"
     },
     {
       "id": "5011bc28afa952e8ce26",
@@ -463,7 +551,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10106564/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:46:43.267741+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:51:36.348523+00:00"
     },
     {
       "id": "587063f22e27a1ceb928",
@@ -507,7 +595,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118932/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:46:44.540448+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:51:37.293419+00:00"
     },
     {
       "id": "6e72ada27dd238291400",
@@ -555,7 +643,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118748/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:46:47.874889+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:51:39.561605+00:00"
     },
     {
       "id": "379fb2095b07787e7aca",
@@ -601,7 +689,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118763/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:46:50.117015+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:51:42.930711+00:00"
     },
     {
       "id": "f29501627e60e80ef608",
@@ -649,7 +737,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118884/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:46:56.583284+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:51:47.396559+00:00"
     },
     {
       "id": "f6cae85a5db2714d9ba5",
@@ -699,7 +787,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118757/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:46:58.984875+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:51:49.210942+00:00"
     },
     {
       "id": "83a908b980c386b7451a",
@@ -747,7 +835,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118927/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:47:03.503033+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:51:58.219236+00:00"
     },
     {
       "id": "851e0733a7ac4e4c6451",
@@ -793,7 +881,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118980/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:47:05.359328+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:51:59.539998+00:00"
     },
     {
       "id": "7d1c4fece8db9e9f8929",
@@ -841,7 +929,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118912/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:47:06.433909+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:52:00.642718+00:00"
     },
     {
       "id": "32a622b8039dca6c3e50",
@@ -885,7 +973,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118977/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:47:12.490005+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:52:06.353776+00:00"
     },
     {
       "id": "622f8f03e1f71a35034d",
@@ -929,7 +1017,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118978/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:47:19.820701+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:52:11.209906+00:00"
     },
     {
       "id": "efc721c5e09e52d4dbf1",
@@ -973,7 +1061,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118976/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:47:26.260384+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:52:22.589901+00:00"
     },
     {
       "id": "efcaaf66c9ebb0332039",
@@ -1019,7 +1107,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118750/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:47:28.171878+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:52:24.023570+00:00"
     },
     {
       "id": "c3de3d2d944c27149737",
@@ -1063,7 +1151,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118930/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:47:29.401872+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:52:25.184999+00:00"
     },
     {
       "id": "4fe59128d61a39c97694",
@@ -1107,7 +1195,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118929/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:47:30.790865+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:52:26.424911+00:00"
     },
     {
       "id": "41951846fce717ba273a",
@@ -1151,7 +1239,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118925/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:47:32.299242+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:52:27.454947+00:00"
     },
     {
       "id": "10f0fda2a117ddd076c0",
@@ -1199,7 +1287,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118900/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:47:34.775515+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:52:29.144926+00:00"
     },
     {
       "id": "7edeeb392261264a880d",
@@ -1249,7 +1337,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118751/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:47:39.024511+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:52:37.480999+00:00"
     },
     {
       "id": "b4917383cdb87871ecb8",
@@ -1297,7 +1385,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118762/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:47:42.484926+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:52:40.734682+00:00"
     },
     {
       "id": "b7206709aedfbdaabfa0",
@@ -1345,7 +1433,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118983/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:47:44.085617+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:52:42.306608+00:00"
     },
     {
       "id": "ef272e1def163fe6ae91",
@@ -1391,7 +1479,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118979/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:47:45.541274+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:52:43.330591+00:00"
     },
     {
       "id": "7208a4945a14c818c166",
@@ -1437,7 +1525,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118917/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:47:47.167713+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:52:44.802547+00:00"
     },
     {
       "id": "8d2698ec0309bc4e3e02",
@@ -1485,7 +1573,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118966/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:47:51.898933+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:52:50.150039+00:00"
     },
     {
       "id": "83d5d2075ef02f9be8d8",
@@ -1533,7 +1621,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118958/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:47:54.292583+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:52:53.481184+00:00"
     },
     {
       "id": "1b6b1ca8fe0b030c3899",
@@ -1581,7 +1669,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118955/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:47:57.134427+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:52:55.441485+00:00"
     },
     {
       "id": "4e589be7ed458d09f063",
@@ -1631,7 +1719,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118936/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:47:59.322299+00:00"
+      "pdf_detail_enriched_at": "2026-09-21T12:52:57.208168+00:00"
     },
     {
       "id": "f9d16617b2768f58c372",
@@ -1639,33 +1727,27 @@
       "title": "4 in 1 SWITCH POWER SOCKET · Earldom (SR/02562/26)",
       "agency": "Safety Gate UE",
       "category": "Electrónica y aparatos eléctricos",
-      "category_basis": "official",
-      "official_category": "Aparatos y equipos eléctricos",
+      "category_basis": "derived",
+      "official_category": "",
       "date": "2026-09-17",
       "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118747",
-      "description": "Debido a la falta de puesta a tierra, el producto tiene partes activas accesibles. Además, el enchufe se puede insertar parcialmente dejando expuesto un pasador vivo. El usuario podía tocar partes activas accesibles y recibir una descarga eléctrica.",
+      "description": "4 in 1 SWITCH POWER SOCKET",
       "reference": "SR/02562/26",
-      "risk": "Choque eléctrico",
+      "risk": "Descarga eléctrica",
       "severity": "media",
       "status": "Publicada",
-      "product": "Adaptador de corriente",
+      "product": "4 in 1 SWITCH POWER SOCKET",
       "brands": [
         "Earldom"
       ],
-      "models": [
-        "ES-SC16 PM036806"
-      ],
-      "lotes": [
-        "OHZG"
-      ],
-      "barcodes": [
-        "6973965931181"
-      ],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
       "measures": [],
-      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
-      "legal_provision": "El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con la norma europea EN 60335-1.",
-      "notifying_country": "Hungría",
-      "country_origin": "República Popular China",
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
       "sold_online": "",
       "reacting_countries": [],
       "geographic_scope": "UE/EEE",
@@ -1675,44 +1757,34 @@
       "notified_by_spain": false,
       "spain_follow_up": false,
       "spain_related": false,
-      "category_method": "safety_gate_pdf",
-      "risk_description": "Debido a la falta de puesta a tierra, el producto tiene partes activas accesibles. Además, el enchufe se puede insertar parcialmente dejando expuesto un pasador vivo. El usuario podía tocar partes activas accesibles y recibir una descarga eléctrica.",
-      "pdf_detail_enriched": true,
-      "pdf_detail_parser_version": 3,
-      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118747/es",
-      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:48:06.650070+00:00"
+      "category_method": "text_fallback_v2"
     },
     {
       "id": "945c08ab1da0eb5f90ef",
       "source_id": "eu_safety_gate",
       "title": "120000 PUFFS 2% NICOTINE 38ml · RENdM TORNADO (SR/02550/26)",
       "agency": "Safety Gate UE",
-      "category": "Productos químicos",
-      "category_basis": "official",
-      "official_category": "Productos químicos",
+      "category": "Otros productos",
+      "category_basis": "derived",
+      "official_category": "",
       "date": "2026-09-17",
       "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118960",
-      "description": "El producto tiene un volumen excesivo de líquido que contiene nicotina (38 ml). Esto podría conducir al consumo accidental de una alta dosis de nicotina. La nicotina es extremadamente tóxica y puede poner en peligro la seguridad del usuario, especialmente si el producto entra en contacto con la piel o se ingiere.",
+      "description": "120000 PUFFS 2% NICOTINE 38ml",
       "reference": "SR/02550/26",
-      "risk": "Riesgos químicos",
+      "risk": "Riesgo químico",
       "severity": "media",
       "status": "Publicada",
-      "product": "Cigarrillo electrónico desechable",
+      "product": "120000 PUFFS 2% NICOTINE 38ml",
       "brands": [
         "RENdM TORNADO"
       ],
-      "models": [
-        "BLUEBERRY RASPBERRY PEAR APPLE RASPBERRY WATERMELON ICE 076271620704"
-      ],
+      "models": [],
       "lotes": [],
-      "barcodes": [
-        "076271620834 076271620919"
-      ],
+      "barcodes": [],
       "measures": [],
-      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
-      "legal_provision": "El producto no cumple los requisitos de la Directiva sobre los productos del tabaco.",
-      "notifying_country": "Chequia",
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
       "country_origin": "",
       "sold_online": "",
       "reacting_countries": [],
@@ -1722,14 +1794,7 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false,
-      "category_method": "safety_gate_pdf",
-      "risk_description": "El producto tiene un volumen excesivo de líquido que contiene nicotina (38 ml). Esto podría conducir al consumo accidental de una alta dosis de nicotina. La nicotina es extremadamente tóxica y puede poner en peligro la seguridad del usuario, especialmente si el producto entra en contacto con la piel o se ingiere.",
-      "pdf_detail_enriched": true,
-      "pdf_detail_parser_version": 3,
-      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118960/es",
-      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-20T20:48:09.827119+00:00"
+      "spain_related": false
     },
     {
       "id": "8bd70538a1e6db8f91fc",
@@ -2612,43 +2677,6 @@
       "spain_related": false
     },
     {
-      "id": "ad451967a837b8cfbd97",
-      "source_id": "eu_safety_gate",
-      "title": "Super Glue - Fishing Rod Specific Glue · LOOLIFL (SR/02227/26)",
-      "agency": "Safety Gate UE",
-      "category": "Productos químicos",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-09-07",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118536",
-      "description": "Super Glue - Fishing Rod Specific Glue",
-      "reference": "SR/02227/26",
-      "risk": "Riesgo químico",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "Super Glue - Fishing Rod Specific Glue",
-      "brands": [
-        "LOOLIFL"
-      ],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11228766",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
-    },
-    {
       "id": "84b787a1b68959e45c38",
       "source_id": "eu_safety_gate",
       "title": "Simuler la conduite de voiture copilote volant électrique bébé jouets avec son enfants Musical (SR/02355/26)",
@@ -3110,41 +3138,6 @@
       "geographic_scope": "UE/EEE",
       "spain_confirmed": false,
       "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11230363",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
-    },
-    {
-      "id": "e806a990da5c437fe825",
-      "source_id": "eu_safety_gate",
-      "title": "Cheval d'équitation à roues  (OR/00097/26)",
-      "agency": "Safety Gate UE",
-      "category": "Otros productos",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-09-07",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118440",
-      "description": "Cheval d'équitation à roues ",
-      "reference": "OR/00097/26",
-      "risk": "Entrapment",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "Cheval d'équitation à roues ",
-      "brands": [],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11230483",
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
@@ -5919,43 +5912,6 @@
       "geographic_scope": "UE/EEE",
       "spain_confirmed": false,
       "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11014320",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
-    },
-    {
-      "id": "c13e107c4dbcbc0e7388",
-      "source_id": "eu_safety_gate",
-      "title": "F-Pace, XE, XF · Jaguar (SR/02023/26)",
-      "agency": "Safety Gate UE",
-      "category": "Otros productos",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-07-14",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10099557",
-      "description": "F-Pace, XE, XF",
-      "reference": "SR/02023/26",
-      "risk": "Lesiones",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "F-Pace, XE, XF",
-      "brands": [
-        "Jaguar"
-      ],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11013935",
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
