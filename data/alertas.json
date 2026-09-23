@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_checked": "2026-09-22T21:14:55.594507+00:00",
+    "last_checked": "2026-09-23T11:39:20.251510+00:00",
     "sources": [
       {
         "id": "aesan_food",
@@ -10,8 +10,8 @@
         "ok": true,
         "stale": false,
         "items": 22,
-        "checked_at": "2026-09-22T21:14:38.181040+00:00",
-        "last_success": "2026-09-22T21:14:38.181040+00:00"
+        "checked_at": "2026-09-23T11:39:02.239872+00:00",
+        "last_success": "2026-09-23T11:39:02.239872+00:00"
       },
       {
         "id": "aemps_medicines",
@@ -21,8 +21,8 @@
         "ok": true,
         "stale": false,
         "items": 10,
-        "checked_at": "2026-09-22T21:14:38.680184+00:00",
-        "last_success": "2026-09-22T21:14:38.680184+00:00"
+        "checked_at": "2026-09-23T11:39:02.793290+00:00",
+        "last_success": "2026-09-23T11:39:02.793290+00:00"
       },
       {
         "id": "aemps_devices",
@@ -32,8 +32,8 @@
         "ok": true,
         "stale": false,
         "items": 232,
-        "checked_at": "2026-09-22T21:14:51.423255+00:00",
-        "last_success": "2026-09-22T21:14:51.423255+00:00"
+        "checked_at": "2026-09-23T11:39:15.915769+00:00",
+        "last_success": "2026-09-23T11:39:15.915769+00:00"
       },
       {
         "id": "aemps_cosmetics_actions",
@@ -43,8 +43,8 @@
         "ok": true,
         "stale": false,
         "items": 55,
-        "checked_at": "2026-09-22T21:14:52.943467+00:00",
-        "last_success": "2026-09-22T21:14:52.943467+00:00"
+        "checked_at": "2026-09-23T11:39:17.644666+00:00",
+        "last_success": "2026-09-23T11:39:17.644666+00:00"
       },
       {
         "id": "aemps_cosmetics_notes",
@@ -54,8 +54,8 @@
         "ok": true,
         "stale": false,
         "items": 14,
-        "checked_at": "2026-09-22T21:14:54.296499+00:00",
-        "last_success": "2026-09-22T21:14:54.296499+00:00"
+        "checked_at": "2026-09-23T11:39:18.901637+00:00",
+        "last_success": "2026-09-23T11:39:18.901637+00:00"
       },
       {
         "id": "eu_safety_gate",
@@ -64,13 +64,13 @@
         "url": "https://ec.europa.eu/safety-gate-alerts/screen/search",
         "ok": true,
         "stale": false,
-        "items": 227,
-        "fetched_now": 227,
-        "checked_at": "2026-09-22T21:14:55.594507+00:00",
-        "last_success": "2026-09-22T21:14:55.594507+00:00"
+        "items": 235,
+        "fetched_now": 235,
+        "checked_at": "2026-09-23T11:39:20.251510+00:00",
+        "last_success": "2026-09-23T11:39:20.251510+00:00"
       }
     ],
-    "count": 544,
+    "count": 552,
     "scope": "España + alertas UE/EEE claramente identificadas",
     "version": 9,
     "note": "Fuentes oficiales españolas y Safety Gate. En Safety Gate se distingue entre país notificante y países con actuaciones de seguimiento; ninguna de esas señales se interpreta automáticamente como prueba de comercialización en España.",
@@ -83,14 +83,275 @@
       "enabled": true,
       "source": "official_pdf",
       "parser_version": 3,
-      "processed_now": 35,
-      "failed_now": 0,
-      "remaining": 192,
-      "checked_at": "2026-09-22T21:17:14.637016+00:00",
+      "processed_now": 34,
+      "failed_now": 1,
+      "remaining": 201,
+      "checked_at": "2026-09-23T11:43:36.866158+00:00",
       "note": "Enriquecimiento progresivo desde fichas PDF oficiales; extracción delimitada y fallos sin pérdida de historial."
     }
   },
   "alerts": [
+    {
+      "id": "53ee7f8c43efacd04447",
+      "source_id": "eu_safety_gate",
+      "title": "Pineapple  · Vexus (SR/02618/26)",
+      "agency": "Safety Gate UE",
+      "category": "Otros productos",
+      "category_basis": "derived",
+      "official_category": "",
+      "date": "2026-09-23",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118849",
+      "description": "Pineapple ",
+      "reference": "SR/02618/26",
+      "risk": "Riesgo químico",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "Pineapple ",
+      "brands": [
+        "Vexus"
+      ],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11232214",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false
+    },
+    {
+      "id": "5c026211eee8b366b0c8",
+      "source_id": "eu_safety_gate",
+      "title": "Juguete de bloques de construcción · Nina's (SR/02614/26)",
+      "agency": "Safety Gate UE",
+      "category": "Juguetes",
+      "category_basis": "official",
+      "official_category": "Juguetes",
+      "date": "2026-09-23",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118671",
+      "description": "El producto tiene piezas pequeñas (cuatro componentes cilíndricos pequeños). Los niños pequeños pueden ponerlos en la boca y ahogarse. Además, algunos componentes tienen una parte sobresaliente que es demasiado larga. Los niños pequeños pueden ponerlos en la boca y ahogarse.",
+      "reference": "SR/02614/26",
+      "risk": "Atragantamiento",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "Juguete de bloques de construcción",
+      "brands": [
+        "Nina's"
+      ],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
+      "legal_provision": "El producto no cumple con los requisitos de la Directiva de Seguridad de Juguetes ni con la norma europea EN 71-1.",
+      "notifying_country": "Malta",
+      "country_origin": "Desconocido",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11230283",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false,
+      "category_method": "safety_gate_pdf",
+      "risk_description": "El producto tiene piezas pequeñas (cuatro componentes cilíndricos pequeños). Los niños pequeños pueden ponerlos en la boca y ahogarse. Además, algunos componentes tienen una parte sobresaliente que es demasiado larga. Los niños pequeños pueden ponerlos en la boca y ahogarse.",
+      "pdf_detail_enriched": true,
+      "pdf_detail_parser_version": 3,
+      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118671/es",
+      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
+      "pdf_detail_enriched_at": "2026-09-23T11:41:46.626226+00:00"
+    },
+    {
+      "id": "1774b4184027487a6bda",
+      "source_id": "eu_safety_gate",
+      "title": "Forest adventures · Torch (SR/02617/26)",
+      "agency": "Safety Gate UE",
+      "category": "Juguetes",
+      "category_basis": "official",
+      "official_category": "Juguetes",
+      "date": "2026-09-23",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118994",
+      "description": "El juguete tiene partes pequeñas (ventosas) que pueden desprenderse fácilmente. Los niños pequeños podrían ponerlos en la boca y ahogarse.",
+      "reference": "SR/02617/26",
+      "risk": "Atragantamiento",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "Juego de pistolas de juguete",
+      "brands": [
+        "Torch"
+      ],
+      "models": [
+        "999-10 C24233"
+      ],
+      "lotes": [],
+      "barcodes": [
+        "5881800242334"
+      ],
+      "measures": [],
+      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
+      "legal_provision": "El producto no cumple los requisitos de la Directiva sobre seguridad de los juguetes ni la norma europea EN 71-1.",
+      "notifying_country": "Hungría",
+      "country_origin": "República Popular China",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11233730",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false,
+      "category_method": "safety_gate_pdf",
+      "risk_description": "El juguete tiene partes pequeñas (ventosas) que pueden desprenderse fácilmente. Los niños pequeños podrían ponerlos en la boca y ahogarse.",
+      "pdf_detail_enriched": true,
+      "pdf_detail_parser_version": 3,
+      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118994/es",
+      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
+      "pdf_detail_enriched_at": "2026-09-23T11:41:48.401907+00:00"
+    },
+    {
+      "id": "3515b5d14049576fe0b1",
+      "source_id": "eu_safety_gate",
+      "title": "Emotional Support Plant (SR/02613/26)",
+      "agency": "Safety Gate UE",
+      "category": "Juguetes",
+      "category_basis": "official",
+      "official_category": "Juguetes",
+      "date": "2026-09-23",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119001",
+      "description": "El embalaje de la bolsa de plástico es demasiado delgado. Si un niño coloca la bolsa de plástico sobre su cabeza, podría asfixiarse.",
+      "reference": "SR/02613/26",
+      "risk": "Ahogamiento",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "Juguete suave",
+      "brands": [],
+      "models": [
+        "22#orangetree"
+      ],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "Reino Unido en lo que respecta a Irlanda del Norte",
+      "country_origin": "",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11233791",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false,
+      "category_method": "safety_gate_pdf",
+      "risk_description": "El embalaje de la bolsa de plástico es demasiado delgado. Si un niño coloca la bolsa de plástico sobre su cabeza, podría asfixiarse.",
+      "pdf_detail_enriched": true,
+      "pdf_detail_parser_version": 3,
+      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10119001/es",
+      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
+      "pdf_detail_enriched_at": "2026-09-23T11:41:49.684920+00:00"
+    },
+    {
+      "id": "05ef843c8f45a0ad2d51",
+      "source_id": "eu_safety_gate",
+      "title": "502 - Super Glue Instant Strong Adhesive · JXVX (SR/02615/26)",
+      "agency": "Safety Gate UE",
+      "category": "Productos químicos",
+      "category_basis": "official",
+      "official_category": "Productos químicos",
+      "date": "2026-09-23",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119014",
+      "description": "El producto contiene una cantidad excesiva de diclorometano (valor medido: 15,1% en peso), que afecta al sistema nervioso central, puede perjudicar el desarrollo neurológico y el comportamiento del feto y puede causar cáncer cuando se inhala. Además, el producto contiene cianoacrilatos que pueden unir la piel y los ojos en segundos. Sin embargo, el",
+      "reference": "SR/02615/26",
+      "risk": "Riesgos químicos",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "Pegamento",
+      "brands": [
+        "JXVX"
+      ],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
+      "legal_provision": "El producto no cumple el Reglamento REACH ni el Reglamento sobre clasificación, etiquetado y envasado de sustancias y mezclas (CLP).",
+      "notifying_country": "Francia",
+      "country_origin": "República Popular China",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11233862",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false,
+      "category_method": "safety_gate_pdf",
+      "risk_description": "El producto contiene una cantidad excesiva de diclorometano (valor medido: 15,1% en peso), que afecta al sistema nervioso central, puede perjudicar el desarrollo neurológico y el comportamiento del feto y puede causar cáncer cuando se inhala. Además, el producto contiene cianoacrilatos que pueden unir la piel y los ojos en segundos. Sin embargo, el",
+      "pdf_detail_enriched": true,
+      "pdf_detail_parser_version": 3,
+      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10119014/es",
+      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
+      "pdf_detail_enriched_at": "2026-09-23T11:41:50.895179+00:00"
+    },
+    {
+      "id": "c0276c76824c2024a06a",
+      "source_id": "eu_safety_gate",
+      "title": "495 Instant adhesive - Quick drying - Specific glue · LOOLIFL (SR/02616/26)",
+      "agency": "Safety Gate UE",
+      "category": "Productos químicos",
+      "category_basis": "official",
+      "official_category": "Productos químicos",
+      "date": "2026-09-23",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118551",
+      "description": "El producto contiene cianoacrilatos que pueden unir la piel y los ojos en segundos. Sin embargo, el producto no muestra las advertencias y etiquetas de peligro requeridas. Por lo tanto, los usuarios no están debidamente informados sobre los peligros incurridos cuando el producto entra en contacto con la piel y los ojos.",
+      "reference": "SR/02616/26",
+      "risk": "Riesgos químicos",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "Pegamento",
+      "brands": [
+        "LOOLIFL"
+      ],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "Francia",
+      "country_origin": "República Popular China",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11233712",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false,
+      "category_method": "safety_gate_pdf",
+      "risk_description": "El producto contiene cianoacrilatos que pueden unir la piel y los ojos en segundos. Sin embargo, el producto no muestra las advertencias y etiquetas de peligro requeridas. Por lo tanto, los usuarios no están debidamente informados sobre los peligros incurridos cuando el producto entra en contacto con la piel y los ojos.",
+      "pdf_detail_enriched": true,
+      "pdf_detail_parser_version": 3,
+      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118551/es",
+      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
+      "pdf_detail_enriched_at": "2026-09-23T11:41:52.275778+00:00"
+    },
     {
       "id": "026d069e73ee062ae8cd",
       "source_id": "eu_safety_gate",
@@ -137,7 +398,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118799/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:15:27.227194+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:41:54.575303+00:00"
     },
     {
       "id": "22d09031f19a5adcad31",
@@ -185,7 +446,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118790/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:15:30.980908+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:41:59.269898+00:00"
     },
     {
       "id": "6ddc2c329ee1907bd8b9",
@@ -231,7 +492,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118782/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:15:32.673528+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:42:00.880274+00:00"
     },
     {
       "id": "54fd09c2669b7ae09882",
@@ -277,7 +538,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118922/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:15:51.419674+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:42:25.605393+00:00"
     },
     {
       "id": "4892bc2faa23e93b047f",
@@ -325,7 +586,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118794/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:15:56.466368+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:42:32.305265+00:00"
     },
     {
       "id": "014335df4f68523aae87",
@@ -375,7 +636,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118996/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:02.866937+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:42:40.154999+00:00"
     },
     {
       "id": "b2184205b6dd844af41b",
@@ -419,7 +680,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118950/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:03.844334+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:42:41.322567+00:00"
     },
     {
       "id": "9340a4e451e515a9f7ee",
@@ -467,7 +728,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10119008/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:04.825706+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:42:42.503998+00:00"
     },
     {
       "id": "27928fcbcf94efff61e9",
@@ -511,7 +772,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118981/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:06.609901+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:42:44.882835+00:00"
     },
     {
       "id": "97a779dcc0870003ae07",
@@ -555,7 +816,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118985/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:08.617354+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:42:47.351558+00:00"
     },
     {
       "id": "75e075daccd4096ab41a",
@@ -605,7 +866,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118965/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:11.598749+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:42:51.325602+00:00"
     },
     {
       "id": "973d7ae4253c036314ec",
@@ -651,7 +912,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118791/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:13.245795+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:42:53.230563+00:00"
     },
     {
       "id": "56a55b30f267bab83669",
@@ -697,7 +958,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118845/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:14.911936+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:42:55.220508+00:00"
     },
     {
       "id": "480a7ced97b4658a1c62",
@@ -747,7 +1008,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118971/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:17.344936+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:42:58.168278+00:00"
     },
     {
       "id": "d1082e9947ddf7f888ec",
@@ -791,7 +1052,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118941/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:18.654610+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:42:59.776739+00:00"
     },
     {
       "id": "0c8945701e8b23b0e72a",
@@ -839,7 +1100,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118875/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:19.969025+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:43:01.278683+00:00"
     },
     {
       "id": "8aefdb99e1dba4531833",
@@ -887,7 +1148,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118967/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:22.150152+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:43:04.054986+00:00"
     },
     {
       "id": "4694f08b5a909b387b93",
@@ -931,7 +1192,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10119012/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:24.546012+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:43:07.027280+00:00"
     },
     {
       "id": "d9ea1e49aa0b2047a028",
@@ -975,7 +1236,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118768/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:26.066958+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:43:08.792981+00:00"
     },
     {
       "id": "ceebceb6cd561e8808e0",
@@ -1019,7 +1280,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118913/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:27.370456+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:43:10.384104+00:00"
     },
     {
       "id": "fe0efb672d0cdd925552",
@@ -1061,7 +1322,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10007571/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:28.652722+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:43:11.860074+00:00"
     },
     {
       "id": "591c56697c16a79b29e2",
@@ -1103,7 +1364,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118964/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:29.733520+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:43:13.216487+00:00"
     },
     {
       "id": "88d878f25f912d5fd419",
@@ -1149,7 +1410,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118986/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:30.758095+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:43:14.425874+00:00"
     },
     {
       "id": "1ce577b02bd9899110ed",
@@ -1199,7 +1460,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10119004/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:34.818390+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:43:19.630904+00:00"
     },
     {
       "id": "14948480ee8d14557a3f",
@@ -1247,7 +1508,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10119000/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:37.573614+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:43:23.082585+00:00"
     },
     {
       "id": "a68e6e20d7de98131171",
@@ -1291,7 +1552,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118969/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:39.522071+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:43:25.413590+00:00"
     },
     {
       "id": "ea85f667cd01c3f84c59",
@@ -1335,7 +1596,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10119007/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:40.528099+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:43:26.611433+00:00"
     },
     {
       "id": "99d863f393463ccbdda6",
@@ -1379,7 +1640,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118982/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:41.734473+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:43:28.072719+00:00"
     },
     {
       "id": "240d480118f036e06aa0",
@@ -1425,7 +1686,7 @@
       "pdf_detail_parser_version": 3,
       "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118962/es",
       "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:48.405198+00:00"
+      "pdf_detail_enriched_at": "2026-09-23T11:43:36.716036+00:00"
     },
     {
       "id": "02ed6e1dfff3079e4e37",
@@ -1433,27 +1694,25 @@
       "title": "Cargador USB (SR/02596/26)",
       "agency": "Safety Gate UE",
       "category": "Electrónica y aparatos eléctricos",
-      "category_basis": "official",
-      "official_category": "Aparatos y equipos eléctricos",
+      "category_basis": "derived",
+      "official_category": "",
       "date": "2026-09-22",
       "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118804",
-      "description": "El producto carece de un aislamiento adecuado entre los circuitos primario y secundario. El puerto USB puede activarse. En consecuencia, el usuario puede recibir una descarga eléctrica.",
+      "description": "Cargador USB",
       "reference": "SR/02596/26",
-      "risk": "Choque eléctrico",
+      "risk": "Descarga eléctrica",
       "severity": "media",
       "status": "Publicada",
       "product": "Cargador USB",
       "brands": [],
-      "models": [
-        "GL-PD002"
-      ],
+      "models": [],
       "lotes": [],
       "barcodes": [],
       "measures": [],
-      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
-      "legal_provision": "País de origen República Popular China",
-      "notifying_country": "Hungría",
-      "country_origin": "República Popular China",
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
       "sold_online": "",
       "reacting_countries": [],
       "geographic_scope": "UE/EEE",
@@ -1462,14 +1721,7 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false,
-      "category_method": "safety_gate_pdf",
-      "risk_description": "El producto carece de un aislamiento adecuado entre los circuitos primario y secundario. El puerto USB puede activarse. En consecuencia, el usuario puede recibir una descarga eléctrica.",
-      "pdf_detail_enriched": true,
-      "pdf_detail_parser_version": 3,
-      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118804/es",
-      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:51.430242+00:00"
+      "spain_related": false
     },
     {
       "id": "8496f00a7e4e071824f5",
@@ -1477,33 +1729,27 @@
       "title": "CHARGER · PREPHONE (SR/02584/26)",
       "agency": "Safety Gate UE",
       "category": "Electrónica y aparatos eléctricos",
-      "category_basis": "official",
-      "official_category": "Aparatos y equipos eléctricos",
+      "category_basis": "derived",
+      "official_category": "",
       "date": "2026-09-22",
       "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118959",
-      "description": "circuitos primario y secundario. Los puertos USB secundarios y el cable conectado pueden activarse bajo tensión de red. En consecuencia, el usuario puede recibir una descarga eléctrica.",
+      "description": "CHARGER",
       "reference": "SR/02584/26",
-      "risk": "Choque eléctrico El producto carece de un aislamiento adecuado entre los",
+      "risk": "Descarga eléctrica",
       "severity": "media",
       "status": "Publicada",
-      "product": "Cargador USB",
+      "product": "CHARGER",
       "brands": [
         "PREPHONE"
       ],
-      "models": [
-        "GQ-167"
-      ],
-      "lotes": [
-        "17835/2300139"
-      ],
-      "barcodes": [
-        "8007623001393"
-      ],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
       "measures": [],
-      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
-      "legal_provision": "El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con la norma europea EN 60335-1.",
-      "notifying_country": "Hungría",
-      "country_origin": "República Popular China",
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
       "sold_online": "",
       "reacting_countries": [],
       "geographic_scope": "UE/EEE",
@@ -1512,14 +1758,7 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false,
-      "category_method": "safety_gate_pdf",
-      "risk_description": "circuitos primario y secundario. Los puertos USB secundarios y el cable conectado pueden activarse bajo tensión de red. En consecuencia, el usuario puede recibir una descarga eléctrica.",
-      "pdf_detail_enriched": true,
-      "pdf_detail_parser_version": 3,
-      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118959/es",
-      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:53.603737+00:00"
+      "spain_related": false
     },
     {
       "id": "2cc52451fd4accfd8574",
@@ -1527,33 +1766,28 @@
       "title": "CHARGER · HHDEPO, KLGO (SR/02602/26)",
       "agency": "Safety Gate UE",
       "category": "Electrónica y aparatos eléctricos",
-      "category_basis": "official",
-      "official_category": "Aparatos y equipos eléctricos",
+      "category_basis": "derived",
+      "official_category": "",
       "date": "2026-09-22",
       "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118796",
-      "description": "El producto carece de un aislamiento adecuado entre los circuitos primario y secundario. Los puertos USB secundarios y el cable conectado pueden activarse bajo tensión de red. En consecuencia, el usuario puede recibir una descarga eléctrica.",
+      "description": "CHARGER",
       "reference": "SR/02602/26",
-      "risk": "Choque eléctrico",
+      "risk": "Descarga eléctrica",
       "severity": "media",
       "status": "Publicada",
-      "product": "Cargador USB",
+      "product": "CHARGER",
       "brands": [
-        "HHDEPO KLGO"
+        "HHDEPO",
+        "KLGO"
       ],
-      "models": [
-        "PD600 PD-600"
-      ],
-      "lotes": [
-        "900755"
-      ],
-      "barcodes": [
-        "5996589007552 6972108923199"
-      ],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
       "measures": [],
-      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
-      "legal_provision": "El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con la norma europea EN 60335-1.",
-      "notifying_country": "Hungría",
-      "country_origin": "República Popular China",
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
       "sold_online": "",
       "reacting_countries": [],
       "geographic_scope": "UE/EEE",
@@ -1562,14 +1796,7 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false,
-      "category_method": "safety_gate_pdf",
-      "risk_description": "El producto carece de un aislamiento adecuado entre los circuitos primario y secundario. Los puertos USB secundarios y el cable conectado pueden activarse bajo tensión de red. En consecuencia, el usuario puede recibir una descarga eléctrica.",
-      "pdf_detail_enriched": true,
-      "pdf_detail_parser_version": 3,
-      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118796/es",
-      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:57.408493+00:00"
+      "spain_related": false
     },
     {
       "id": "2b2cbc565967b85625ba",
@@ -1577,31 +1804,27 @@
       "title": "Baba de juguete · UBL (SR/02575/26)",
       "agency": "Safety Gate UE",
       "category": "Juguetes",
-      "category_basis": "official",
-      "official_category": "Juguetes",
+      "category_basis": "derived",
+      "official_category": "",
       "date": "2026-09-22",
       "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118945",
-      "description": "La migración de boro del limo de juguete es demasiado alta (valor medido: 1,067 mg/kg). La ingestión o el contacto con una cantidad excesiva de boro puede dañar la salud de los niños al dañar su sistema reproductivo.",
+      "description": "Baba de juguete",
       "reference": "SR/02575/26",
-      "risk": "Riesgos químicos",
+      "risk": "Riesgo químico",
       "severity": "media",
       "status": "Publicada",
       "product": "Baba de juguete",
       "brands": [
         "UBL"
       ],
-      "models": [
-        "TN0000016"
-      ],
+      "models": [],
       "lotes": [],
-      "barcodes": [
-        "9333527806178"
-      ],
+      "barcodes": [],
       "measures": [],
-      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
-      "legal_provision": "País de origen República Popular China",
-      "notifying_country": "Chipre",
-      "country_origin": "República Popular China",
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
       "sold_online": "",
       "reacting_countries": [],
       "geographic_scope": "UE/EEE",
@@ -1610,46 +1833,35 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false,
-      "category_method": "safety_gate_pdf",
-      "risk_description": "La migración de boro del limo de juguete es demasiado alta (valor medido: 1,067 mg/kg). La ingestión o el contacto con una cantidad excesiva de boro puede dañar la salud de los niños al dañar su sistema reproductivo.",
-      "pdf_detail_enriched": true,
-      "pdf_detail_parser_version": 3,
-      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118945/es",
-      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:16:59.636107+00:00"
+      "spain_related": false
     },
     {
       "id": "c1139287d0081ee77a70",
       "source_id": "eu_safety_gate",
       "title": "99999, 5% NICOTINE · RENdM TORNADO (SR/02589/26)",
       "agency": "Safety Gate UE",
-      "category": "Productos químicos",
-      "category_basis": "official",
-      "official_category": "Productos químicos",
+      "category": "Otros productos",
+      "category_basis": "derived",
+      "official_category": "",
       "date": "2026-09-22",
       "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119036",
-      "description": "El producto tiene una concentración excesiva de nicotina (50mg/ml). Esto podría conducir al consumo accidental de una alta dosis de nicotina. La nicotina es extremadamente tóxica y puede poner en peligro la seguridad del usuario, especialmente si el producto entra en contacto con la piel o se ingiere.",
+      "description": "99999, 5% NICOTINE",
       "reference": "SR/02589/26",
-      "risk": "Riesgos químicos",
+      "risk": "Riesgo químico",
       "severity": "media",
       "status": "Publicada",
-      "product": "Cigarrillo electrónico desechable",
+      "product": "99999, 5% NICOTINE",
       "brands": [
         "RENdM TORNADO"
       ],
-      "models": [
-        "BANANA ICE"
-      ],
+      "models": [],
       "lotes": [],
-      "barcodes": [
-        "6976782373688"
-      ],
+      "barcodes": [],
       "measures": [],
-      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
-      "legal_provision": "El producto no cumple los requisitos de la Directiva sobre los productos del tabaco.",
-      "notifying_country": "Chequia",
-      "country_origin": "República Popular China",
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
       "sold_online": "",
       "reacting_countries": [],
       "geographic_scope": "UE/EEE",
@@ -1658,48 +1870,35 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false,
-      "category_method": "safety_gate_pdf",
-      "risk_description": "El producto tiene una concentración excesiva de nicotina (50mg/ml). Esto podría conducir al consumo accidental de una alta dosis de nicotina. La nicotina es extremadamente tóxica y puede poner en peligro la seguridad del usuario, especialmente si el producto entra en contacto con la piel o se ingiere.",
-      "pdf_detail_enriched": true,
-      "pdf_detail_parser_version": 3,
-      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10119036/es",
-      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:17:12.558421+00:00"
+      "spain_related": false
     },
     {
       "id": "b6df0ce9e68205ce4c1b",
       "source_id": "eu_safety_gate",
       "title": "8 ADJUSTABLE FLAVORS 8in1 160000 PUFFS · AiRMEZ (SR/02604/26)",
       "agency": "Safety Gate UE",
-      "category": "Productos químicos",
-      "category_basis": "official",
-      "official_category": "Productos químicos",
+      "category": "Mobiliario",
+      "category_basis": "derived",
+      "official_category": "",
       "date": "2026-09-22",
       "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118973",
-      "description": "El producto tiene un volumen excesivo de líquido que contiene nicotina (60 ml). Esto podría conducir al consumo accidental de una alta dosis de nicotina. La nicotina es extremadamente tóxica y puede poner en peligro la seguridad del usuario, especialmente si el producto entra en contacto con la piel o se ingiere.",
+      "description": "8 ADJUSTABLE FLAVORS 8in1 160000 PUFFS",
       "reference": "SR/02604/26",
-      "risk": "Riesgos químicos",
+      "risk": "Riesgo químico",
       "severity": "media",
       "status": "Publicada",
-      "product": "Cigarrillo electrónico desechable",
+      "product": "8 ADJUSTABLE FLAVORS 8in1 160000 PUFFS",
       "brands": [
         "AiRMEZ"
       ],
-      "models": [
-        "MIXED BERRIES, BLUEBERRY RASPBERRY, WATERMELON ICE, COLA ICE PEACH ICE, MIXED BERRIES, MELON PASSION FRUIT, TRIPLE MANGO"
-      ],
-      "lotes": [
-        "EDEZA1"
-      ],
-      "barcodes": [
-        "5061102600968 5061102601064"
-      ],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
       "measures": [],
-      "consumer_action": "Consulta la ficha oficial de Safety Gate y las indicaciones de las autoridades o del vendedor. La alerta no demuestra por sí sola que el producto se haya comercializado en España.",
-      "legal_provision": "El producto no cumple los requisitos de la Directiva sobre los productos del tabaco.",
-      "notifying_country": "Chequia",
-      "country_origin": "República Popular China",
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
       "sold_online": "",
       "reacting_countries": [],
       "geographic_scope": "UE/EEE",
@@ -1708,14 +1907,7 @@
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
-      "spain_related": false,
-      "category_method": "safety_gate_pdf",
-      "risk_description": "El producto tiene un volumen excesivo de líquido que contiene nicotina (60 ml). Esto podría conducir al consumo accidental de una alta dosis de nicotina. La nicotina es extremadamente tóxica y puede poner en peligro la seguridad del usuario, especialmente si el producto entra en contacto con la piel o se ingiere.",
-      "pdf_detail_enriched": true,
-      "pdf_detail_parser_version": 3,
-      "pdf_detail_source": "https://ec.europa.eu/safety-gate-alerts/api/download/notification/detail/pdf/10118973/es",
-      "pdf_detail_language": "es (traducción automática de Safety Gate; prevalece la versión inglesa en caso de discrepancia)",
-      "pdf_detail_enriched_at": "2026-09-22T21:17:14.486867+00:00"
+      "spain_related": false
     },
     {
       "id": "9597e52b9d0f92c6d389",
@@ -4678,6 +4870,43 @@
       "spain_related": false
     },
     {
+      "id": "ade59bf798da3c41582b",
+      "source_id": "eu_safety_gate",
+      "title": "Motocicleta · Enduro (SR/02463/26)",
+      "agency": "Safety Gate UE",
+      "category": "Vehículos",
+      "category_basis": "derived",
+      "official_category": "",
+      "date": "2026-09-10",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118711",
+      "description": "Motocicleta",
+      "reference": "SR/02463/26",
+      "risk": "Lesiones",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "Motocicleta",
+      "brands": [
+        "Enduro"
+      ],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11234015",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false
+    },
+    {
       "id": "b800c6d94954ae07574e",
       "source_id": "eu_safety_gate",
       "title": "Molinillo de ángulo · Heimerdinger (SR/02485/26)",
@@ -5305,43 +5534,6 @@
       "spain_related": false
     },
     {
-      "id": "4b725aa889734ee602c6",
-      "source_id": "eu_safety_gate",
-      "title": "FPC · DistriCenter (SR/02297/26)",
-      "agency": "Safety Gate UE",
-      "category": "Otros productos",
-      "category_basis": "derived",
-      "official_category": "",
-      "date": "2026-09-09",
-      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118588",
-      "description": "FPC",
-      "reference": "SR/02297/26",
-      "risk": "Riesgo químico",
-      "severity": "media",
-      "status": "Publicada",
-      "product": "FPC",
-      "brands": [
-        "DistriCenter"
-      ],
-      "models": [],
-      "lotes": [],
-      "barcodes": [],
-      "measures": [],
-      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
-      "legal_provision": "",
-      "notifying_country": "",
-      "country_origin": "",
-      "sold_online": "",
-      "reacting_countries": [],
-      "geographic_scope": "UE/EEE",
-      "spain_confirmed": false,
-      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11229362",
-      "official_data": true,
-      "notified_by_spain": false,
-      "spain_follow_up": false,
-      "spain_related": false
-    },
-    {
       "id": "a159d493f26acbf45c58",
       "source_id": "eu_safety_gate",
       "title": "Baby Fitness Blanket (Play Mat) · Brilliant Intelligent Machine Factory (SR/02428/26)",
@@ -5931,6 +6123,41 @@
       "geographic_scope": "UE/EEE",
       "spain_confirmed": false,
       "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11233350",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false
+    },
+    {
+      "id": "635282b00db117e0c553",
+      "source_id": "eu_safety_gate",
+      "title": "ThxTomx Heacy Duty Gloves Industrial Gloves (SR/02400/26)",
+      "agency": "Safety Gate UE",
+      "category": "Otros productos",
+      "category_basis": "derived",
+      "official_category": "",
+      "date": "2026-09-03",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118631",
+      "description": "ThxTomx Heacy Duty Gloves Industrial Gloves",
+      "reference": "SR/02400/26",
+      "risk": "Riesgo químico",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "ThxTomx Heacy Duty Gloves Industrial Gloves",
+      "brands": [],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11233245",
       "official_data": true,
       "notified_by_spain": false,
       "spain_follow_up": false,
@@ -7471,6 +7698,41 @@
       "spain_follow_up": false,
       "spain_related": false,
       "category_method": "text_fallback_v2"
+    },
+    {
+      "id": "1bef76e0e6eb4bc56040",
+      "source_id": "eu_safety_gate",
+      "title": "Power Quick Charge  3.0 USB Charger EU Plug (SR/02231/26)",
+      "agency": "Safety Gate UE",
+      "category": "Electrónica y aparatos eléctricos",
+      "category_basis": "derived",
+      "official_category": "",
+      "date": "2026-08-11",
+      "link": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118471",
+      "description": "Power Quick Charge  3.0 USB Charger EU Plug",
+      "reference": "SR/02231/26",
+      "risk": "Descarga eléctrica",
+      "severity": "media",
+      "status": "Publicada",
+      "product": "Power Quick Charge  3.0 USB Charger EU Plug",
+      "brands": [],
+      "models": [],
+      "lotes": [],
+      "barcodes": [],
+      "measures": [],
+      "consumer_action": "Consulta la publicación oficial y las medidas indicadas para este producto. Que una alerta figure en Safety Gate, o que España haya realizado un seguimiento, no demuestra por sí solo que el producto se haya comercializado en España.",
+      "legal_provision": "",
+      "notifying_country": "",
+      "country_origin": "",
+      "sold_online": "",
+      "reacting_countries": [],
+      "geographic_scope": "UE/EEE",
+      "spain_confirmed": false,
+      "image": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11229992",
+      "official_data": true,
+      "notified_by_spain": false,
+      "spain_follow_up": false,
+      "spain_related": false
     },
     {
       "id": "89bec0315f0b9e6d17f7",
