@@ -1,9 +1,8 @@
 name: Actualizar central de alertas
 
+# Product Alert pausado temporalmente.
+# Sin disparadores automáticos mientras dure la pausa.
 on:
-  schedule:
-    - cron: '15 6 * * *'
-    - cron: '15 18 * * *'
   workflow_dispatch:
 
 permissions:
